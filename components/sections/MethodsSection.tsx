@@ -7,7 +7,7 @@ export function MethodsSection() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <p className="text-gray-400 text-xs mb-1">Masinsko dubinsko pranje tepiha</p>
+            <p className="text-gray-600 text-xs mb-1">Masinsko dubinsko pranje tepiha</p>
             <p className="text-gold font-semibold text-sm mb-1">Masinsko pranje tepiha</p>
             <h2 className="text-xl font-bold text-navy mb-3">Mašinsko dubinsko pranje polusuvo</h2>
             <p className="text-gray-700 text-sm leading-relaxed">
@@ -21,7 +21,7 @@ export function MethodsSection() {
             </p>
           </div>
           <div>
-            <p className="text-gray-400 text-xs mb-1">Dubinsko ciscenje tepiha</p>
+            <p className="text-gray-600 text-xs mb-1">Dubinsko ciscenje tepiha</p>
             <h2 className="text-xl font-bold text-navy mb-3">
               Mašinsko dubinsko pranje sa centrifugom
             </h2>

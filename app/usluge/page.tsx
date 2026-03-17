@@ -157,7 +157,7 @@ export default function UslugePage() {
                   <div className="w-10 h-10 rounded-full bg-navy flex items-center justify-center text-gold mb-3 shrink-0">
                     {icon}
                   </div>
-                  <p className="text-gray-400 text-xs mb-1">{prefix}</p>
+                  <p className="text-gray-600 text-xs mb-1">{prefix}</p>
                   <h2 className="font-semibold text-navy text-sm mb-2 group-hover:text-gold transition-colors leading-snug">
                     {title}
                   </h2>

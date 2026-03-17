@@ -21,7 +21,7 @@ export function TrustBadgesSection() {
               <div className="w-14 h-14 rounded-full bg-navy flex items-center justify-center text-gold shrink-0">
                 {icon}
               </div>
-              <p className="text-gray-400 text-xs mb-1">{prefix}</p>
+              <p className="text-gray-600 text-xs mb-1">{prefix}</p>
               <p className="text-gray-700 text-sm">{label}</p>
             </div>
           ))}

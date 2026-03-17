@@ -25,7 +25,7 @@ export function PrednostiSection() {
                 {icon}
               </div>
               <p className="text-navy font-semibold text-sm">
-                <span className="text-gray-400 text-xs block mb-0.5">Tepih servis Andrić</span>
+                <span className="text-gray-600 text-xs block mb-0.5">Tepih servis Andrić</span>
                 {label}
               </p>
             </div>

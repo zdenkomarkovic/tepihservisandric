@@ -35,8 +35,8 @@ function PriceTable({
             <span className="text-gray-700 flex-1">{row.label}</span>
             <div className="text-right shrink-0">
               <span className="font-bold text-navy">{row.price}</span>
-              {row.unit && <span className="text-gray-400 text-xs ml-1">/ {row.unit}</span>}
-              {row.note && <p className="text-gray-400 text-xs mt-0.5">{row.note}</p>}
+              {row.unit && <span className="text-gray-600 text-xs ml-1">/ {row.unit}</span>}
+              {row.note && <p className="text-gray-600 text-xs mt-0.5">{row.note}</p>}
             </div>
           </div>
         ))}

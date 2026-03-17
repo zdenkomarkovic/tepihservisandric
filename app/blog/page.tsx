@@ -71,7 +71,7 @@ export default function BlogPage() {
                       />
                     </Link>
                     <div className="p-5 flex flex-col flex-1">
-                      <p className="text-gray-400 text-xs mb-2">{date}</p>
+                      <p className="text-gray-600 text-xs mb-2">{date}</p>
                       <h2 className="text-navy font-bold text-base leading-snug mb-3">
                         <Link href={`/blog/${slug}/`} className="hover:text-gold transition-colors">
                           {cardTitle ?? post.title}

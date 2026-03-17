@@ -33,7 +33,7 @@ export function Breadcrumb({ items, hideHome }: BreadcrumbProps) {
         <ol className="flex items-center flex-wrap gap-1 text-sm text-gray-500">
           {allItems.map((item, index) => (
             <li key={index} className="flex items-center gap-1">
-              {index > 0 && <span className="text-gray-400">›</span>}
+              {index > 0 && <span className="text-gray-600">›</span>}
               {item.href && index < allItems.length - 1 ? (
                 <Link href={item.href} className="hover:text-navy transition-colors">
                   {item.label}

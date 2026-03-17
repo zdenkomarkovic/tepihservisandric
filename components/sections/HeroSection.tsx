@@ -86,7 +86,7 @@ export function HeroSection() {
               <button
                 key={i}
                 onClick={() => setCurrent(i)}
-                className={`w-2.5 h-2.5 rounded-full transition-all ${
+                className={`w-5 h-5 rounded-full transition-all ${
                   i === current ? "bg-gold scale-125" : "bg-white/40 hover:bg-white/70"
                 }`}
                 aria-label={`Slika ${i + 1}`}
