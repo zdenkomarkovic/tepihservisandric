@@ -70,9 +70,9 @@ export default function PranjeDecijihKolicaPage() {
               <p className="text-gray-700 leading-relaxed mb-3">Kada donesete kolica u naš servis ona prolaze kroz sledeće faze:</p>
               <ol className="list-decimal pl-5 mb-4">
                 <li className="text-gray-700 mb-2">Kompletno rasklapanje kolica</li>
-                <li className="text-gray-700 mb-2">Svaki deo se čisti posebno sa sredstvom za čišćenje kolica "Baby organic".</li>
+                <li className="text-gray-700 mb-2">Svaki deo se čisti posebno sa sredstvom za čišćenje kolica &ldquo;Baby organic&rdquo;.</li>
                 <li className="text-gray-700 mb-2">Toplotnom parom se dezinfikuje svaki deo kolica</li>
-                <li className="text-gray-700 mb-2">Ispiranje omekšivačem "CHICCO- CHORE DI TALCO"</li>
+                <li className="text-gray-700 mb-2">Ispiranje omekšivačem &ldquo;CHICCO- CHORE DI TALCO&rdquo;</li>
                 <li className="text-gray-700 mb-2">Ispiranje asepsolom</li>
                 <li className="text-gray-700 mb-2">Dubinsko usisavanje</li>
                 <li className="text-gray-700 mb-2">Sušenje</li>

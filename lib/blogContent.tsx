@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 
 export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
   "dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi": (
@@ -553,7 +554,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p><strong>1.</strong> Pre svega, nije svaka mašina za pranje tepiha dobra. Važno je da mašina za pranje tepiha ispuni očekivanja i opere tepihe dobrog kvaliteta. Funkcionalnost je jedno od najvažnijih pitanja.</p>
 
-      <p><a href="/" className="text-gold hover:text-gold-dark">Tepih Servis Andrić raspolaže sa najsavremenijim mašinama za automatizovano pranje tepiha</a></p>
+      <p><Link href="/" className="text-gold hover:text-gold-dark">Tepih Servis Andrić raspolaže sa najsavremenijim mašinama za automatizovano pranje tepiha</Link></p>
 
       <p><strong>2.</strong> Mašina za pranje tepiha nije samo vozilo izmišljeno za četkanje. Stavljanje četke na automatsku mašinu za pranje tepiha ne znači da je to veoma dobra mašina za pranje tepiha. Postoji nekoliko važnih pitanja, od krutosti noža do operativnog sistema, operativnog sistema do motora. To takođe ne znači da će se samo četkicama tepih očistiti vrlo dobro. Pre i posle postoje neki procesi. A u poslu pranja tepiha ti procesi čine celinu. Nakon što je postupak dobro obavljen, na primer nekoliko puta četkanja, zatim struganja i češljanja, te dobro ispiranje, tepisi će se dobro očistiti. Ako su svi ovi procesi obavljeni, onda je ovo mašina za tepihe sa dobrom funkcionalnošću.</p>
 
@@ -685,7 +686,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
     <>
       <p>Dubinsko pranje kao što i sama reč kaže dubinski čisti i otklanja nečistoće, bakterije iz same dubine Vašeg tepiha, nameštaja, unutrašnjosti automobila. Dubinsko pranje u mnogome doprinosi higijeni Vašeg doma, automobila a samim tim i zdravijem životu porodice.</p>
 
-      <p>Čovek trećinu života provede u spavanju, s' toga mi uvek stavljamo fokus kod pranja nameštaja baš na dubinsko pranje dušeka jer je jako bitno da Vam prostor u kom spavate bude dezinfikovan i čist.</p>
+      <p>Čovek trećinu života provede u spavanju, s&apos; toga mi uvek stavljamo fokus kod pranja nameštaja baš na dubinsko pranje dušeka jer je jako bitno da Vam prostor u kom spavate bude dezinfikovan i čist.</p>
 
       <p>Isto je je i sa tepisima. U domaćinstvima tepih je nezaobilazan detalj svakog enterijera. U koliko želite da Vam tepih traje dugo a da pritom zadrži svoj izgled i očuvanost, dubinsko pranje tepiha je nezaobilazna stavka.</p>
 
