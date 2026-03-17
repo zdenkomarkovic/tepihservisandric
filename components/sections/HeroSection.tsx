@@ -72,10 +72,12 @@ export function HeroSection() {
 
           <ul className="flex flex-col gap-2 mb-10">
             {HERO_FEATURES.map((f) => (
-              <li key={f} className="flex items-center gap-2 text-white/90 text-base font-bold">
-                <CheckIcon className="text-gold shrink-0" />
-                <span className="text-white/70 text-base mr-1">Tepih servis Andrić</span>
-                {f}
+              <li key={f} className="flex items-start gap-2">
+                <CheckIcon className="text-gold shrink-0 mt-0.5" />
+                <span className="flex flex-col">
+                  <span className="text-white/70 text-xs leading-tight">Tepih servis Andrić</span>
+                  <span className="text-white/90 text-base font-bold leading-snug">{f}</span>
+                </span>
               </li>
             ))}
           </ul>
