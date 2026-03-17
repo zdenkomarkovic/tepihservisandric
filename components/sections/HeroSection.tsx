@@ -60,7 +60,7 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 w-full self-end">
         <div className="max-w-7xl mx-auto px-4 pb-16">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-wide mb-4 leading-tight text-white">
+          <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-wide mb-4 leading-tight text-white">
             {HOME_META.h1}
           </h1>
 
