@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { SITE_NAME, SITE_URL, SCHEMA, CONTACT } from "@/lib/constants";
+import { SITE_NAME, SITE_URL, SCHEMA, CONTACT, SOCIAL } from "@/lib/constants";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { CircleText } from "@/components/ui/CircleText";
 import { HOME_META } from "@/lib/siteData";
@@ -21,6 +21,14 @@ export const metadata: Metadata = {
     locale: "sr_RS",
     url: SITE_URL,
     siteName: SITE_NAME,
+    images: [
+      {
+        url: "/tepih-servis-andric-10.jpg",
+        width: 640,
+        height: 480,
+        alt: "Mašine za pranje tepiha — Tepih Servis Andrić",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -56,6 +64,13 @@ const localBusinessSchema = {
       opens: "08:00",
       closes: "18:00",
     },
+  ],
+  image: `${SITE_URL}/tepih-servis-andric-10.jpg`,
+  sameAs: [
+    SOCIAL.facebook,
+    SOCIAL.instagram,
+    SOCIAL.youtube,
+    SOCIAL.gmb,
   ],
 };
 

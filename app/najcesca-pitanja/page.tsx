@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import React from "react";
 import Link from "next/link";
 import { INFO_META } from "@/lib/siteData";
 import { SITE_URL } from "@/lib/constants";
@@ -15,9 +16,10 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE_URL}/najcesca-pitanja/` },
 };
 
-const FAQS = [
+const FAQS: { question: string; answer: React.ReactNode; answerText: string }[] = [
   {
     question: "Koja je cena pranja tepiha u Vašem tepih servisu?",
+    answerText: "Garantujemo najpovoljnije cena pranja tepiha, a sve informacije i cene usluga možete videti na stranici Cenovnik.",
     answer: (
       <>
         Garantujemo najpovoljnije cena pranja tepiha, a sve informacije i cene usluga možete videti na stranici{" "}
@@ -27,6 +29,7 @@ const FAQS = [
   },
   {
     question: "Da li vršite dostavu/transport tepiha?",
+    answerText: "Vršimo transport i dostavu tepiha, preuzimanje tepiha i vraćanje na adresu! Pogledajte sve lokacije koje pokrivamo.",
     answer: (
       <>
         Vršimo transport i dostavu tepiha, preuzimanje tepiha i vraćanje na adresu! Pogledajte{" "}
@@ -36,6 +39,7 @@ const FAQS = [
   },
   {
     question: "Da li vršite uslugu opšivanja tepiha?",
+    answerText: "Da. Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje postojećih ivica na tepihu, nakon skraćivanja ili usecanja itisona... a sve u cilju kako ne bi došlo do rasipanja i paranja tepiha ili itisona.",
     answer: (
       <>
         Da. Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje postojećih ivica na tepihu, nakon skraćivanja ili usecanja itisona....a sve u cilju kako ne bi došlo do rasipanja i paranja tepiha ili itisona.
@@ -47,12 +51,12 @@ const FAQS = [
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: FAQS.map(({ question }) => ({
+  mainEntity: FAQS.map(({ question, answerText }) => ({
     "@type": "Question",
     name: question,
     acceptedAnswer: {
       "@type": "Answer",
-      text: question,
+      text: answerText,
     },
   })),
 };

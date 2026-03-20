@@ -9,7 +9,8 @@
       "WebFetch(domain:tepihservisandric.rs)",
       "Bash(mkdir:*)",
       "Bash(do:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(find E:Sajtovitepihservisandric -type f \\\\\\(-name *opengraph* -o -name *og-image* \\\\\\))"
     ]
   }
 }
