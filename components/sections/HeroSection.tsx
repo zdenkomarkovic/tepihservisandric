@@ -7,11 +7,20 @@ import { CheckIcon } from "@/components/ui/Icons";
 
 const SLIDES = [
   {
-    src: "/automatizovano-pranje-tepiha-u-tepih-servisu.jpg",
+    src: "/tepih-servis-andric-10.jpg",
     alt: "Mašine za pranje tepiha — Tepih Servis Andrić",
+    position: "center center",
   },
-  { src: "/dubinsko-polusuvo-ciscenje-2.png", alt: "Tepih servis Andrić Beograd" },
-  { src: "/pozadina2024.jpg", alt: "Profesionalni tepih servis Beograd" },
+  {
+    src: "/tepih-servis-andric-03f.jpg",
+    alt: "Tepih servis Andrić Beograd",
+    position: "center 40%",
+  },
+  {
+    src: "/pozadina2024.jpg",
+    alt: "Profesionalni tepih servis Beograd",
+    position: "center center",
+  },
 ];
 
 const HERO_FEATURES = [
@@ -48,6 +57,7 @@ export function HeroSection() {
             priority={i === 0}
             className="object-cover"
             style={{
+              objectPosition: slide.position,
               animation: i === current ? "hero-zoom 6s ease-out forwards" : "none",
             }}
           />
