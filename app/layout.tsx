@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { SITE_NAME, SITE_URL, SCHEMA, CONTACT, SOCIAL } from "@/lib/constants";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -82,6 +83,18 @@ export default function RootLayout({
   return (
     <html lang="sr" className={inter.variable}>
       <body className="font-[family-name:var(--font-inter)] antialiased text-gray-800">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17825755545"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17825755545');
+          `}
+        </Script>
         <JsonLd data={localBusinessSchema} />
         {children}
         <CircleText />
