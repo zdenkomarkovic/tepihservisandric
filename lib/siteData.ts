@@ -16,10 +16,10 @@ export interface PageMeta {
 
 // ─── Homepage ──────────────────────────────────────────────────────────────
 export const HOME_META: PageMeta = {
-  title: "Tepih servis Andrić Beograd I Automatizovano pranje tepiha",
+  title: "Tepih servis Andrić Beograd | Automatizovano pranje tepiha",
   description:
     "Tepih servis Beograd Vozdovac Dubinsko masinsko automatizovano pranje tepiha i namestaja Najbolja Cena - Pranje dečijih kolica. Uverite se u naš kvalitet.",
-  h1: "TEPIH SERVIS BEOGRAD",
+  h1: "Tepih servis Andrić Beograd",
 };
 
 // ─── Service pages ─────────────────────────────────────────────────────────
@@ -47,7 +47,7 @@ export const SERVICE_META: Record<string, PageMeta> = {
   "dubinsko-pranje-tepiha-beograd": {
     title: "Dubinsko pranje tepiha Beograd",
     description:
-      "Dubinsko pranje tepiha Beograd - Proverite zašto je Tepih Servis Andrić najbolji tepih servis u Beogradu..",
+      "Dubinsko pranje tepiha Beograd - Proverite zašto je Tepih Servis Andrić najbolji tepih servis u Beogradu.",
     h1: "Dubinsko pranje tepiha Beograd",
     pageH1: "Pranje tepiha Beograd",
   },
@@ -130,7 +130,7 @@ export const SERVICE_META: Record<string, PageMeta> = {
   "pranje-decijih-kolica": {
     title: "Pranje i čišcenje dečijih kolica Povoljna cena Beograd",
     description:
-      "Pranje i ciscenje decijah kolica Povoljna cena Tepis servis Beograd - Pružamo usluge profesionalnog čišćenja dečijah kolica.",
+      "Pranje i ciscenje decijah kolica Povoljna cena Tepih servis Beograd - Pružamo usluge profesionalnog čišćenja dečijah kolica.",
     h1: "Pranje dečijah kolica",
     pageH1: "Pranje i čišćenje dečijih kolica povoljna cena Beograd",
   },
@@ -153,8 +153,7 @@ export const SERVICE_META: Record<string, PageMeta> = {
 export const INFO_META: Record<string, PageMeta> = {
   usluge: {
     title: "Usluge tepih servisa",
-    description:
-      "Usluge tepih servisa - Pogledajte sve usluge koje nudi tepih servis Andrić.",
+    description: "Usluge tepih servisa - Pogledajte sve usluge koje nudi tepih servis Andrić.",
     h1: "Usluge",
   },
   "o-nama": {
@@ -165,8 +164,7 @@ export const INFO_META: Record<string, PageMeta> = {
   },
   kontakt: {
     title: "Kontakt & Lokacije tepih servisa",
-    description:
-      "Kontakt & Lokacije tepih servisa - Kontaktirajte nas za sve informacije.",
+    description: "Kontakt & Lokacije tepih servisa - Kontaktirajte nas za sve informacije.",
     h1: "Kontakt & Lokacije",
   },
   cenovnik: {
@@ -176,14 +174,13 @@ export const INFO_META: Record<string, PageMeta> = {
   },
   galerija: {
     title: "Foto galerija",
-    description:
-      "Galerija slika - Pogledajte slike naših radova. Tepih servis Andrić Beograd.",
+    description: "Galerija slika - Pogledajte slike naših radova. Tepih servis Andrić Beograd.",
     h1: "Foto galerija",
   },
   video: {
     title: "Video",
     description:
-      "Pogledajte video zapise i proces pranja tepiha u specijalizovanom tepih servisu Andriić.",
+      "Pogledajte video zapise i proces pranja tepiha u specijalizovanom tepih servisu Andrić.",
     h1: "Video",
   },
   "najcesca-pitanja": {
@@ -204,291 +201,264 @@ export const INFO_META: Record<string, PageMeta> = {
 // 41 aktivnih lokacija — svaka na /lokacija/{slug}/
 export const LOCATION_META: Record<string, PageMeta> = {
   autokomanda: {
-    title: "Tepih Servis, Pranje Tepiha Autokomanda",
-    description:
-      "Tepih Servis, Pranje Tepiha Autokomanda - Kontaktirajte nas za sve informacije.",
-    pageH1: "Pranje Tepiha Autokomanda",
+    title: "Pranje Tepiha Autokomanda | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Autokomanda - Kontaktirajte nas za sve informacije.",
+    pageH1: "Pranje Tepiha Autokomanda — Tepih Servis Andrić",
     h1: "Tepih Servis, Pranje Tepiha Autokomanda",
   },
   banjica: {
-    title: "Tepih Servis, Pranje Tepiha Banjica",
-    description:
-      "Tepih Servis, Pranje Tepiha Banjica - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Banjica | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Banjica - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Banjica",
-    pageH1: "Pranje Tepiha Banjica",
+    pageH1: "Pranje Tepiha Banjica — Tepih Servis Andrić",
   },
   "banovo-brdo": {
-    title: "Tepih Servis, Pranje Tepiha Banovo Brdo",
-    description:
-      "Tepih Servis, Pranje Tepiha Banovo brdo - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Banovo Brdo | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Banovo brdo - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Banovo Brdo",
-    pageH1: "Pranje Tepiha Banovo Brdo",
+    pageH1: "Pranje Tepiha Banovo Brdo — Tepih Servis Andrić",
   },
   "bezanijska-kosa": {
-    title: "Tepih Servis, Pranje Tepiha Bezanijska kosa",
+    title: "Pranje Tepiha Bezanijska Kosa | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Bezanijska kosa - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Bezanijska kosa",
-    pageH1: "Pranje Tepiha Bezanijska kosa",
+    pageH1: "Pranje Tepiha Bezanijska Kosa — Tepih Servis Andrić",
   },
   bogoslovija: {
-    title: "Tepih Servis, Pranje Tepiha Bogoslovija",
-    description:
-      "Tepih Servis, Pranje Tepiha Bogoslovija - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Bogoslovija | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Bogoslovija - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Bogoslovija",
-    pageH1: "Pranje Tepiha Bogoslovija",
+    pageH1: "Pranje Tepiha Bogoslovija — Tepih Servis Andrić",
   },
   "brace-jerkovic": {
-    title: "Tepih Servis, Pranje Tepiha Braće Jerković",
+    title: "Pranje Tepiha Braće Jerković | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Braće Jerković - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Braće Jerković",
-    pageH1: "Pranje Tepiha Braće Jerković",
+    pageH1: "Pranje Tepiha Braće Jerković — Tepih Servis Andrić",
   },
   cerak: {
-    title: "Tepih Servis, Pranje Tepiha Cerak",
-    description:
-      "Tepih Servis, Pranje Tepiha Cerak - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Cerak | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Cerak - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Cerak",
-    pageH1: "Pranje Tepiha Cerak",
+    pageH1: "Pranje Tepiha Cerak — Tepih Servis Andrić",
   },
   cubura: {
-    title: "Tepih Servis, Pranje Tepiha Čubura",
-    description:
-      "Tepih Servis, Pranje Tepiha Čubura - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Čubura | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Čubura - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Čubura",
-    pageH1: "Pranje Tepiha Čubura",
+    pageH1: "Pranje Tepiha Čubura — Tepih Servis Andrić",
   },
   "cukaricka-padina": {
-    title: "Tepih Servis, Pranje Tepiha Čukarička Padina",
+    title: "Pranje Tepiha Čukarička Padina | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Čukarička padina - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Čukarička Padina",
-    pageH1: "Pranje Tepiha Čukarička Padina",
+    pageH1: "Pranje Tepiha Čukarička Padina — Tepih Servis Andrić",
   },
   dedinje: {
-    title: "Tepih Servis, Pranje Tepiha Dedinje",
-    description:
-      "Tepih Servis, Pranje Tepiha Dedinje - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Dedinje | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Dedinje - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Dedinje",
-    pageH1: "Pranje Tepiha Dedinje",
+    pageH1: "Pranje Tepiha Dedinje — Tepih Servis Andrić",
   },
   djeram: {
-    title: "Tepih Servis, Pranje Tepiha Đeram",
-    pageH1: "Pranje Tepiha Đeram",
-    description:
-      "Tepih Servis, Pranje Tepiha Đeram - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Đeram | Tepih Servis Andrić",
+    pageH1: "Pranje Tepiha Đeram — Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Đeram - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Đeram",
   },
   dorcol: {
-    title: "Tepih Servis, Pranje Tepiha Dorćol",
-    description:
-      "Tepih Servis, Pranje Tepiha Dorćol - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Dorćol | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Dorćol - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Dorćol",
-    pageH1: "Pranje Tepiha Dorćol",
+    pageH1: "Pranje Tepiha Dorćol — Tepih Servis Andrić",
   },
   "golf-naselje": {
-    title: "Tepih Servis, Pranje Tepiha Golf Naselje",
-    description:
-      "Tepih Servis, Pranje Tepiha Golf Naselje - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Golf Naselje | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Golf Naselje - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Golf Naselje",
-    pageH1: "Pranje Tepiha Golf Naselje",
+    pageH1: "Pranje Tepiha Golf Naselje — Tepih Servis Andrić",
   },
   jajinci: {
-    title: "Tepih Servis, Pranje Tepiha Jajinci",
-    description:
-      "Tepih Servis, Pranje Tepiha Jajinci - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Jajinci | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Jajinci - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Jajinci",
-    pageH1: "Pranje Tepiha Jajinci",
+    pageH1: "Pranje Tepiha Jajinci — Tepih Servis Andrić",
   },
   kaludjerica: {
-    title: "Tepih Servis, Pranje Tepiha Kaluđerica",
-    description:
-      "Tepih Servis, Pranje Tepiha Kaluđerica - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Kaluđerica | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Kaluđerica - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Kaluđerica",
-    pageH1: "Pranje Tepiha Kaluđerica",
+    pageH1: "Pranje Tepiha Kaluđerica — Tepih Servis Andrić",
   },
   "kanarevo-brdo": {
-    title: "Tepih Servis, Pranje Tepiha Kanarevo Brdo",
+    title: "Pranje Tepiha Kanarevo Brdo | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Kanarevo brdo - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Kanarevo Brdo",
-    pageH1: "Pranje Tepiha Kanarevo Brdo",
+    pageH1: "Pranje Tepiha Kanarevo Brdo — Tepih Servis Andrić",
   },
   karaburma: {
-    title: "Tepih Servis, Pranje Tepiha Karaburma",
-    description:
-      "Tepih Servis, Pranje Tepiha Karaburma - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Karaburma | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Karaburma - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Karaburma",
-    pageH1: "Pranje Tepiha Karaburma",
+    pageH1: "Pranje Tepiha Karaburma — Tepih Servis Andrić",
   },
   konjarnik: {
-    title: "Tepih Servis, Pranje Tepiha Konjarnik",
-    description:
-      "Tepih Servis, Pranje Tepiha Konjarnik - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Konjarnik | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Konjarnik - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Konjarnik",
-    pageH1: "Pranje Tepiha Konjarnik",
+    pageH1: "Pranje Tepiha Konjarnik — Tepih Servis Andrić",
   },
   kumodraz: {
-    title: "Tepih Servis, Pranje Tepiha Kumodraž",
-    description:
-      "Tepih Servis, Pranje Tepiha Kumodraž - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Kumodraž | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Kumodraž - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Kumodraž",
-    pageH1: "Pranje Tepiha Kumodraž",
+    pageH1: "Pranje Tepiha Kumodraž — Tepih Servis Andrić",
   },
   "lekino-brdo": {
-    title: "Tepih Servis, Pranje Tepiha Lekino Brdo",
-    description:
-      "Tepih Servis, Pranje Tepiha Lekino brdo - Kontaktirajte nas za sve informacije.",
-    pageH1: "Pranje Tepiha Lekino Brdo",
+    title: "Pranje Tepiha Lekino Brdo | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Lekino brdo - Kontaktirajte nas za sve informacije.",
+    pageH1: "Pranje Tepiha Lekino Brdo — Tepih Servis Andrić",
     h1: "Tepih Servis, Pranje Tepiha Lekino Brdo",
   },
   "mali-mokri-lug": {
-    title: "Tepih Servis, Pranje Tepiha Mali Mokri Lug",
+    title: "Pranje Tepiha Mali Mokri Lug | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Mali Mokri Lug - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Mali Mokri Lug",
-    pageH1: "Pranje Tepiha Mali Mokri Lug",
+    pageH1: "Pranje Tepiha Mali Mokri Lug — Tepih Servis Andrić",
   },
   medakovic: {
-    title: "Tepih Servis, Pranje Tepiha Medaković",
-    description:
-      "Tepih Servis, Pranje Tepiha Medaković - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Medaković | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Medaković - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Medaković",
-    pageH1: "Pranje Tepiha Medaković",
+    pageH1: "Pranje Tepiha Medaković — Tepih Servis Andrić",
   },
   miljakovac: {
-    title: "Tepih Servis, Pranje Tepiha Miljakovac",
-    description:
-      "Tepih Servis, Pranje Tepiha Miljakovac - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Miljakovac | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Miljakovac - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Miljakovac",
-    pageH1: "Pranje Tepiha Miljakovac",
+    pageH1: "Pranje Tepiha Miljakovac — Tepih Servis Andrić",
   },
   mirijevo: {
-    title: "Tepih Servis, Pranje Tepiha Mirijevo",
-    description:
-      "Tepih Servis, Pranje Tepiha Mirijevo - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Mirijevo | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Mirijevo - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Mirijevo",
-    pageH1: "Pranje Tepiha Mirijevo - Tepih servis Andric",
+    pageH1: "Pranje Tepiha Mirijevo — Tepih Servis Andrić",
   },
   "mitrovo-brdo": {
-    title: "Tepih Servis, Pranje Tepiha Mitrovo brdo",
-    description:
-      "Tepih Servis, Pranje Tepiha Mitrovo brdo - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Mitrovo Brdo | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Mitrovo brdo - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Mitrovo brdo",
-    pageH1: "Pranje Tepiha Mitrovo brdo",
+    pageH1: "Pranje Tepiha Mitrovo Brdo — Tepih Servis Andrić",
   },
   "novi-beograd": {
-    title: "Tepih Servis, Pranje Tepiha Novi Beograd",
-    description:
-      "Tepih Servis, Pranje Tepiha Novi Beograd - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Novi Beograd | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Novi Beograd - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Novi Beograd",
-    pageH1: "Pranje Tepiha Novi Beograd",
+    pageH1: "Pranje Tepiha Novi Beograd — Tepih Servis Andrić",
   },
   palilula: {
-    title: "Tepih Servis, Pranje Tepiha Palilula (Centar)",
+    title: "Pranje Tepiha Palilula (Centar) | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Palilula (Centar) - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Palilula (Centar)",
-    pageH1: "Pranje Tepiha Palilula (Centar)",
+    pageH1: "Pranje Tepiha Palilula (Centar) — Tepih Servis Andrić",
   },
   rakovica: {
-    title: "Tepih Servis, Pranje Tepiha Rakovica",
-    description:
-      "Tepih Servis, Pranje Tepiha Rakovica - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Rakovica | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Rakovica - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Rakovica",
-    pageH1: "Pranje Tepiha Rakovica",
+    pageH1: "Pranje Tepiha Rakovica — Tepih Servis Andrić",
   },
   "savski-venac": {
-    title: "Tepih Servis, Pranje Tepiha Savski Venac",
-    description:
-      "Tepih Servis, Pranje Tepiha Savski Venac - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Savski Venac | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Savski Venac - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Savski Venac",
-    pageH1: "Pranje Tepiha Savski Venac",
+    pageH1: "Pranje Tepiha Savski Venac — Tepih Servis Andrić",
   },
   senjak: {
-    title: "Tepih Servis, Pranje Tepiha Senjak",
-    description:
-      "Tepih Servis, Pranje Tepiha Senjak - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Senjak | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Senjak - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Senjak",
-    pageH1: "Pranje Tepiha Senjak",
+    pageH1: "Pranje Tepiha Senjak — Tepih Servis Andrić",
   },
   "slavujev-venac": {
-    title: "Tepih Servis, Pranje Tepiha Slavujev venac",
+    title: "Pranje Tepiha Slavujev Venac | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Slavujev venac - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Slavujev venac",
-    pageH1: "Pranje Tepiha Slavujev venac",
+    pageH1: "Pranje Tepiha Slavujev Venac — Tepih Servis Andrić",
   },
   "stari-grad": {
-    title: "Tepih Servis, Pranje Tepiha Stari Grad",
-    description:
-      "Tepih Servis, Pranje Tepiha Stari grad - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Stari Grad | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Stari grad - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Stari Grad",
-    pageH1: "Pranje Tepiha Stari Grad",
+    pageH1: "Pranje Tepiha Stari Grad — Tepih Servis Andrić",
   },
   "stepa-stepanovic": {
-    title: "Tepih Servis, Pranje Tepiha Stepa Stepanović",
+    title: "Pranje Tepiha Stepa Stepanović | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Stepa Stepanovic - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Stepa Stepanović",
-    pageH1: "Pranje Tepiha Stepa Stepanović",
+    pageH1: "Pranje Tepiha Stepa Stepanović — Tepih Servis Andrić",
   },
   "uciteljsko-naselje": {
-    title: "Tepih Servis, Pranje Tepiha Uciteljsko naselje",
+    title: "Pranje Tepiha Učiteljsko Naselje | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Uciteljsko naselje - Kontaktirajte nas za sve informacije.",
-    pageH1: "Pranje Tepiha Učiteljsko naselje",
+    pageH1: "Pranje Tepiha Učiteljsko Naselje — Tepih Servis Andrić",
     h1: "Tepih Servis, Pranje Tepiha Uciteljsko naselje",
   },
   "veliki-mokri-lug": {
-    title: "Tepih Servis, Pranje Tepiha Veliki Mokri Lug",
+    title: "Pranje Tepiha Veliki Mokri Lug | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Veliki Mokri Lug - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Veliki Mokri Lug",
-    pageH1: "Pranje Tepiha Veliki Mokri Lug",
+    pageH1: "Pranje Tepiha Veliki Mokri Lug — Tepih Servis Andrić",
   },
   "vojvode-stepe": {
-    title: "Tepih Servis, Pranje Tepiha Vojvode Stepe",
+    title: "Pranje Tepiha Vojvode Stepe | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Vojvode Stepe - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Vojvode Stepe",
-    pageH1: "Pranje Tepiha Vojvode Stepe",
+    pageH1: "Pranje Tepiha Vojvode Stepe — Tepih Servis Andrić",
   },
   "vojvode-vlahovica": {
-    title: "Tepih Servis, Pranje Tepiha Vojvode Vlahovića",
+    title: "Pranje Tepiha Vojvode Vlahovića | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Vojvode Vlahovića - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Vojvode Vlahovića",
-    pageH1: "Pranje Tepiha Vojvode Vlahovića",
+    pageH1: "Pranje Tepiha Vojvode Vlahovića — Tepih Servis Andrić",
   },
   vracar: {
-    title: "Tepih Servis, Pranje Tepiha Vračar",
-    description:
-      "Tepih Servis, Pranje Tepiha Vračar - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Vračar | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Vračar - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Vračar",
-    pageH1: "Pranje Tepiha Vračar - Tepih servis Andric",
+    pageH1: "Pranje Tepiha Vračar — Tepih Servis Andrić",
   },
   "vukov-spomenik": {
-    title: "Tepih Servis, Pranje Tepiha Vukov spomenik",
+    title: "Pranje Tepiha Vukov Spomenik | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Vukov spomenik - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Vukov spomenik",
-    pageH1: "Pranje Tepiha Vukov spomenik",
+    pageH1: "Pranje Tepiha Vukov Spomenik — Tepih Servis Andrić",
   },
   zarkovo: {
-    title: "Tepih Servis, Pranje Tepiha Žarkovo",
-    description:
-      "Tepih Servis, Pranje Tepiha Žarkovo - Kontaktirajte nas za sve informacije.",
+    title: "Pranje Tepiha Žarkovo | Tepih Servis Andrić",
+    description: "Tepih Servis, Pranje Tepiha Žarkovo - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Žarkovo",
-    pageH1: "Pranje Tepiha Žarkovo - Tepih servis Andric",
+    pageH1: "Pranje Tepiha Žarkovo — Tepih Servis Andrić",
   },
   zvezdara: {
-    title: "Tepih Servis, Pranje Tepiha Zvezdara (Centar)",
+    title: "Pranje Tepiha Zvezdara (Centar) | Tepih Servis Andrić",
     description:
       "Tepih Servis, Pranje Tepiha Zvezdara (Centar) - Kontaktirajte nas za sve informacije.",
     h1: "Tepih Servis, Pranje Tepiha Zvezdara (Centar)",
-    pageH1: "Pranje Tepiha Zvezdara (Centar) - Tepih servis Andric",
+    pageH1: "Pranje Tepiha Zvezdara (Centar) — Tepih Servis Andrić",
   },
 };
 
@@ -602,8 +572,7 @@ export const BLOG_POST_META: Record<string, PageMeta> = {
     pageH1: "Profesionalno opšivanje tepiha",
   },
   "pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu": {
-    title:
-      "Pranje tepiha Beograd: Profesionalna usluga za savršenu čistoću",
+    title: "Pranje tepiha Beograd: Profesionalna usluga za savršenu čistoću",
     description:
       "Profesionalno pranje tepiha Beograd - vrhunska usluga, ekološka sredstva, preuzimanje i dostava na adresu. Vaš tepih zaslužuje savršenu čistoću!",
     h1: "Pranje tepiha Beograd: Profesionalna usluga za savršenu čistoću",
@@ -665,8 +634,7 @@ export const BLOG_POST_META: Record<string, PageMeta> = {
   },
   "tepisi-koji-su-trend-za-2022-godinu": {
     title: "Tepisi koji su trend za 2022. godinu",
-    description:
-      "Tepisi koji su trend za 2022. godinu - Tepih je ponovo došao u fokus.",
+    description: "Tepisi koji su trend za 2022. godinu - Tepih je ponovo došao u fokus.",
     h1: "Tepisi koji su trend za 2022. godinu",
   },
   "transport-i-dostava-tepiha": {
@@ -687,8 +655,7 @@ export const BLOG_POST_META: Record<string, PageMeta> = {
     h1: "Zaštita tepiha - odakle početi?",
   },
   "zasto-je-masinsko-pranje-tepiha-idealno-resenje-za-cist-i-odrzavan-tepih": {
-    title:
-      "Zašto je mašinsko pranje tepiha idealno rešenje za čist tepih?",
+    title: "Zašto je mašinsko pranje tepiha idealno rešenje za čist tepih?",
     description:
       "Dubinsko čišćenje uklanja prljavštinu, prašinu, alergene i druge potencijalno štetne materije koje mogu oštetiti vlakna tepiha tokom vremena.",
     h1: "Zašto je mašinsko pranje tepiha sa ispiranjem centrifugom idealno rešenje za čist i održavan tepih?",
@@ -700,8 +667,7 @@ export const BLOG_POST_META: Record<string, PageMeta> = {
     h1: "Zašto je potrebno dubinsko pranje tepiha?",
   },
   "zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati": {
-    title:
-      "Zašto je profesionalno čišćenje tepiha investicija koja se isplati?",
+    title: "Zašto je profesionalno čišćenje tepiha investicija koja se isplati?",
     description:
       "Saznajte zašto je profesionalno čišćenje tepiha investicija koja se isplati. Uklonite dubinsku prljavštinu i produžite vek trajanja tepiha.",
     h1: "Zašto je profesionalno čišćenje tepiha investicija koja se isplati?",
@@ -726,41 +692,247 @@ export const BLOG_POST_META: Record<string, PageMeta> = {
 export const BLOG_SLUGS = Object.keys(BLOG_POST_META);
 
 // Datumi i redosled prikaza na listingu (od najnovijeg ka najstarijem)
-export const BLOG_POSTS_ORDERED: { slug: string; date: string; image?: string; cardTitle?: string; cardExcerpt?: string }[] = [
-  { slug: "dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi", date: "20. Februar 2025.", image: "/dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi.png", cardExcerpt: "Tepisi su jedan od ključnih elemenata svakog doma ili poslovnog prostora, ali..." },
-  { slug: "opsivanje-tepiha-produzite-vek-vaseg-omiljenog-tepiha", date: "7. Februar 2025.", image: "/opsivanje-tepiha-produzite-vek-vaseg-omiljenog-tepiha.png", cardExcerpt: "Tepisi su važan deo svakog doma i poslovnog prostora, ali sa vremenom ivice mogu postati istrošene i..." },
-  { slug: "zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati", date: "27. Januar 2025.", image: "/zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati.png", cardExcerpt: "Dok se mnogi vlasnici tepiha odlučuju za kućne metode čišćenja..." },
-  { slug: "pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu", date: "14. Januar 2025.", image: "/pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu.png", cardExcerpt: "Tepisi su važan deo svakog doma i poslovnog prostora..." },
-  { slug: "dubinsko-ciscenje-namestaja-kako-produziti-vek-trajanja-vaseg-namestaja", date: "20. Novembar 2024.", image: "/dubinsko-ciscenje-namestaja-kako-produziti-vek-trajanja-vaseg-namestaja.jpg", cardTitle: "Dubinsko čišćenje nameštaja: Kako produžiti vek trajanja vašeg nameštaja?", cardExcerpt: "Dubinsko čišćenje nameštaja je efikasan način..." },
-  { slug: "hemijsko-ciscenje-tepiha-efikasno-resenje-za-cist-dom", date: "12. Novembar 2024.", image: "/hemijsko-ciscenje-tepiha-efikasno-resenje-za-savrseno-cist-dom.png", cardExcerpt: "Tepisi su neizostavan deo svakog doma, ali isto tako mogu biti i pravi magnet za prašinu, prljavštinu i mrlje..." },
-  { slug: "zasto-je-vazno-redovno-pranje-tepiha", date: "09. Oktobar 2024.", image: "/zasto-je-vazno-redovno-pranje-tepiha.jpg", cardExcerpt: "Tepisi su neizostavan deo svakog doma, bilo da je u pitanju dnevni boravak, spavaća soba ili poslovni prostor..." },
-  { slug: "dubinsko-pranje-namestaja-zasto-je-vazno", date: "15. Septembar 2024.", image: "/dubinsko-pranje-namestaja-zasto-je-vazno.jpg", cardExcerpt: "Nameštaj je srce svakog doma, gde provodimo najviše vremena – bilo da se radi o omiljenom kauču u dnevnoj sobi..." },
-  { slug: "cist-tepih-zdrav-dom", date: "23. Avgust 2024.", image: "/cist-tepih-zdrav-dom.jpg", cardTitle: "Čist tepih, zdrav dom", cardExcerpt: "Čistoća doma je višestruko važna. Ona ne samo da pruža estetski ugođaj Vašem prostoru, već ima uticaja na zdravlje stanara. Jedan..." },
-  { slug: "dubinsko-polusuvo-ciscenje-tepiha", date: "18. Jul 2024.", image: "/dubinsko-polusuvo-ciscenje-tepiha.jpg", cardExcerpt: "U svakodnevnom životu, nameštaj je nezaobilazan deo našeg doma ili poslovnog prostora..." },
-  { slug: "dubinsko-pranje-i-ciscenje-mebl-namestaja", date: "26. Jun 2024.", image: "/dubinsko-pranje-i-ciscenje-mebl-namestaja.jpg", cardExcerpt: "U svakodnevnom životu, nameštaj je nezaobilazan deo našeg doma ili poslovnog prostora..." },
-  { slug: "profesionalne-usluge-masinskog-pranja-tepiha", date: "17. Maj 2024.", image: "/profesionalne-usluge-masinskog-pranja-tepiha.jpg", cardExcerpt: "Kada je u pitanju održavanje tepiha, posebno u frekventnim prostorima poput domova ili poslovnih objekata..." },
-  { slug: "zamena-resa-za-svez-i-elegantan-izgled-tepiha", date: "22. Maj 2023.", image: "/zamena-resa-za-svez-i-elegantan-izgled-tepiha.jpg", cardExcerpt: "Rese na tepihu mogu biti istaknuti deo njegovog dizajna, ali vremenom mogu postati dotrajale ..." },
-  { slug: "zasto-je-masinsko-pranje-tepiha-idealno-resenje-za-cist-i-odrzavan-tepih", date: "20. Maj 2023.", image: "/zasto-je-masinsko-pranje-tepiha-sa-ispiranjem-centrifugom-idealno-resenje-za-cist-i-odrzavan-tepih.jpg", cardTitle: "Zašto je mašinsko pranje tepiha sa ispiranjem centrifugom idealno rešenje za čist i održavan tepih?", cardExcerpt: "Kada je u pitanju čišćenje tepiha, tradicionalne metode često..." },
-  { slug: "kako-odrzavati-tepihe-u-svom-domu", date: "30. April 2023.", image: "/kako-odrzavati-tepihe-u-svom-domu.jpg", cardExcerpt: "Kada investirate u lep tepih za svoj dom, želite da Vam dugo traje i izgleda dobro kao i prvog dana..." },
-  { slug: "zasto-je-vazno-prati-tepihe-i-namestaj-redovno", date: "25. April 2023.", image: "/zasto-je-vazno-prati-tepihe-i-namestaj-redovno.jpg", cardExcerpt: "Većina ljudi smatra da je redovno usisavanje dovoljno da održava tepihe i nameštaj čistim i urednim..." },
-  { slug: "profesionalno-pranje-decijih-kolica", date: "23. Mart 2023.", image: "/profesionalno-pranje-decijih-kolica.jpg", cardExcerpt: "Uzimajući u obzir da se dečija kolica uglavnom koriste za spoljne uslove..." },
-  { slug: "transport-i-dostava-tepiha", date: "20. Mart 2023.", image: "/transport-i-dostava-tepiha.jpg", cardExcerpt: "Da li ste se našli u situaciji da vam je potrebno profesionalno pranje tepiha..." },
-  { slug: "zasto-je-potrebno-dubinsko-pranje-tepiha", date: "13. Oktobar 2022.", image: "/zasto-je-potrebno-dubinsko-pranje-tepiha.jpg", cardExcerpt: "Oduvek su tepisi bitan deo enterijera, oni utiču na toplinu..." },
-  { slug: "stilovi-i-prednosti-tepiha", date: "12. Avgust 2022.", image: "/stilovi-i-prednosti-tepiha.jpg", cardExcerpt: "Postoji niz različitih stilova tepiha, dezena i boja koje možete izabrati ..." },
-  { slug: "prednosti-tamnijih-tepiha", date: "05. Jul 2022.", image: "/prednosti-tamnijih-tepiha.jpg", cardExcerpt: "Neki vlasnici kuća, izbegavaju da biraju tamnije nijanse tepiha, jer veruju ..." },
-  { slug: "zastita-tepiha-odakle-poceti", date: "07. Jun 2022.", image: "/zastita-tepiha-odakle-poceti.jpg", cardTitle: "Zaštita tepiha - odakle početi?", cardExcerpt: "Možda delimično zbog svog raznolikog spektra boja i stilova, a delom ..." },
-  { slug: "tepisi-koji-su-trend-za-2022-godinu", date: "20. Maj 2022.", image: "/tepisi-koji-su-trend-za-2022-godinu.jpg", cardExcerpt: "Tepih je ponovo došao u fokus. Od neutralnih zemljanih tonova, do smelih paleta boja ..." },
-  { slug: "profesionalno-pranje-tepiha", date: "10. Novembar 2021.", image: "/profesionalno-pranje-tepiha.jpg", cardTitle: "Profesionalno pranje tepiha", cardExcerpt: "Tepih je poželjna opcija za podove za konferencijske sale, hodnike, kancelarije ..." },
-  { slug: "automatizovano-pranje-tepiha-u-tepih-servisu", date: "02. Avgust 2021.", image: "/automatizovano-pranje-tepiha-u-tepih-servisu.jpg", cardExcerpt: "Pre svega, razvoj sektora za čišćenje tepiha poslednjih godina doveo je do..." },
-  { slug: "pranje-tepiha-tepih-servis-beograd", date: "12. Jul 2021.", image: "/pranje-tepiha-tepih-servis-beograd.jpg", cardTitle: "Pranje tepiha tepih servis Beograd", cardExcerpt: "Nema sumnje da je povratak u svoj savršeno čisti dom prilično je prijatan..." },
-  { slug: "profesionalno-ciscenje-tepiha-vozdovac", date: "17. Jun 2021.", image: "/profesionalno-ciscenje-tepiha-vozdovac.jpg", cardTitle: "Profesionalno čišćenje tepiha Voždovac", cardExcerpt: "Tepisi čine da sobe izgledaju prijatno. Zbog pandemije Covid-19..." },
-  { slug: "dubinsko-pranje-tepiha-vracar", date: "10. Jun 2021.", image: "/dubinsko-pranje-tepiha-vracar.jpg", cardTitle: "Dubinsko pranje tepiha Vračar", cardExcerpt: "Da li na Vašem tepihu ostaju mrlje uprkos svim pokušajima čišćenja i pranja?..." },
-  { slug: "masinsko-pranje-tepiha-u-beogradu", date: "28. Maj 2021.", image: "/masinsko-pranje-tepiha-u-beogradu.jpg", cardTitle: "Mašinsko pranje tepiha u Beogradu", cardExcerpt: "Tepisi ulepšavaju prostorije. Međutim, oni takođe mogu da apsorbuju velike..." },
-  { slug: "pravo-vreme-za-pranje-tepiha-u-beogradu", date: "09. April 2021.", image: "/pravo-vreme-za-pranje-tepiha-u-beogradu.jpg", cardExcerpt: "Proleće je u vazduhu, što znači da je sada savršeno vreme za početak ..." },
-  { slug: "pranje-tepiha-sa-sest-rotacionih-cetki", date: "10. Mart 2021.", image: "/pranje-tepiha-sa-sest-rotacionih-cetki.jpg", cardExcerpt: "U zavisnosti od vrste tepiha određuje se pritisak, ali i mekoća vlakana četke ..." },
-  { slug: "kada-je-vreme-za-ciscenje-tepiha", date: "02. Mart 2021.", image: "/kada-je-vreme-za-ciscenje-tepiha.jpg", cardTitle: "Kada je vreme za čišćenje tepiha?", cardExcerpt: "Gotovo svi želimo da svoje domove ukrasimo tepisima. Tepisi različitih vrsta, oblika i ..." },
-  { slug: "koje-su-prednosti-dubinskog-pranja", date: "12. Februar 2021.", image: "/koje-su-prednosti-dubinskog-pranja.jpg", cardExcerpt: "Dubinsko pranje kao što i sama reč kaže dubinski čisti i otklanja nečistoće, bakterije ..." },
-  { slug: "masinsko-dubinsko-pranje-i-ciscenje-namestaja", date: "10. Februar 2021.", image: "/masinsko-dubinsko-pranje-i-ciscenje-namestaja.jpg", cardTitle: "Mašinsko dubinsko pranje i čišćenje nameštaja", cardExcerpt: "Da bi Vaš nameštaj ponovo zasijao i bio zaista čist, pozovite nas jer mi koristimo ..." },
+export const BLOG_POSTS_ORDERED: {
+  slug: string;
+  date: string;
+  image?: string;
+  cardTitle?: string;
+  cardExcerpt?: string;
+}[] = [
+  {
+    slug: "dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi",
+    date: "20. Februar 2025.",
+    image: "/dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi.png",
+    cardExcerpt: "Tepisi su jedan od ključnih elemenata svakog doma ili poslovnog prostora, ali...",
+  },
+  {
+    slug: "opsivanje-tepiha-produzite-vek-vaseg-omiljenog-tepiha",
+    date: "7. Februar 2025.",
+    image: "/opsivanje-tepiha-produzite-vek-vaseg-omiljenog-tepiha.png",
+    cardExcerpt:
+      "Tepisi su važan deo svakog doma i poslovnog prostora, ali sa vremenom ivice mogu postati istrošene i...",
+  },
+  {
+    slug: "zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati",
+    date: "27. Januar 2025.",
+    image: "/zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati.png",
+    cardExcerpt: "Dok se mnogi vlasnici tepiha odlučuju za kućne metode čišćenja...",
+  },
+  {
+    slug: "pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu",
+    date: "14. Januar 2025.",
+    image: "/pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu.png",
+    cardExcerpt: "Tepisi su važan deo svakog doma i poslovnog prostora...",
+  },
+  {
+    slug: "dubinsko-ciscenje-namestaja-kako-produziti-vek-trajanja-vaseg-namestaja",
+    date: "20. Novembar 2024.",
+    image: "/dubinsko-ciscenje-namestaja-kako-produziti-vek-trajanja-vaseg-namestaja.jpg",
+    cardTitle: "Dubinsko čišćenje nameštaja: Kako produžiti vek trajanja vašeg nameštaja?",
+    cardExcerpt: "Dubinsko čišćenje nameštaja je efikasan način...",
+  },
+  {
+    slug: "hemijsko-ciscenje-tepiha-efikasno-resenje-za-cist-dom",
+    date: "12. Novembar 2024.",
+    image: "/hemijsko-ciscenje-tepiha-efikasno-resenje-za-savrseno-cist-dom.png",
+    cardExcerpt:
+      "Tepisi su neizostavan deo svakog doma, ali isto tako mogu biti i pravi magnet za prašinu, prljavštinu i mrlje...",
+  },
+  {
+    slug: "zasto-je-vazno-redovno-pranje-tepiha",
+    date: "09. Oktobar 2024.",
+    image: "/zasto-je-vazno-redovno-pranje-tepiha.jpg",
+    cardExcerpt:
+      "Tepisi su neizostavan deo svakog doma, bilo da je u pitanju dnevni boravak, spavaća soba ili poslovni prostor...",
+  },
+  {
+    slug: "dubinsko-pranje-namestaja-zasto-je-vazno",
+    date: "15. Septembar 2024.",
+    image: "/dubinsko-pranje-namestaja-zasto-je-vazno.jpg",
+    cardExcerpt:
+      "Nameštaj je srce svakog doma, gde provodimo najviše vremena – bilo da se radi o omiljenom kauču u dnevnoj sobi...",
+  },
+  {
+    slug: "cist-tepih-zdrav-dom",
+    date: "23. Avgust 2024.",
+    image: "/cist-tepih-zdrav-dom.jpg",
+    cardTitle: "Čist tepih, zdrav dom",
+    cardExcerpt:
+      "Čistoća doma je višestruko važna. Ona ne samo da pruža estetski ugođaj Vašem prostoru, već ima uticaja na zdravlje stanara. Jedan...",
+  },
+  {
+    slug: "dubinsko-polusuvo-ciscenje-tepiha",
+    date: "18. Jul 2024.",
+    image: "/dubinsko-polusuvo-ciscenje-tepiha.jpg",
+    cardExcerpt:
+      "U svakodnevnom životu, nameštaj je nezaobilazan deo našeg doma ili poslovnog prostora...",
+  },
+  {
+    slug: "dubinsko-pranje-i-ciscenje-mebl-namestaja",
+    date: "26. Jun 2024.",
+    image: "/dubinsko-pranje-i-ciscenje-mebl-namestaja.jpg",
+    cardExcerpt:
+      "U svakodnevnom životu, nameštaj je nezaobilazan deo našeg doma ili poslovnog prostora...",
+  },
+  {
+    slug: "profesionalne-usluge-masinskog-pranja-tepiha",
+    date: "17. Maj 2024.",
+    image: "/profesionalne-usluge-masinskog-pranja-tepiha.jpg",
+    cardExcerpt:
+      "Kada je u pitanju održavanje tepiha, posebno u frekventnim prostorima poput domova ili poslovnih objekata...",
+  },
+  {
+    slug: "zamena-resa-za-svez-i-elegantan-izgled-tepiha",
+    date: "22. Maj 2023.",
+    image: "/zamena-resa-za-svez-i-elegantan-izgled-tepiha.jpg",
+    cardExcerpt:
+      "Rese na tepihu mogu biti istaknuti deo njegovog dizajna, ali vremenom mogu postati dotrajale ...",
+  },
+  {
+    slug: "zasto-je-masinsko-pranje-tepiha-idealno-resenje-za-cist-i-odrzavan-tepih",
+    date: "20. Maj 2023.",
+    image:
+      "/zasto-je-masinsko-pranje-tepiha-sa-ispiranjem-centrifugom-idealno-resenje-za-cist-i-odrzavan-tepih.jpg",
+    cardTitle:
+      "Zašto je mašinsko pranje tepiha sa ispiranjem centrifugom idealno rešenje za čist i održavan tepih?",
+    cardExcerpt: "Kada je u pitanju čišćenje tepiha, tradicionalne metode često...",
+  },
+  {
+    slug: "kako-odrzavati-tepihe-u-svom-domu",
+    date: "30. April 2023.",
+    image: "/kako-odrzavati-tepihe-u-svom-domu.jpg",
+    cardExcerpt:
+      "Kada investirate u lep tepih za svoj dom, želite da Vam dugo traje i izgleda dobro kao i prvog dana...",
+  },
+  {
+    slug: "zasto-je-vazno-prati-tepihe-i-namestaj-redovno",
+    date: "25. April 2023.",
+    image: "/zasto-je-vazno-prati-tepihe-i-namestaj-redovno.jpg",
+    cardExcerpt:
+      "Većina ljudi smatra da je redovno usisavanje dovoljno da održava tepihe i nameštaj čistim i urednim...",
+  },
+  {
+    slug: "profesionalno-pranje-decijih-kolica",
+    date: "23. Mart 2023.",
+    image: "/profesionalno-pranje-decijih-kolica.jpg",
+    cardExcerpt: "Uzimajući u obzir da se dečija kolica uglavnom koriste za spoljne uslove...",
+  },
+  {
+    slug: "transport-i-dostava-tepiha",
+    date: "20. Mart 2023.",
+    image: "/transport-i-dostava-tepiha.jpg",
+    cardExcerpt: "Da li ste se našli u situaciji da vam je potrebno profesionalno pranje tepiha...",
+  },
+  {
+    slug: "zasto-je-potrebno-dubinsko-pranje-tepiha",
+    date: "13. Oktobar 2022.",
+    image: "/zasto-je-potrebno-dubinsko-pranje-tepiha.jpg",
+    cardExcerpt: "Oduvek su tepisi bitan deo enterijera, oni utiču na toplinu...",
+  },
+  {
+    slug: "stilovi-i-prednosti-tepiha",
+    date: "12. Avgust 2022.",
+    image: "/stilovi-i-prednosti-tepiha.jpg",
+    cardExcerpt: "Postoji niz različitih stilova tepiha, dezena i boja koje možete izabrati ...",
+  },
+  {
+    slug: "prednosti-tamnijih-tepiha",
+    date: "05. Jul 2022.",
+    image: "/prednosti-tamnijih-tepiha.jpg",
+    cardExcerpt: "Neki vlasnici kuća, izbegavaju da biraju tamnije nijanse tepiha, jer veruju ...",
+  },
+  {
+    slug: "zastita-tepiha-odakle-poceti",
+    date: "07. Jun 2022.",
+    image: "/zastita-tepiha-odakle-poceti.jpg",
+    cardTitle: "Zaštita tepiha - odakle početi?",
+    cardExcerpt: "Možda delimično zbog svog raznolikog spektra boja i stilova, a delom ...",
+  },
+  {
+    slug: "tepisi-koji-su-trend-za-2022-godinu",
+    date: "20. Maj 2022.",
+    image: "/tepisi-koji-su-trend-za-2022-godinu.jpg",
+    cardExcerpt:
+      "Tepih je ponovo došao u fokus. Od neutralnih zemljanih tonova, do smelih paleta boja ...",
+  },
+  {
+    slug: "profesionalno-pranje-tepiha",
+    date: "10. Novembar 2021.",
+    image: "/profesionalno-pranje-tepiha.jpg",
+    cardTitle: "Profesionalno pranje tepiha",
+    cardExcerpt:
+      "Tepih je poželjna opcija za podove za konferencijske sale, hodnike, kancelarije ...",
+  },
+  {
+    slug: "automatizovano-pranje-tepiha-u-tepih-servisu",
+    date: "02. Avgust 2021.",
+    image: "/automatizovano-pranje-tepiha-u-tepih-servisu.jpg",
+    cardExcerpt: "Pre svega, razvoj sektora za čišćenje tepiha poslednjih godina doveo je do...",
+  },
+  {
+    slug: "pranje-tepiha-tepih-servis-beograd",
+    date: "12. Jul 2021.",
+    image: "/pranje-tepiha-tepih-servis-beograd.jpg",
+    cardTitle: "Pranje tepiha tepih servis Beograd",
+    cardExcerpt: "Nema sumnje da je povratak u svoj savršeno čisti dom prilično je prijatan...",
+  },
+  {
+    slug: "profesionalno-ciscenje-tepiha-vozdovac",
+    date: "17. Jun 2021.",
+    image: "/profesionalno-ciscenje-tepiha-vozdovac.jpg",
+    cardTitle: "Profesionalno čišćenje tepiha Voždovac",
+    cardExcerpt: "Tepisi čine da sobe izgledaju prijatno. Zbog pandemije Covid-19...",
+  },
+  {
+    slug: "dubinsko-pranje-tepiha-vracar",
+    date: "10. Jun 2021.",
+    image: "/dubinsko-pranje-tepiha-vracar.jpg",
+    cardTitle: "Dubinsko pranje tepiha Vračar",
+    cardExcerpt: "Da li na Vašem tepihu ostaju mrlje uprkos svim pokušajima čišćenja i pranja?...",
+  },
+  {
+    slug: "masinsko-pranje-tepiha-u-beogradu",
+    date: "28. Maj 2021.",
+    image: "/masinsko-pranje-tepiha-u-beogradu.jpg",
+    cardTitle: "Mašinsko pranje tepiha u Beogradu",
+    cardExcerpt: "Tepisi ulepšavaju prostorije. Međutim, oni takođe mogu da apsorbuju velike...",
+  },
+  {
+    slug: "pravo-vreme-za-pranje-tepiha-u-beogradu",
+    date: "09. April 2021.",
+    image: "/pravo-vreme-za-pranje-tepiha-u-beogradu.jpg",
+    cardExcerpt: "Proleće je u vazduhu, što znači da je sada savršeno vreme za početak ...",
+  },
+  {
+    slug: "pranje-tepiha-sa-sest-rotacionih-cetki",
+    date: "10. Mart 2021.",
+    image: "/pranje-tepiha-sa-sest-rotacionih-cetki.jpg",
+    cardExcerpt:
+      "U zavisnosti od vrste tepiha određuje se pritisak, ali i mekoća vlakana četke ...",
+  },
+  {
+    slug: "kada-je-vreme-za-ciscenje-tepiha",
+    date: "02. Mart 2021.",
+    image: "/kada-je-vreme-za-ciscenje-tepiha.jpg",
+    cardTitle: "Kada je vreme za čišćenje tepiha?",
+    cardExcerpt:
+      "Gotovo svi želimo da svoje domove ukrasimo tepisima. Tepisi različitih vrsta, oblika i ...",
+  },
+  {
+    slug: "koje-su-prednosti-dubinskog-pranja",
+    date: "12. Februar 2021.",
+    image: "/koje-su-prednosti-dubinskog-pranja.jpg",
+    cardExcerpt:
+      "Dubinsko pranje kao što i sama reč kaže dubinski čisti i otklanja nečistoće, bakterije ...",
+  },
+  {
+    slug: "masinsko-dubinsko-pranje-i-ciscenje-namestaja",
+    date: "10. Februar 2021.",
+    image: "/masinsko-dubinsko-pranje-i-ciscenje-namestaja.jpg",
+    cardTitle: "Mašinsko dubinsko pranje i čišćenje nameštaja",
+    cardExcerpt:
+      "Da bi Vaš nameštaj ponovo zasijao i bio zaista čist, pozovite nas jer mi koristimo ...",
+  },
 ];
 
 // Slike za blog postove (koriste se na kartici i na samoj post stranici)
@@ -777,60 +949,38 @@ export const BLOG_POST_IMAGES: Record<string, string> = {
     "/dubinsko-ciscenje-namestaja-kako-produziti-vek-trajanja-vaseg-namestaja.jpg",
   "hemijsko-ciscenje-tepiha-efikasno-resenje-za-cist-dom":
     "/hemijsko-ciscenje-tepiha-efikasno-resenje-za-savrseno-cist-dom.png",
-  "zasto-je-vazno-redovno-pranje-tepiha":
-    "/zasto-je-vazno-redovno-pranje-tepiha.jpg",
-  "dubinsko-pranje-namestaja-zasto-je-vazno":
-    "/dubinsko-pranje-namestaja-zasto-je-vazno.jpg",
-  "cist-tepih-zdrav-dom":
-    "/cist-tepih-zdrav-dom.jpg",
-  "dubinsko-polusuvo-ciscenje-tepiha":
-    "/dubinsko-polusuvo-ciscenje-tepiha.jpg",
-  "dubinsko-pranje-i-ciscenje-mebl-namestaja":
-    "/dubinsko-pranje-i-ciscenje-mebl-namestaja.jpg",
+  "zasto-je-vazno-redovno-pranje-tepiha": "/zasto-je-vazno-redovno-pranje-tepiha.jpg",
+  "dubinsko-pranje-namestaja-zasto-je-vazno": "/dubinsko-pranje-namestaja-zasto-je-vazno.jpg",
+  "cist-tepih-zdrav-dom": "/cist-tepih-zdrav-dom.jpg",
+  "dubinsko-polusuvo-ciscenje-tepiha": "/dubinsko-polusuvo-ciscenje-tepiha.jpg",
+  "dubinsko-pranje-i-ciscenje-mebl-namestaja": "/dubinsko-pranje-i-ciscenje-mebl-namestaja.jpg",
   "profesionalne-usluge-masinskog-pranja-tepiha":
     "/profesionalne-usluge-masinskog-pranja-tepiha.jpg",
   "zamena-resa-za-svez-i-elegantan-izgled-tepiha":
     "/zamena-resa-za-svez-i-elegantan-izgled-tepiha.jpg",
   "zasto-je-masinsko-pranje-tepiha-idealno-resenje-za-cist-i-odrzavan-tepih":
     "/zasto-je-masinsko-pranje-tepiha-sa-ispiranjem-centrifugom-idealno-resenje-za-cist-i-odrzavan-tepih.jpg",
-  "kako-odrzavati-tepihe-u-svom-domu":
-    "/kako-odrzavati-tepihe-u-svom-domu.jpg",
+  "kako-odrzavati-tepihe-u-svom-domu": "/kako-odrzavati-tepihe-u-svom-domu.jpg",
   "zasto-je-vazno-prati-tepihe-i-namestaj-redovno":
     "/zasto-je-vazno-prati-tepihe-i-namestaj-redovno.jpg",
-  "profesionalno-pranje-decijih-kolica":
-    "/profesionalno-pranje-decijih-kolica.jpg",
-  "transport-i-dostava-tepiha":
-    "/transport-i-dostava-tepiha.jpg",
-  "zasto-je-potrebno-dubinsko-pranje-tepiha":
-    "/zasto-je-potrebno-dubinsko-pranje-tepiha.jpg",
-  "stilovi-i-prednosti-tepiha":
-    "/stilovi-i-prednosti-tepiha.jpg",
-  "prednosti-tamnijih-tepiha":
-    "/prednosti-tamnijih-tepiha.jpg",
-  "zastita-tepiha-odakle-poceti":
-    "/zastita-tepiha-odakle-poceti.jpg",
-  "tepisi-koji-su-trend-za-2022-godinu":
-    "/tepisi-koji-su-trend-za-2022-godinu.jpg",
-  "profesionalno-pranje-tepiha":
-    "/profesionalno-pranje-tepiha.jpg",
+  "profesionalno-pranje-decijih-kolica": "/profesionalno-pranje-decijih-kolica.jpg",
+  "transport-i-dostava-tepiha": "/transport-i-dostava-tepiha.jpg",
+  "zasto-je-potrebno-dubinsko-pranje-tepiha": "/zasto-je-potrebno-dubinsko-pranje-tepiha.jpg",
+  "stilovi-i-prednosti-tepiha": "/stilovi-i-prednosti-tepiha.jpg",
+  "prednosti-tamnijih-tepiha": "/prednosti-tamnijih-tepiha.jpg",
+  "zastita-tepiha-odakle-poceti": "/zastita-tepiha-odakle-poceti.jpg",
+  "tepisi-koji-su-trend-za-2022-godinu": "/tepisi-koji-su-trend-za-2022-godinu.jpg",
+  "profesionalno-pranje-tepiha": "/profesionalno-pranje-tepiha.jpg",
   "automatizovano-pranje-tepiha-u-tepih-servisu":
     "/automatizovano-pranje-tepiha-u-tepih-servisu.jpg",
-  "pranje-tepiha-tepih-servis-beograd":
-    "/pranje-tepiha-tepih-servis-beograd.jpg",
-  "profesionalno-ciscenje-tepiha-vozdovac":
-    "/profesionalno-ciscenje-tepiha-vozdovac.jpg",
-  "dubinsko-pranje-tepiha-vracar":
-    "/dubinsko-pranje-tepiha-vracar.jpg",
-  "masinsko-pranje-tepiha-u-beogradu":
-    "/masinsko-pranje-tepiha-u-beogradu.jpg",
-  "pravo-vreme-za-pranje-tepiha-u-beogradu":
-    "/pravo-vreme-za-pranje-tepiha-u-beogradu.jpg",
-  "pranje-tepiha-sa-sest-rotacionih-cetki":
-    "/pranje-tepiha-sa-sest-rotacionih-cetki.jpg",
-  "kada-je-vreme-za-ciscenje-tepiha":
-    "/kada-je-vreme-za-ciscenje-tepiha.jpg",
-  "koje-su-prednosti-dubinskog-pranja":
-    "/koje-su-prednosti-dubinskog-pranja.jpg",
+  "pranje-tepiha-tepih-servis-beograd": "/pranje-tepiha-tepih-servis-beograd.jpg",
+  "profesionalno-ciscenje-tepiha-vozdovac": "/profesionalno-ciscenje-tepiha-vozdovac.jpg",
+  "dubinsko-pranje-tepiha-vracar": "/dubinsko-pranje-tepiha-vracar.jpg",
+  "masinsko-pranje-tepiha-u-beogradu": "/masinsko-pranje-tepiha-u-beogradu.jpg",
+  "pravo-vreme-za-pranje-tepiha-u-beogradu": "/pravo-vreme-za-pranje-tepiha-u-beogradu.jpg",
+  "pranje-tepiha-sa-sest-rotacionih-cetki": "/pranje-tepiha-sa-sest-rotacionih-cetki.jpg",
+  "kada-je-vreme-za-ciscenje-tepiha": "/kada-je-vreme-za-ciscenje-tepiha.jpg",
+  "koje-su-prednosti-dubinskog-pranja": "/koje-su-prednosti-dubinskog-pranja.jpg",
   "masinsko-dubinsko-pranje-i-ciscenje-namestaja":
     "/masinsko-dubinsko-pranje-i-ciscenje-namestaja.jpg",
 };
@@ -849,7 +999,10 @@ export const LOCATION_IMAGES: Record<string, string[]> = {
   "brace-jerkovic": ["/tepih-servis-andric-8.jpg", "/tepih-servis-andric-13s.jpg"],
   "vojvode-vlahovica": ["/tepih-servis-andric-04s (2).jpg", "/zastita-tepiha-odakle-poceti.jpg"],
   "mitrovo-brdo": ["/tepisi-koji-su-trend-za-2022-godinu.jpg", "/tepih-servis-andric-prevoz.jpg"],
-  "stepa-stepanovic": ["/transport-i-dostava-tepiha-beograd-06f.jpg", "/tepih-servis-andric-19s.jpg"],
+  "stepa-stepanovic": [
+    "/transport-i-dostava-tepiha-beograd-06f.jpg",
+    "/tepih-servis-andric-19s.jpg",
+  ],
   kumodraz: ["/profesionalno-pranje-tepiha-10s.jpg", "/profesionalno-pranje-tepiha-09s.jpg"],
   jajinci: ["/tepih-servis-andric-20s.jpg", "/tepih-servis-andric-19s.jpg"],
   banjica: ["/tepih-servis-andric-20s.jpg", "/tepih-servis-andric-19s.jpg"],
@@ -857,8 +1010,14 @@ export const LOCATION_IMAGES: Record<string, string[]> = {
   mirijevo: ["/tepih-servis-andric-37.jpg"],
   karaburma: ["/transport-i-dostava-tepiha-beograd-05f.jpg"],
   palilula: ["/profesionalno-pranje-tepiha-02s (1).jpg"],
-  "slavujev-venac": ["/profesionalno-ciscenje-tepiha-vozdovac.jpg", "/profesionalno-pranje-tepiha-09s.jpg"],
-  "vukov-spomenik": ["/profesionalno-pranje-tepiha-10s.jpg", "/profesionalno-pranje-tepiha-09s.jpg"],
+  "slavujev-venac": [
+    "/profesionalno-ciscenje-tepiha-vozdovac.jpg",
+    "/profesionalno-pranje-tepiha-09s.jpg",
+  ],
+  "vukov-spomenik": [
+    "/profesionalno-pranje-tepiha-10s.jpg",
+    "/profesionalno-pranje-tepiha-09s.jpg",
+  ],
   djeram: ["/profesionalno-pranje-tepiha-11s.jpg", "/profesionalno-pranje-tepiha-09s.jpg"],
   vracar: ["/tepih-servis-andric-03s (3).jpg"],
   cubura: ["/tepih-servis-andric-03s (3).jpg", "/tepih-servis-andric-02s (3).jpg"],
@@ -867,7 +1026,10 @@ export const LOCATION_IMAGES: Record<string, string[]> = {
   "stari-grad": ["/tepih-servis-andric-02s (3).jpg"],
   "novi-beograd": ["/tepih-servis-andric-03s (3).jpg"],
   "bezanijska-kosa": ["/profesionalne-usluge-masinskog-pranja-tepiha.jpg"],
-  "cukaricka-padina": ["/profesionalno-pranje-tepiha-11s.jpg", "/profesionalno-pranje-tepiha-10s.jpg"],
+  "cukaricka-padina": [
+    "/profesionalno-pranje-tepiha-11s.jpg",
+    "/profesionalno-pranje-tepiha-10s.jpg",
+  ],
   senjak: ["/pravo-vreme-za-pranje-tepiha-u-beogradu.jpg", "/prednosti-tamnijih-tepiha.jpg"],
   dedinje: ["/pranje-tepiha-4 (2).jpg"],
   "savski-venac": ["/pranje-tepiha-5 (1).jpg"],
@@ -915,10 +1077,7 @@ export const LOCATION_IMAGE_ALTS: Record<string, string[]> = {
     "Pranje Tepiha Kumodraž - Tepih servis Andric",
     "Pranje Tepiha Kumodraž - Tepih servis Beograd",
   ],
-  jajinci: [
-    "Pranje Tepiha Jajinci - Tepih servis Andric",
-    "Pranje Tepiha - Tepih servis Beograd",
-  ],
+  jajinci: ["Pranje Tepiha Jajinci - Tepih servis Andric", "Pranje Tepiha - Tepih servis Beograd"],
   zvezdara: [
     "Pranje Tepiha Zvezdara (Centar) - Tepih servis Andric",
     "Pranje Tepiha Zvezdara (Centar) - Tepih servis Beograd",
@@ -963,4 +1122,3 @@ export const LOCATION_IMAGE_ALTS: Record<string, string[]> = {
     "Pranje Tepiha Kanarevo Brdo - Tepih servis Andrić Beograd",
   ],
 };
-

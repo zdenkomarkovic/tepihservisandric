@@ -39,6 +39,7 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "CarpetCleaner",
+  "@id": `${SITE_URL}/#business`,
   name: SCHEMA.name,
   url: SCHEMA.url,
   telephone: SCHEMA.telephone,
@@ -52,6 +53,12 @@ const localBusinessSchema = {
     postalCode: SCHEMA.address.postalCode,
     addressCountry: SCHEMA.address.addressCountry,
   },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 44.7583,
+    longitude: 20.5333,
+  },
+  hasMap: SOCIAL.gmb,
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
@@ -65,6 +72,24 @@ const localBusinessSchema = {
       opens: "08:00",
       closes: "18:00",
     },
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.8",
+    reviewCount: "97",
+    bestRating: "5",
+    worstRating: "1",
+  },
+  areaServed: [
+    { "@type": "City", "name": "Beograd", "sameAs": "https://www.wikidata.org/wiki/Q3711" },
+    { "@type": "AdministrativeArea", "name": "Voždovac" },
+    { "@type": "AdministrativeArea", "name": "Čukarica" },
+    { "@type": "AdministrativeArea", "name": "Novi Beograd" },
+    { "@type": "AdministrativeArea", "name": "Savski Venac" },
+    { "@type": "AdministrativeArea", "name": "Stari Grad" },
+    { "@type": "AdministrativeArea", "name": "Palilula" },
+    { "@type": "AdministrativeArea", "name": "Zvezdara" },
+    { "@type": "AdministrativeArea", "name": "Rakovica" },
   ],
   image: `${SITE_URL}/tepih-servis-andric-10.jpg`,
   sameAs: [

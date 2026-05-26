@@ -5,6 +5,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { LokacijeSection } from "@/components/sections/LokacijeSection";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 const meta = INFO_META["cenovnik"]!;
 
@@ -44,6 +45,15 @@ function PriceTable({
     </div>
   );
 }
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: meta.h1, item: `${SITE_URL}/cenovnik/` },
+  ],
+};
 
 export default function CenovnikPage() {
   return (
@@ -181,6 +191,7 @@ export default function CenovnikPage() {
         <LokacijeSection />
       </main>
       <Footer />
+      <JsonLd data={breadcrumbSchema} />
     </>
   );
 }

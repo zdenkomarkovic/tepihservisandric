@@ -75,7 +75,7 @@ export function LokacijeSection() {
                     href={`/lokacija/${slug}/`}
                     className="text-sm bg-white/10 hover:bg-gold text-white px-3 py-1.5 rounded-lg transition-colors"
                   >
-                    {name}
+                    Tepih Servis {name}
                   </Link>
                 ))}
               </div>
@@ -103,7 +103,7 @@ export function LokacijeSection() {
                     href={slug === "/" ? "/" : `/lokacija/${slug}/`}
                     className="text-sm bg-white/10 hover:bg-gold text-white px-3 py-1.5 rounded-lg transition-colors"
                   >
-                    {name}
+                    Tepih Servis {name}
                   </Link>
                 ))}
               </div>

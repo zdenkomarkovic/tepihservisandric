@@ -45,6 +45,14 @@ export const SOCIAL = {
   gmb: "https://g.page/tepihservisandric",
 } as const;
 
+// ─── Default OG image ──────────────────────────────────────────────────────
+export const OG_IMAGE_DEFAULT = {
+  url: "/tepih-servis-andric-10.jpg",
+  width: 640,
+  height: 480,
+  alt: "Tepih Servis Andrić Beograd",
+} as const;
+
 // ─── LocalBusiness schema data ─────────────────────────────────────────────
 export const SCHEMA = {
   name: SITE_NAME,

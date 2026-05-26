@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LOCATION_META, LOCATION_SLUGS, LOCATION_IMAGES, LOCATION_IMAGE_ALTS } from "@/lib/siteData";
 import { LOCATION_CONTENT } from "@/lib/locationContent";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -26,6 +26,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: meta.title,
     description: meta.description,
     alternates: { canonical: `${SITE_URL}/lokacija/${slug}/` },
+    openGraph: {
+      type: "website",
+      title: meta.title,
+      description: meta.description,
+      url: `${SITE_URL}/lokacija/${slug}/`,
+      images: [OG_IMAGE_DEFAULT],
+    },
   };
 }
 
@@ -36,6 +43,11 @@ export default async function LokacijaPage({ params }: Props) {
 
   const images = LOCATION_IMAGES[slug] ?? [];
   const content = LOCATION_CONTENT[slug];
+
+  const locationName = (meta.pageH1 ?? meta.h1)
+    .replace("Pranje Tepiha ", "")
+    .replace(" — Tepih Servis Andrić", "");
+  const breadcrumbLabel = `Tepih Servis ${locationName}`;
 
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -50,6 +62,15 @@ export default async function LokacijaPage({ params }: Props) {
     },
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: breadcrumbLabel, item: `${SITE_URL}/lokacija/${slug}/` },
+    ],
+  };
+
   return (
     <>
       <Header />
@@ -57,8 +78,8 @@ export default async function LokacijaPage({ params }: Props) {
         {/* Breadcrumb bar */}
         <div className="bg-cream border-b border-gray-200">
           <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-            <span className="font-semibold text-navy text-sm">{meta.h1}</span>
-            <Breadcrumb items={[{ label: meta.h1 }]} />
+            <span className="font-semibold text-navy text-sm">{breadcrumbLabel}</span>
+            <Breadcrumb items={[{ label: breadcrumbLabel }]} />
           </div>
         </div>
 
@@ -96,6 +117,33 @@ export default async function LokacijaPage({ params }: Props) {
           </div>
         </div>
 
+        {/* Interne veze — usluge */}
+        <div className="bg-white py-10 border-t border-gray-100">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-lg font-bold text-navy mb-5">Naše usluge</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+              {[
+                { href: "/pranje-tepiha/", label: "Pranje tepiha" },
+                { href: "/masinsko-pranje-tepiha/", label: "Mašinsko dubinsko pranje" },
+                { href: "/dubinsko-ciscenje-namestaja/", label: "Pranje nameštaja" },
+                { href: "/pranje-decijah-kolica/", label: "Pranje dečijih kolica" },
+                { href: "/opsivanje-tepiha/", label: "Opšivanje tepiha" },
+                { href: "/zamena-resa/", label: "Zamena resa" },
+                { href: "/transport-tepiha/", label: "Transport tepiha" },
+                { href: "/cenovnik/", label: "Cenovnik usluga" },
+              ].map(({ href, label }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="bg-cream rounded-lg px-4 py-3 text-sm text-navy font-medium hover:text-gold hover:bg-cream border border-gray-200 hover:border-gold transition-colors"
+                >
+                  {label} »
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
         {/* Footer link */}
         <div className="bg-cream py-6 border-t border-gray-200">
           <div className="max-w-7xl mx-auto px-4">
@@ -107,6 +155,7 @@ export default async function LokacijaPage({ params }: Props) {
       </main>
       <Footer />
       <JsonLd data={serviceSchema} />
+      <JsonLd data={breadcrumbSchema} />
     </>
   );
 }

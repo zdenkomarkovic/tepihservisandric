@@ -7,9 +7,9 @@ import { CheckIcon } from "@/components/ui/Icons";
 
 const SLIDES = [
   {
-    src: "/tepih-servis-andric-10.jpg",
+    src: "/hero1.png",
     alt: "Mašine za pranje tepiha — Tepih Servis Andrić",
-    position: "center center",
+    position: "center 20%",
   },
   {
     src: "/tepih-servis-andric-03f.jpg",
@@ -17,9 +17,9 @@ const SLIDES = [
     position: "center 40%",
   },
   {
-    src: "/pozadina2024.jpg",
+    src: "/hero2.png",
     alt: "Profesionalni tepih servis Beograd",
-    position: "center center",
+    position: "center 100%",
   },
 ];
 
@@ -65,7 +65,7 @@ export function HeroSection() {
       ))}
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-navy/50 via-navy/40 to-navy/20" />
+      <div className="absolute inset-0 bg-gradient-to-br from-navy/50 via-navy/20 to-navy/10" />
 
       {/* Content */}
       <div className="relative z-10 w-full self-end">

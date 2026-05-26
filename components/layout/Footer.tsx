@@ -188,10 +188,17 @@ export function Footer() {
               href={SOCIAL.gmb}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-white/70 hover:text-gold text-sm transition-colors mb-5"
+              className="flex items-center gap-3 bg-navy rounded-lg p-3 border border-white/10 hover:border-gold/40 transition-colors mb-5"
+              aria-label="97 Google recenzija, ocena 4.8 od 5"
             >
               <GoogleIcon />
-              Google My Business
+              <div>
+                <div className="flex items-center gap-1.5">
+                  <span className="text-yellow-400 text-sm leading-none">★★★★★</span>
+                  <span className="text-white font-semibold text-sm">4.8</span>
+                </div>
+                <p className="text-white/50 text-xs mt-0.5">97 Google recenzija</p>
+              </div>
             </a>
 
             <div className="bg-navy rounded-lg p-4 border border-navy-light/20">

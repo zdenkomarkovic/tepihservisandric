@@ -5,6 +5,7 @@ import { SITE_URL } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 const meta = INFO_META["galerija"]!;
 
@@ -70,6 +71,15 @@ const IMAGES = [
   { src: "/tepih-servis-pranje-tepiha.jpg",           alt: "Pranje tepiha — Tepih Servis Andrić" },
 ];
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: meta.h1, item: `${SITE_URL}/galerija/` },
+  ],
+};
+
 export default function GalerijaPage() {
   return (
     <>
@@ -119,6 +129,7 @@ export default function GalerijaPage() {
         </div>
       </main>
       <Footer />
+      <JsonLd data={breadcrumbSchema} />
     </>
   );
 }

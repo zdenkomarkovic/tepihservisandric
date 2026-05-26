@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SERVICE_META } from "@/lib/siteData";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     title: meta.title,
     description: meta.description,
     url: `${SITE_URL}/masinsko-pranje-tepiha/`,
+    images: [OG_IMAGE_DEFAULT],
   },
 };
 
@@ -32,6 +33,15 @@ const serviceSchema = {
     name: "Tepih Servis Andrić Beograd",
     url: SITE_URL,
   },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: meta.h1, item: `${SITE_URL}/masinsko-pranje-tepiha/` },
+  ],
 };
 
 export default function MasinskoPranjeTepihaPage() {
@@ -94,6 +104,7 @@ export default function MasinskoPranjeTepihaPage() {
       </main>
       <Footer />
       <JsonLd data={serviceSchema} />
+      <JsonLd data={breadcrumbSchema} />
     </>
   );
 }

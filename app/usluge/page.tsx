@@ -9,6 +9,7 @@ import {
   WaterIcon, GearIcon, SpinIcon, SunIcon, SofaIcon,
   NeedleIcon, ScissorsIcon, StrollerIcon, WindIcon, TruckIcon, DropIcon,
 } from "@/components/ui/Icons";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 const meta = INFO_META["usluge"]!;
 
@@ -112,6 +113,15 @@ const SERVICES = [
   },
 ] as const;
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: meta.h1, item: `${SITE_URL}/usluge/` },
+  ],
+};
+
 export default function UslugePage() {
   return (
     <>
@@ -172,6 +182,7 @@ export default function UslugePage() {
         </div>
       </main>
       <Footer />
+      <JsonLd data={breadcrumbSchema} />
     </>
   );
 }
