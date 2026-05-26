@@ -32,9 +32,9 @@ const SERBIAN_MONTHS: Record<string, string> = {
 
 function parseSerbianDate(dateStr: string): Date {
   const parts = dateStr.replace(/\./g, "").trim().split(/\s+/);
-  const day = parts[0].padStart(2, "0");
-  const month = SERBIAN_MONTHS[parts[1]] ?? "01";
-  const year = parts[2];
+  const day = (parts[0] ?? "01").padStart(2, "0");
+  const month = SERBIAN_MONTHS[parts[1] ?? ""] ?? "01";
+  const year = parts[2] ?? "2020";
   return new Date(`${year}-${month}-${day}`);
 }
 
