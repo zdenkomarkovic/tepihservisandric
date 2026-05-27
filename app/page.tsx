@@ -15,12 +15,14 @@ import { VideoBannerSection } from "@/components/sections/VideoBannerSection";
 import { MethodsSection } from "@/components/sections/MethodsSection";
 import { CompanyPillarsSection } from "@/components/sections/CompanyPillarsSection";
 import { LokacijeSection } from "@/components/sections/LokacijeSection";
+import { FaqSection } from "@/components/sections/FaqSection";
 
 export const metadata: Metadata = {
   title: HOME_META.title,
   description: HOME_META.description,
   alternates: { canonical: `${SITE_URL}/` },
 };
+
 
 export default function HomePage() {
   return (
@@ -38,6 +40,7 @@ export default function HomePage() {
         <VideoBannerSection />
         <MethodsSection />
         <LokacijeSection />
+        <FaqSection />
         <CompanyPillarsSection />
       </main>
       <Footer />

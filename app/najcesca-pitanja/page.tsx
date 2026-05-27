@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import React from "react";
 import Link from "next/link";
 import { INFO_META } from "@/lib/siteData";
 import { SITE_URL } from "@/lib/constants";
+import { FAQ_DATA } from "@/lib/faqData";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -16,42 +16,10 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE_URL}/najcesca-pitanja/` },
 };
 
-const FAQS: { question: string; answer: React.ReactNode; answerText: string }[] = [
-  {
-    question: "Koja je cena pranja tepiha u Vašem tepih servisu?",
-    answerText: "Garantujemo najpovoljnije cena pranja tepiha, a sve informacije i cene usluga možete videti na stranici Cenovnik.",
-    answer: (
-      <>
-        Garantujemo najpovoljnije cena pranja tepiha, a sve informacije i cene usluga možete videti na stranici{" "}
-        <Link href="/cenovnik/" className="text-gold hover:text-gold-dark">Cenovnik</Link>.
-      </>
-    ),
-  },
-  {
-    question: "Da li vršite dostavu/transport tepiha?",
-    answerText: "Vršimo transport i dostavu tepiha, preuzimanje tepiha i vraćanje na adresu! Pogledajte sve lokacije koje pokrivamo.",
-    answer: (
-      <>
-        Vršimo transport i dostavu tepiha, preuzimanje tepiha i vraćanje na adresu! Pogledajte{" "}
-        <Link href="/kontakt/" className="text-gold hover:text-gold-dark">sve lokacije koje pokrivamo</Link>.
-      </>
-    ),
-  },
-  {
-    question: "Da li vršite uslugu opšivanja tepiha?",
-    answerText: "Da. Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje postojećih ivica na tepihu, nakon skraćivanja ili usecanja itisona... a sve u cilju kako ne bi došlo do rasipanja i paranja tepiha ili itisona.",
-    answer: (
-      <>
-        Da. Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje postojećih ivica na tepihu, nakon skraćivanja ili usecanja itisona....a sve u cilju kako ne bi došlo do rasipanja i paranja tepiha ili itisona.
-      </>
-    ),
-  },
-];
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: FAQS.map(({ question, answerText }) => ({
+  mainEntity: FAQ_DATA.map(({ question, answerText }) => ({
     "@type": "Question",
     name: question,
     acceptedAnswer: {
@@ -83,13 +51,25 @@ export default function NajcescaPitanjaPage() {
 
         {/* Content */}
         <div className="bg-cream py-12 md:py-16">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="bg-white rounded-xl p-6 md:p-10 shadow-sm space-y-6">
-              {FAQS.map(({ question, answer }) => (
-                <div key={question} className="border-b border-gray-100 last:border-0 pb-6 last:pb-0">
-                  <h2 className="text-lg font-bold text-navy mb-3">{question}</h2>
-                  <p className="text-gray-700 leading-relaxed">{answer}</p>
-                </div>
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="space-y-3">
+              {FAQ_DATA.map(({ question, answer }) => (
+                <details
+                  key={question}
+                  className="group bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm"
+                >
+                  <summary className="flex items-center justify-between gap-4 px-6 py-4 cursor-pointer list-none select-none hover:text-gold transition-colors">
+                    <h2 className="font-semibold text-navy text-sm md:text-base group-hover:text-gold transition-colors">
+                      {question}
+                    </h2>
+                    <span className="shrink-0 text-gold text-lg leading-none transition-transform group-open:rotate-45">
+                      +
+                    </span>
+                  </summary>
+                  <div className="px-6 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-200 pt-4">
+                    {answer}
+                  </div>
+                </details>
               ))}
             </div>
           </div>
