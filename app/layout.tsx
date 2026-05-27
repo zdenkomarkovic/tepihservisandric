@@ -75,10 +75,10 @@ const localBusinessSchema = {
   ],
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "4.8",
-    reviewCount: "97",
-    bestRating: "5",
-    worstRating: "1",
+    ratingValue: 4.8,
+    reviewCount: 97,
+    bestRating: 5,
+    worstRating: 1,
   },
   areaServed: [
     { "@type": "City", "name": "Beograd", "sameAs": "https://www.wikidata.org/wiki/Q3711" },
