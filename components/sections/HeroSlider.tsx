@@ -44,6 +44,7 @@ export function HeroSlider() {
             alt={slide.alt}
             fill
             priority={i === 0}
+            loading={i === 0 ? "eager" : "lazy"}
             className="object-cover"
             style={{
               objectPosition: slide.position,
@@ -54,15 +55,15 @@ export function HeroSlider() {
       ))}
 
       {/* Dots */}
-      <div className="absolute bottom-16 left-4 md:left-[max(1rem,calc((100vw-80rem)/2+1rem))] flex gap-2 z-20">
-        {SLIDES.map((_, i) => (
+      <div className="hidden md:flex absolute bottom-16 left-4 md:left-[max(1rem,calc((100vw-80rem)/2+1rem))] gap-2 z-20">
+        {SLIDES.map((slide, i) => (
           <button
             key={i}
             onClick={() => setCurrent(i)}
             className={`w-5 h-5 rounded-full transition-all ${
               i === current ? "bg-gold scale-125" : "bg-white/40 hover:bg-white/70"
             }`}
-            aria-label={`Slika ${i + 1}`}
+            aria-label={slide.alt}
           />
         ))}
       </div>
