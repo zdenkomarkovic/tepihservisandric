@@ -185,7 +185,7 @@ export default function CenovnikPage() {
               ]}
             />
 
-            <p className="text-gray-500 text-sm mt-4">Cenovnik je važeći od 17.01.2025.</p>
+            <p className="text-gray-500 text-sm mt-4">Cenovnik je važeći od 02.06.2026.</p>
           </div>
         </div>
         <LokacijeSection />
