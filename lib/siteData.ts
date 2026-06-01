@@ -16,9 +16,9 @@ export interface PageMeta {
 
 // ─── Homepage ──────────────────────────────────────────────────────────────
 export const HOME_META: PageMeta = {
-  title: "Tepih servis Andrić Beograd | Automatizovano pranje tepiha",
+  title: "Tepih servis Andrić Beograd | Pranje tepiha – preuzimanje i dostava",
   description:
-    "Tepih servis Beograd Vozdovac Dubinsko masinsko automatizovano pranje tepiha i namestaja Najbolja Cena - Pranje dečijih kolica. Uverite se u naš kvalitet.",
+    "Profesionalno mašinsko pranje tepiha, nameštaja i dečijih kolica u Beogradu. Preuzimamo i dostavljamo na adresu. Tradicija od 1984. Pozovite i zakažite!",
   h1: "Tepih servis Andrić Beograd – profesionalno mašinsko pranje tepiha",
 };
 

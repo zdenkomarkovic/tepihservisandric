@@ -10,7 +10,9 @@
       "Bash(mkdir:*)",
       "Bash(do:*)",
       "Bash(node:*)",
-      "Bash(find E:Sajtovitepihservisandric -type f \\\\\\(-name *opengraph* -o -name *og-image* \\\\\\))"
+      "Bash(find E:Sajtovitepihservisandric -type f \\\\\\(-name *opengraph* -o -name *og-image* \\\\\\))",
+      "PowerShell(Get-ChildItem \"E:\\\\Sajtovi\\\\2-2026\\\\tepihservisandric\\\\public\" -File | Where-Object { $_.Name -match \"hero|pozadina|masine-za-pranje|03f|tepih-servis-2024|tepih-servis-pranje\" } | Select-Object Name, @{Name=\"KB\";Expression={[math]::Round\\($_.Length/1KB,0\\)}} | Sort-Object KB -Descending)",
+      "PowerShell(Get-ChildItem \"E:\\\\Sajtovi\\\\2-2026\\\\tepihservisandric\\\\public\" -File | Where-Object { $_.Name -match \"tepih-servis-andric-10\" } | Select-Object Name, @{Name=\"KB\";Expression={[math]::Round\\($_.Length/1KB,0\\)}})"
     ]
   }
 }

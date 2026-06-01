@@ -25,6 +25,7 @@ export function AutomatizovanoSection() {
               src="/masine-za-pranje-tepiha.jpg"
               alt="Mašine za pranje tepiha — Tepih Servis Andrić Beograd"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
             />
           </div>

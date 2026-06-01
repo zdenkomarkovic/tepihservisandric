@@ -11,10 +11,10 @@ export const FAQ_DATA: FaqItem[] = [
   {
     question: "Koja je cena pranja tepiha u Vašem tepih servisu?",
     answerText:
-      "Garantujemo najpovoljnije cene pranja tepiha. Cena kreće od 450 RSD po kvadratnom metru i zavisi od veličine i vrste tepiha. Sve informacije i cene usluga možete videti na stranici Cenovnik.",
+      "Garantujemo najpovoljnije cene pranja tepiha. Cena kreće od 480 RSD po kvadratnom metru i zavisi od veličine i vrste tepiha. Sve informacije i cene usluga možete videti na stranici Cenovnik.",
     answer: (
       <>
-        Garantujemo najpovoljnije cene pranja tepiha. Cena kreće od 450 RSD po kvadratnom metru i zavisi od veličine i vrste tepiha. Sve informacije možete videti na stranici{" "}
+        Garantujemo najpovoljnije cene pranja tepiha. Cena kreće od 480 RSD po kvadratnom metru i zavisi od veličine i vrste tepiha. Sve informacije možete videti na stranici{" "}
         <Link href="/cenovnik/" className="text-gold hover:text-gold-dark">Cenovnik</Link>.
       </>
     ),

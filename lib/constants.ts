@@ -60,7 +60,7 @@ export const SCHEMA = {
   url: SITE_URL,
   telephone: "+381653332555",
   email: CONTACT.email,
-  priceRange: "450–3000 RSD",
+  priceRange: "480–3000 RSD",
   address: {
     streetAddress: CONTACT.address,
     addressLocality: CONTACT.city,

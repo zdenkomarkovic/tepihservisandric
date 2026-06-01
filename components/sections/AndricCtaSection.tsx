@@ -12,6 +12,7 @@ export function AndricCtaSection() {
               src="/tepih-servis-2024.jpg"
               alt="Tepih servis Andrić Beograd"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
             />
           </div>

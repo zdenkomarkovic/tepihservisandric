@@ -21,7 +21,7 @@ export function HeroSection() {
 
       {/* Content — server rendered */}
       <div className="relative z-10 w-full self-end">
-        <div className="max-w-7xl mx-auto px-4 pb-16 md:pb-28 flex flex-col md:flex-row md:items-end md:justify-between gap-8">
+        <div className="max-w-7xl mx-auto px-4 pb-16 md:pb-40 flex flex-col md:flex-row md:items-end md:justify-between gap-8">
           {/* Leva strana */}
           <div className="flex-1">
             <h1 className="font-extrabold tracking-wide mb-4 leading-tight text-white">

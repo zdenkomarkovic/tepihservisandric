@@ -92,7 +92,7 @@ export default function CenovnikPage() {
                 {
                   label: "Mašinsko dubinsko čišćenje tepiha sa ispiranjem do bistre kapi",
                   unit: "m²",
-                  price: "450 RSD",
+                  price: "480 RSD",
                 },
                 {
                   label:
