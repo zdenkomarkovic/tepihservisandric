@@ -17,7 +17,7 @@ import { MethodsSection } from "@/components/sections/MethodsSection";
 import { CompanyPillarsSection } from "@/components/sections/CompanyPillarsSection";
 import { LokacijeSection } from "@/components/sections/LokacijeSection";
 import { FaqSection } from "@/components/sections/FaqSection";
-import { ReviewsSection } from "@/components/sections/ReviewsSection";
+import { GoogleReviewsSection } from "@/components/sections/GoogleReviewsSection";
 
 export const metadata: Metadata = {
   title: HOME_META.title,
@@ -57,7 +57,7 @@ export default function HomePage() {
         <ServicesSection />
         <VideoBannerSection />
         <MethodsSection />
-        <ReviewsSection />
+        <GoogleReviewsSection />
         <LokacijeSection />
         <FaqSection />
         <CompanyPillarsSection />
