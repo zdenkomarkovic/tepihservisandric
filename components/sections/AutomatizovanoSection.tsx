@@ -1,19 +1,20 @@
 import Image from "next/image";
+import Link from "next/link";
 import { CheckIcon } from "@/components/ui/Icons";
 
-const PROCESS_ITEMS = [
-  "Preuzimanje tepiha sa adrese",
-  "Usisavanje tepiha (tresač — automatsko trešenje)",
-  "Merenje i slikanje tepiha pre pranja",
-  "Natapanje tepiha u koritima sa vodom",
-  "Pranje automatizovanim mašinama setom od 5 četki",
-  "Pranje resa ručno (ako tepih ima rese)",
-  "Centrifugiranje tepiha i ispiranje do bistre kapi",
-  "Prirodno sušenje (preko dana)",
-  "Sušenje u automatizovanim komorama (preko noći)",
-  "Finish usisavanje automatizovanim mašinama, parfemisanje, slikanje posle pranja",
-  "Pakovanje i dostava tepiha",
-] as const;
+const PROCESS_ITEMS: { label: string; href?: string }[] = [
+  { label: "Preuzimanje tepiha sa adrese", href: "/transport-tepiha/" },
+  { label: "Usisavanje tepiha (tresač — automatsko trešenje)", href: "/tresenje-tepiha/" },
+  { label: "Merenje i slikanje tepiha pre pranja" },
+  { label: "Natapanje tepiha u koritima sa vodom" },
+  { label: "Pranje automatizovanim mašinama setom od 5 četki", href: "/masinsko-pranje-tepiha/" },
+  { label: "Pranje resa ručno (ako tepih ima rese)" },
+  { label: "Centrifugiranje tepiha i ispiranje do bistre kapi", href: "/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/" },
+  { label: "Prirodno sušenje (preko dana)" },
+  { label: "Sušenje u automatizovanim komorama (preko noći)", href: "/susenje-tepiha/" },
+  { label: "Finish usisavanje automatizovanim mašinama, parfemisanje, slikanje posle pranja" },
+  { label: "Pakovanje i dostava tepiha" },
+];
 
 export function AutomatizovanoSection() {
   return (
@@ -31,15 +32,23 @@ export function AutomatizovanoSection() {
           </div>
 
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-navy mb-2">Automatizovano pranje</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-navy mb-2">
+              Automatizovano pranje tepiha
+            </h2>
             <p className="text-gray-500 text-sm mb-6">
               Kompletan proces pranja tepiha izgleda ovako:
             </p>
             <ol className="space-y-3">
-              {PROCESS_ITEMS.map((item, i) => (
+              {PROCESS_ITEMS.map(({ label, href }, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <CheckIcon className="text-gold shrink-0 mt-0.5" />
-                  <span className="text-gray-700 text-sm leading-relaxed">{item}</span>
+                  {href ? (
+                    <Link href={href} className="text-gray-700 text-sm leading-relaxed hover:text-gold transition-colors">
+                      {label}
+                    </Link>
+                  ) : (
+                    <span className="text-gray-700 text-sm leading-relaxed">{label}</span>
+                  )}
                 </li>
               ))}
             </ol>

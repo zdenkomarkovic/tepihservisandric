@@ -1,10 +1,22 @@
 import { ChildIcon, LeafIcon, PawIcon, HeartIcon } from "@/components/ui/Icons";
 
 const TRUST_CARDS = [
-  { prefix: "Tepih Servis Vozdovac ", label: "Bezbedno za decu", icon: <ChildIcon /> },
-  { prefix: "Tepih Servis Vozdovac Beograd ", label: "Ekološka sredstva", icon: <LeafIcon /> },
-  { prefix: "Tepih Servis Vozdovac Beograd ", label: "Bezbedno za kućne ljubimce", icon: <PawIcon /> },
-  { prefix: "Tepih Servis Vozdovac Beograd ", label: "Zdravlje na prvom mestu", icon: <HeartIcon /> },
+  {
+    prefix: "Tepih servis u Beogradu siguran za decu",
+    label: "Bezbedno za decu",
+    icon: <ChildIcon />,
+  },
+  { prefix: "Ekološko pranje tepiha", label: "Ekološka sredstva", icon: <LeafIcon /> },
+  {
+    prefix: "Tepih servis siguran za ljubimce",
+    label: "Bezbedno za kućne ljubimce",
+    icon: <PawIcon />,
+  },
+  {
+    prefix: "Zdravo pranje tepiha za domove u Beogradu",
+    label: "Zdravlje na prvom mestu",
+    icon: <HeartIcon />,
+  },
 ] as const;
 
 export function TrustBadgesSection() {
@@ -17,7 +29,10 @@ export function TrustBadgesSection() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {TRUST_CARDS.map(({ prefix, label, icon }) => (
-            <div key={label} className="flex flex-col items-center gap-4 bg-cream rounded-2xl p-6 text-center">
+            <div
+              key={label}
+              className="flex flex-col items-center gap-4 bg-cream rounded-2xl p-6 text-center"
+            >
               <div className="w-14 h-14 rounded-full bg-navy flex items-center justify-center text-gold shrink-0">
                 {icon}
               </div>
