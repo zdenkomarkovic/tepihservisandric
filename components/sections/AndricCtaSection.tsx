@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { CONTACT } from "@/lib/constants";
 import { PhoneIconLg } from "@/components/ui/Icons";
+import Link from "next/link";
 
 export function AndricCtaSection() {
   return (
@@ -18,16 +19,34 @@ export function AndricCtaSection() {
           </div>
 
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">Tepih servis Beograd Zvezdara</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Tepih servis za dubinsko pranje i dezinfekciju tepiha
+            </h2>
             <p className="text-white/75 text-base leading-relaxed mb-8">
-              Ukoliko Vam je stalo da Vaši tepisi i nameštaj budu zaista čisti i dezinfikovani,
-              pozovite nas. Vršimo detaljno mašinsko dubinsko ispiranje tepiha i nameštaja na
-              najdetaljniji način, pokrivamo svaki segment čišćenja i održavanja tepiha i nameštaja.
-              U prilici smo da se pobrinemo oko svakog aspekta sušenja i pranja Vaših tepiha,
-              održavanja resa ukoliko ih ima, kao i adekvatan način sušenja u odnosu na vremenske
-              prilike, dostavu i način čuvanja tepiha. Nakupljanje prašine i nečistoća u nameštaju
-              mogu biti izvor raznih neprijatnih pojava; virusa, alergija i neprijatnog mirisa u
-              stanu kojeg se ne možete osloboditi dok ne uradite temeljno i dubinsko čišćenje.
+              Ukoliko Vam je stalo da Vaši tepisi i nameštaj u Beogradu budu zaista čisti i
+              dezinfikovani, pozovite nas. Tepihe preuzimamo i dostavljamo na adresu i u{" "}
+              <Link href="/lokacija/zvezdara/" className="text-[#c9962a] ">
+                {" "}
+                Zvezdari{" "}
+              </Link>
+              ,{" "}
+              <Link href="/lokacija/vozdovac/" className="text-[#c9962a] ">
+                {" "}
+                Voždovcu{" "}
+              </Link>{" "}
+              i{" "}
+              <Link href="/lokacija/vracar/" className="text-[#c9962a] ">
+                {" "}
+                Vračaru{" "}
+              </Link>
+              , kao i u svim ostalim delovima grada koje pokrivamo. Vršimo detaljno mašinsko
+              dubinsko ispiranje tepiha i nameštaja na najdetaljniji način, pokrivamo svaki segment
+              čišćenja i održavanja tepiha i nameštaja. U prilici smo da se pobrinemo oko svakog
+              aspekta sušenja i pranja Vaših tepiha, održavanja resa ukoliko ih ima, kao i adekvatan
+              način sušenja u odnosu na vremenske prilike, dostavu i način čuvanja tepiha.
+              Nakupljanje prašine i nečistoća u nameštaju mogu biti izvor raznih neprijatnih pojava;
+              virusa, alergija i neprijatnog mirisa u stanu kojeg se ne možete osloboditi dok ne
+              uradite temeljno i dubinsko čišćenje.
             </p>
             <a
               href={CONTACT.phone1Href}

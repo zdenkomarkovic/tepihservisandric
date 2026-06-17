@@ -9,7 +9,7 @@ const ZONE1_LINKS: { name: string; slug: string }[] = [
   { name: "Učiteljsko naselje", slug: "uciteljsko-naselje" },
   { name: "Lekino brdo", slug: "lekino-brdo" },
   { name: "Autokomanda", slug: "autokomanda" },
-  { name: "Voždovac", slug: "vojvode-stepe" },
+  { name: "Voždovac", slug: "vozdovac" },
   { name: "Vojvode Stepe", slug: "vojvode-stepe" },
   { name: "Braće Jerković", slug: "brace-jerkovic" },
   { name: "Vojvode Vlahovica", slug: "vojvode-vlahovica" },
@@ -80,7 +80,8 @@ export function LokacijeSection() {
                 ))}
               </div>
               <p className="text-red-400 text-sm font-semibold mt-5">
-                Preuzimanje i dostava tepiha u prethodno pomenutim delovima grada je bez ogranicenja u kvadraturi (transport je besplatan).
+                Preuzimanje i dostava tepiha u prethodno pomenutim delovima grada je bez ogranicenja
+                u kvadraturi (transport je besplatan).
               </p>
               <p className="text-red-400 text-sm font-semibold mt-2">
                 Tepisi se ne donose u servis, već ih preuzimamo i dostavljamo isključivo mi.
@@ -108,7 +109,8 @@ export function LokacijeSection() {
                 ))}
               </div>
               <p className="text-red-400 text-sm font-semibold mt-5">
-                Minimalna kvadratura za preuzimanje tepiha sa gore pomenutih lokacija je 6m2 (ili se tako računa ako je kvadratura manja od 6m2.)
+                Minimalna kvadratura za preuzimanje tepiha sa gore pomenutih lokacija je 6m2 (ili se
+                tako računa ako je kvadratura manja od 6m2.)
               </p>
             </div>
           </div>

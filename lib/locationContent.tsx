@@ -710,4 +710,25 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
     </>
   ),
+  vozdovac: (
+    <>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Tepih Servis Andrić se nalazi na Voždovcu i pruža profesionalne usluge pranja tepiha za sve stanovnike ovog dela Beograda. Kao jedan od prvih tepih servisa u Beogradu sa tradicijom od 1984. godine, raspolažemo najsavremenijim mašinama i ekološkim sredstvima koja temeljno čiste Vaše tepihe bez oštećenja vlakana.
+      </p>
+      <h2 className="text-xl font-bold text-navy mt-8 mb-3">Profesionalno pranje i čišćenje tepiha Voždovac</h2>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Naše automatizovane mašine sa šest rotacionih četki vrše dubinsko temeljno pranje tepiha, uklanjajući sve nečistoće, grinje, alergene i neprijatne mirise. Koristimo visoko-kvalitetna, ekološki prihvatljiva sredstva koja su bezbedna za Vašu porodicu i kućne ljubimce. Tepisi se nakon pranja suše u specijalnim komorama sa visokim temperaturama i protocima vazduha, što garantuje potpunu suvoću bez trunke vlage.
+      </p>
+      <h2 className="text-xl font-bold text-navy mt-8 mb-3">Preuzimanje i dostava tepiha — Voždovac</h2>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Tepise ne donosite Vi — mi dolazimo po njih! Za lokacije na Voždovcu, preuzimanje i dostava tepiha je besplatna bez ograničenja u kvadraturi. Zakazivanje je jednostavno — pozovite nas i dogovorimo termin koji Vama odgovara.
+      </p>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Za sve informacije i zakazivanje kontaktirajte nas na:{" "}
+        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        ili{" "}
+        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+      </p>
+    </>
+  ),
 };

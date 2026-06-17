@@ -422,6 +422,12 @@ export const LOCATION_META: Record<string, PageMeta> = {
     h1: "Tepih Servis, Pranje Tepiha Vojvode Vlahovića",
     pageH1: "Pranje Tepiha Vojvode Vlahovića — Tepih Servis Andrić",
   },
+  vozdovac: {
+    title: "Pranje Tepiha Voždovac | Tepih Servis Andrić",
+    description: "Tepih Servis Andrić nudi pranje tepiha Voždovac — preuzimamo i dostavljamo. Dubinsko čišćenje tepiha, nameštaja i dečijih kolica. Beograd.",
+    h1: "Tepih Servis, Pranje Tepiha Voždovac",
+    pageH1: "Pranje Tepiha Voždovac — Tepih Servis Andrić",
+  },
   vracar: {
     title: "Pranje Tepiha Vračar | Tepih Servis Andrić",
     description: "Tepih Servis Andrić nudi pranje tepiha Vračar — preuzimamo i dostavljamo. Dubinsko čišćenje tepiha, nameštaja i dečijih kolica. Beograd.",
@@ -1021,6 +1027,7 @@ export const LOCATION_IMAGES: Record<string, string[]> = {
   "savski-venac": ["/pranje-tepiha-5 (1).jpg"],
   "banovo-brdo": ["/pranje-tepiha-6 (1).jpg", "/pranje-tepiha-4.jpg"],
   "golf-naselje": ["/pranje-tepiha-4 (2).jpg"],
+  vozdovac: ["/profesionalno-ciscenje-tepiha-vozdovac.jpg"],
   zarkovo: ["/pranje-tepiha-1.jpg"],
   cerak: ["/pranje-tepiha-5 (1).jpg", "/pranje-tepiha-6 (1).jpg"],
   rakovica: ["/pranje-tepiha-4 (2).jpg"],
@@ -1107,4 +1114,5 @@ export const LOCATION_IMAGE_ALTS: Record<string, string[]> = {
     "Pranje Tepiha Kanarevo Brdo - Tepih servis Andric",
     "Pranje Tepiha Kanarevo Brdo - Tepih servis Andrić Beograd",
   ],
+  vozdovac: ["Pranje Tepiha Voždovac - Tepih servis Andrić Beograd"],
 };
