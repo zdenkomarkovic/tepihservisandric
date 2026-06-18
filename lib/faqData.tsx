@@ -15,7 +15,7 @@ export const FAQ_DATA: FaqItem[] = [
     answer: (
       <>
         Garantujemo najpovoljnije cene pranja tepiha. Cena kreće od 480 RSD po kvadratnom metru i zavisi od veličine i vrste tepiha. Sve informacije možete videti na stranici{" "}
-        <Link href="/cenovnik/" className="text-gold hover:text-gold-dark">Cenovnik</Link>.
+        <Link href="/cenovnik/" className="text-gold-text hover:text-gold-dark underline">Cenovnik</Link>.
       </>
     ),
   },
@@ -26,7 +26,7 @@ export const FAQ_DATA: FaqItem[] = [
     answer: (
       <>
         Da. Tepisi se ne donose u servis — mi ih preuzimamo i dostavljamo isključivo mi. Za lokacije u Zoni 1 (Voždovac, Veliki Mokri Lug, Konjarnik i okolina) transport je besplatan bez ograničenja kvadrature. Za Zonu 2 minimalna kvadratura je 6m². Pogledajte{" "}
-        <Link href="/kontakt/" className="text-gold hover:text-gold-dark">sve lokacije koje pokrivamo</Link>.
+        <Link href="/kontakt/" className="text-gold-text hover:text-gold-dark underline">sve lokacije koje pokrivamo</Link>.
       </>
     ),
   },
@@ -67,9 +67,9 @@ export const FAQ_DATA: FaqItem[] = [
     answer: (
       <>
         Da. Pored tepiha nudimo i{" "}
-        <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold hover:text-gold-dark">mašinsko dubinsko pranje nameštaja</Link>{" "}
+        <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold-text hover:text-gold-dark underline">mašinsko dubinsko pranje nameštaja</Link>{" "}
         (sofe, fotelje, madraci) kao i{" "}
-        <Link href="/pranje-decijah-kolica/" className="text-gold hover:text-gold-dark">profesionalno pranje dečijih kolica</Link>.
+        <Link href="/pranje-decijah-kolica/" className="text-gold-text hover:text-gold-dark underline">profesionalno pranje dečijih kolica</Link>.
       </>
     ),
   },
@@ -80,7 +80,7 @@ export const FAQ_DATA: FaqItem[] = [
     answer: (
       <>
         Da. Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje postojećih ivica na tepihu, nakon skraćivanja ili usecanja itisona. Više informacija na stranici{" "}
-        <Link href="/opsivanje-tepiha/" className="text-gold hover:text-gold-dark">Opšivanje tepiha</Link>.
+        <Link href="/opsivanje-tepiha/" className="text-gold-text hover:text-gold-dark underline">Opšivanje tepiha</Link>.
       </>
     ),
   },
@@ -91,7 +91,7 @@ export const FAQ_DATA: FaqItem[] = [
     answer: (
       <>
         Pranje tepiha možete zakazati pozivom na 065 333 2 555 ili 011 333 22 55, kao i putem e-maila tepihservis.andric@gmail.com. Više detalja na stranici{" "}
-        <Link href="/kontakt/" className="text-gold hover:text-gold-dark">Kontakt</Link>.
+        <Link href="/kontakt/" className="text-gold-text hover:text-gold-dark underline">Kontakt</Link>.
       </>
     ),
   },
@@ -112,7 +112,7 @@ export const FAQ_DATA: FaqItem[] = [
     answer: (
       <>
         Plaćanje se vrši gotovinom pri dostavi tepiha na Vašu adresu. Za više informacija kontaktirajte nas na stranici{" "}
-        <Link href="/kontakt/" className="text-gold hover:text-gold-dark">Kontakt</Link>.
+        <Link href="/kontakt/" className="text-gold-text hover:text-gold-dark underline">Kontakt</Link>.
       </>
     ),
   },

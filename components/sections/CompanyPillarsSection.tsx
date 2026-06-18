@@ -13,7 +13,7 @@ export function CompanyPillarsSection() {
             <p className="text-gray-600 text-sm leading-relaxed">
               Sa sigurnošću možemo reći da nudimo najbolji odnos cene i kvaliteta, i specijalne
               pogodnosti za veće količine. Pogledajte naš{" "}
-              <Link href="/cenovnik/" className="text-gold hover:text-gold-dark underline">cenovnik</Link>{" "}
+              <Link href="/cenovnik/" className="text-gold-text hover:text-gold-dark underline">cenovnik</Link>{" "}
               za sve detalje.
             </p>
           </div>
@@ -28,9 +28,9 @@ export function CompanyPillarsSection() {
             <h3 className="font-bold text-navy text-lg mb-2">Kvalitet</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
               Koristimo visoko savremenu opremu i najkvalitetnija sredstva za čišćenje tepiha,{" "}
-              <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold hover:text-gold-dark underline">dubinsko pranje nameštaja</Link>{" "}
+              <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold-text hover:text-gold-dark underline">dubinsko pranje nameštaja</Link>{" "}
               i{" "}
-              <Link href="/pranje-decijah-kolica/" className="text-gold hover:text-gold-dark underline">dečijih kolica</Link>.
+              <Link href="/pranje-decijah-kolica/" className="text-gold-text hover:text-gold-dark underline">dečijih kolica</Link>.
             </p>
           </div>
         </div>

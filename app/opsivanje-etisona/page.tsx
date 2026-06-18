@@ -83,7 +83,7 @@ export default function OpsivanjeEtisonaPage() {
                 Itison sečemo na tačnu dužinu Vašeg hodnika, stepeništa ili ulaza, a zatim opšivamo oba kraja
                 da bi se sprečilo rasparanje. Opšivanje se radi i kada klijent želi promenu boje postojećih
                 ivica, ili nakon{" "}
-                <Link href="/zamena-resa/" className="text-gold hover:text-gold-dark underline">zamene resa</Link>,
+                <Link href="/zamena-resa/" className="text-gold-text hover:text-gold-dark underline">zamene resa</Link>,
                 ukoliko ih itison ima.
               </p>
 
@@ -92,7 +92,7 @@ export default function OpsivanjeEtisonaPage() {
                 Itisoni se najčešće postavljaju u hodnicima, na stepenicama, ispred ulaznih vrata i u drugim
                 prostorima sa velikim prometom, gde štite pod i dodaju estetsku vrednost prostoru. Za
                 opšivanje celih tepiha pogledajte stranicu{" "}
-                <Link href="/opsivanje-tepiha/" className="text-gold hover:text-gold-dark underline">Opšivanje tepiha</Link>.
+                <Link href="/opsivanje-tepiha/" className="text-gold-text hover:text-gold-dark underline">Opšivanje tepiha</Link>.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mt-8">

@@ -98,7 +98,7 @@ export default function DubinskoCistenjeNamestajaPage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 Perimo sofe, fotelje, taburee, jastuke i dušeke, prilagođavajući metodu vrsti i osetljivosti
                 materijala. Tačne cene po komadu možete pogledati na stranici{" "}
-                <Link href="/cenovnik/" className="text-gold hover:text-gold-dark underline">Cenovnik</Link>.
+                <Link href="/cenovnik/" className="text-gold-text hover:text-gold-dark underline">Cenovnik</Link>.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mt-8">

@@ -78,7 +78,7 @@ export default function DubinskoPolusuvoPage() {
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Čišćenje na licu mesta, bez transporta</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Za razliku od{" "}
-                <Link href="/masinsko-pranje-tepiha/" className="text-gold hover:text-gold-dark underline">mašinskog dubinskog pranja</Link>{" "}
+                <Link href="/masinsko-pranje-tepiha/" className="text-gold-text hover:text-gold-dark underline">mašinskog dubinskog pranja</Link>{" "}
                 koje se radi u našem servisu nakon preuzimanja tepiha, dubinsko polusuvo čišćenje obavljamo
                 direktno na adresi, jer su podne prostirke koje pokrivamo prevelike ili fiksirane za prostor da
                 bi se transportovale.
@@ -86,12 +86,12 @@ export default function DubinskoPolusuvoPage() {
 
               <p className="text-gray-700 leading-relaxed mb-4">
                 Pored ove usluge, Tepih Servis Andrić pruža i stručno čišćenje tepiha,{" "}
-                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold hover:text-gold-dark underline">mašinsko dubinsko čišćenje nameštaja</Link>,
+                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold-text hover:text-gold-dark underline">mašinsko dubinsko čišćenje nameštaja</Link>,
                 čišćenje i pranje dušeka,{" "}
-                <Link href="/pranje-decijah-kolica/" className="text-gold hover:text-gold-dark underline">hemijsko čišćenje dečijih kolica</Link>,{" "}
-                <Link href="/opsivanje-tepiha/" className="text-gold hover:text-gold-dark underline">opšivanje tepiha</Link>{" "}
+                <Link href="/pranje-decijah-kolica/" className="text-gold-text hover:text-gold-dark underline">hemijsko čišćenje dečijih kolica</Link>,{" "}
+                <Link href="/opsivanje-tepiha/" className="text-gold-text hover:text-gold-dark underline">opšivanje tepiha</Link>{" "}
                 i{" "}
-                <Link href="/zamena-resa/" className="text-gold hover:text-gold-dark underline">zamenu resa</Link>.
+                <Link href="/zamena-resa/" className="text-gold-text hover:text-gold-dark underline">zamenu resa</Link>.
                 Kao Vaše komšije, razumemo kako cenite svoje dragocenosti i svoj dom.
               </p>
 

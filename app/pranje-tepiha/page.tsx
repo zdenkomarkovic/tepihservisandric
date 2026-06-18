@@ -78,9 +78,9 @@ export default function PranjeTepihaPage() {
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Brz dolazak na poziv!</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Tepih servis Andrić poseduje dostavna vozila, pa nije neophodno da ih sami donosite, već mi dolazimo do Vas. Dovoljno je da nas pozovete telefonom na broj{" "}
-                <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+                <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
                 i dolazimo po Vaše tepihe u dogovoreno vreme. Pogledajte detalje o našoj{" "}
-                <Link href="/transport-tepiha/" className="text-gold hover:text-gold-dark underline">usluzi transporta</Link>.
+                <Link href="/transport-tepiha/" className="text-gold-text hover:text-gold-dark underline">usluzi transporta</Link>.
               </p>
 
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Najsavremenija tehnologija pranja</h2>

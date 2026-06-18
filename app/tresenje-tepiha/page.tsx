@@ -80,7 +80,7 @@ export default function TresenjeTepihaPage() {
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Sledeći korak: pranje tepiha</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Nakon trešenja, tepih ide na{" "}
-                <Link href="/masinsko-pranje-tepiha/" className="text-gold hover:text-gold-dark underline">mašinsko dubinsko pranje</Link>,
+                <Link href="/masinsko-pranje-tepiha/" className="text-gold-text hover:text-gold-dark underline">mašinsko dubinsko pranje</Link>,
                 gde se uklanjaju i najsitnije fleke i nečistoće koje trešenje ne može da otkloni.
               </p>
 

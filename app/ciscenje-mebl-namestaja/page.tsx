@@ -89,7 +89,7 @@ export default function CiscenjeMeblNamestajaPage() {
                 pouzdano i potpuno osigurano, uz profesionalnu uslugu naših stručnjaka za čišćenje tepiha i
                 nameštaja. Održavajte svoj dom prema najvišim standardima — kontaktirajte Tepih servis Andrić
                 već danas ukoliko Vam je potrebno{" "}
-                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold hover:text-gold-dark underline">dubinsko pranje nameštaja</Link>.
+                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold-text hover:text-gold-dark underline">dubinsko pranje nameštaja</Link>.
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">

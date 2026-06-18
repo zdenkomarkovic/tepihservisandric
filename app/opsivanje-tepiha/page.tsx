@@ -81,14 +81,14 @@ export default function OpsivanjeTepihaPage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 Tepih se ponekad seče i opšiva kako bi se prilagodio dimenzijama prostora, na primer kada je
                 potrebno da stane u određeni deo sobe ili stepenište. Opšivanje se takođe radi nakon{" "}
-                <Link href="/zamena-resa/" className="text-gold hover:text-gold-dark underline">skidanja ili zamene resa</Link>,
+                <Link href="/zamena-resa/" className="text-gold-text hover:text-gold-dark underline">skidanja ili zamene resa</Link>,
                 ili kada klijent želi da promeni boju ivica radi usklađivanja sa enterijerom.
               </p>
 
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Cena sečenja i opšivanja tepiha</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Cena zavisi od dužine ivice i izbora trake. Tačne cene možete pogledati na stranici{" "}
-                <Link href="/cenovnik/" className="text-gold hover:text-gold-dark underline">Cenovnik</Link>.
+                <Link href="/cenovnik/" className="text-gold-text hover:text-gold-dark underline">Cenovnik</Link>.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mt-8">

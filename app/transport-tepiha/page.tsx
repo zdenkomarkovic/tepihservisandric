@@ -82,14 +82,14 @@ export default function TransportTepihaPage() {
                 Za lokacije u Zoni 1 (Voždovac, Veliki Mokri Lug, Konjarnik i okolina) transport je potpuno
                 besplatan, bez ograničenja kvadrature. Za lokacije u Zoni 2 minimalna kvadratura za
                 preuzimanje je 6m². Pogledajte sve lokacije koje pokrivamo na stranici{" "}
-                <Link href="/kontakt/" className="text-gold hover:text-gold-dark underline">Kontakt i lokacije</Link>.
+                <Link href="/kontakt/" className="text-gold-text hover:text-gold-dark underline">Kontakt i lokacije</Link>.
               </p>
 
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Kako izgleda transport</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Naša dostavna vozila pažljivo transportuju Vaše tepihe, uz odgovarajuću zaštitu tokom puta do
                 servisa i nazad. Nakon{" "}
-                <Link href="/pranje-tepiha/" className="text-gold hover:text-gold-dark underline">pranja i čišćenja</Link>,
+                <Link href="/pranje-tepiha/" className="text-gold-text hover:text-gold-dark underline">pranja i čišćenja</Link>,
                 tepih vraćamo na istu adresu, u dogovoreno vreme.
               </p>
 

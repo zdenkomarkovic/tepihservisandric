@@ -24,7 +24,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Pogledajte detaljnije uslugu{" "}
-        <Link href="/pranje-decijah-kolica/" className="text-gold hover:text-gold-dark">Pranje dečijih kolica</Link>{" "}
+        <Link href="/pranje-decijah-kolica/" className="text-gold-text hover:text-gold-dark underline">Pranje dečijih kolica</Link>{" "}
         i kontaktirajte nas već danas.
       </p>
     </>
@@ -40,7 +40,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Pogledajte našu{" "}
-        <Link href="/galerija/" className="text-gold hover:text-gold-dark">Galeriju</Link>.{" "}
+        <Link href="/galerija/" className="text-gold-text hover:text-gold-dark underline">Galeriju</Link>.{" "}
         Uverite se u kvalitet koji traje.
       </p>
     </>
@@ -64,7 +64,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
         Koristimo visoko savremenu opremu i najkvalitetnija sredstva za čišćenje tepiha, dubinsko pranje nameštaja.
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
-        <Link href="/usluge/" className="text-gold hover:text-gold-dark">Pogledajte sve naše usluge</Link>. Uverite se u kvalitet.
+        <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Pogledajte sve naše usluge</Link>. Uverite se u kvalitet.
       </p>
     </>
   ),
@@ -79,7 +79,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve dodatne informacije možete nas kontaktirati na broj telefona ili poslati mejl na{" "}
-        <a href="mailto:tepihservis.andric@gmail.com" className="text-gold hover:text-gold-dark">tepihservis.andric@gmail.com</a>
+        <a href="mailto:tepihservis.andric@gmail.com" className="text-gold-text hover:text-gold-dark underline">tepihservis.andric@gmail.com</a>
       </p>
     </>
   ),
@@ -96,9 +96,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve informacije oko pranja tepiha i nameštaja možete nas kontaktirati na sledeće brojeve telefona:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -113,9 +113,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Pogledajte naše{" "}
-        <Link href="/usluge/" className="text-gold hover:text-gold-dark">Usluge</Link>{" "}
+        <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Usluge</Link>{" "}
         i{" "}
-        <Link href="/galerija/" className="text-gold hover:text-gold-dark">Foto galeriju</Link>.
+        <Link href="/galerija/" className="text-gold-text hover:text-gold-dark underline">Foto galeriju</Link>.
       </p>
     </>
   ),
@@ -130,9 +130,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Pogledajte naše{" "}
-        <Link href="/usluge/" className="text-gold hover:text-gold-dark">Usluge</Link>{" "}
+        <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Usluge</Link>{" "}
         i{" "}
-        <Link href="/galerija/" className="text-gold hover:text-gold-dark">Foto galeriju</Link>.
+        <Link href="/galerija/" className="text-gold-text hover:text-gold-dark underline">Foto galeriju</Link>.
       </p>
     </>
   ),
@@ -177,9 +177,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve informacije oko pranja tepiha i nameštaja možete nas kontaktirati na sledeće brojeve telefona:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -194,7 +194,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Pozovite nas na broj telefona{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         za sve informacije vezane za pranje tepiha.
       </p>
     </>
@@ -224,9 +224,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Pogledajte naše{" "}
-        <Link href="/usluge/" className="text-gold hover:text-gold-dark">Usluge</Link>{" "}
+        <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Usluge</Link>{" "}
         i{" "}
-        <Link href="/galerija/" className="text-gold hover:text-gold-dark">Foto galeriju</Link>.
+        <Link href="/galerija/" className="text-gold-text hover:text-gold-dark underline">Foto galeriju</Link>.
       </p>
     </>
   ),
@@ -243,9 +243,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Kontaktirajte nas na sledeće brojeve telefona:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -273,9 +273,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Kontaktirajte nas na sledeće brojeve telefona:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -298,11 +298,11 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </ol>
       <p className="text-gray-700 leading-relaxed mb-4">
         Tepih servis Andrić poseduje dostavna vozila, pa nije neophodno da ih sami donosite, već mi dolazimo do Vas. Dovoljno je da nas pozovete telefonom na broj{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i dolazimo po Vaše tepihe u dogovoreno vreme.
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
-        <Link href="/usluge/" className="text-gold hover:text-gold-dark">Usluge</Link>{" "}
+        <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Usluge</Link>{" "}
         - Pranje Tepiha Čukarička Padina
       </p>
     </>
@@ -332,9 +332,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Kontaktirajte nas na brojeve telefona{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -355,7 +355,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
         Služi za detaljno čišćenje tepiha od različitih vrsta nečistoća, prašine, peska i svih drugih mrva. Ovaj proces vršimo uz pomoć automatizovanih mašina za trešenje tepiha nakon čega je on zaista očišćen i spreman za pranje.
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
-        <Link href="/usluge/" className="text-gold hover:text-gold-dark">Pogledajte sve naše usluge</Link>. Uverite se u kvalitet.
+        <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Pogledajte sve naše usluge</Link>. Uverite se u kvalitet.
       </p>
     </>
   ),
@@ -368,7 +368,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       <h2 className="text-xl font-bold text-navy mt-8 mb-3">Dubinsko pranje tepiha Dorćol Kontakt</h2>
       <p className="text-gray-700 leading-relaxed mb-4">
         Kako biste saznali više o uslugama čišćenja koje odgovaraju Vama i Vašim potrebama, ne oklevajte da odmah podignete telefon i pozovete Tepih Servis Andrić na broj{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.
       </p>
     </>
   ),
@@ -391,11 +391,11 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </ol>
       <p className="text-gray-700 leading-relaxed mb-4">
         Tepih servis Andrić poseduje dostavna vozila, pa nije neophodno da ih sami donosite, već mi dolazimo do Vas. Dovoljno je da nas pozovete telefonom na broj{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i dolazimo po Vaše tepihe u dogovoreno vreme.
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
-        <Link href="/usluge/" className="text-gold hover:text-gold-dark">Usluge</Link>{" "}
+        <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Usluge</Link>{" "}
         - Pranje Tepiha Bogoslovija
       </p>
     </>
@@ -419,11 +419,11 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </ol>
       <p className="text-gray-700 leading-relaxed mb-4">
         Tepih servis Andrić poseduje dostavna vozila, pa nije neophodno da ih sami donosite, već mi dolazimo do Vas. Dovoljno je da nas pozovete telefonom na broj{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i dolazimo po Vaše tepihe u dogovoreno vreme.
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
-        <Link href="/usluge/" className="text-gold hover:text-gold-dark">Usluge</Link>{" "}
+        <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Usluge</Link>{" "}
         - Pranje Tepiha Čubura
       </p>
     </>
@@ -439,7 +439,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Pogledajte naš{" "}
-        <Link href="/cenovnik/" className="text-gold hover:text-gold-dark">cenovnik</Link>.
+        <Link href="/cenovnik/" className="text-gold-text hover:text-gold-dark underline">cenovnik</Link>.
       </p>
     </>
   ),
@@ -456,9 +456,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve informacije oko pranja tepiha i nameštaja možete nas kontaktirati na sledeće brojeve telefona:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -475,9 +475,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve informacije oko pranja tepiha i nameštaja možete nas kontaktirati na sledeće brojeve telefona:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -494,9 +494,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve informacije oko pranja tepiha i nameštaja možete nas kontaktirati na sledeće brojeve telefona:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -511,9 +511,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Možete pogledati kako radimo na stranicama{" "}
-        <Link href="/video/" className="text-gold hover:text-gold-dark">Video</Link>{" "}
+        <Link href="/video/" className="text-gold-text hover:text-gold-dark underline">Video</Link>{" "}
         i{" "}
-        <Link href="/galerija/" className="text-gold hover:text-gold-dark">Galerija</Link>.
+        <Link href="/galerija/" className="text-gold-text hover:text-gold-dark underline">Galerija</Link>.
       </p>
     </>
   ),
@@ -528,7 +528,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.
       </p>
     </>
   ),
@@ -551,7 +551,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </ul>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za informacije o našim uslugama i zakazivanju, budite slobodni da nas kontaktirate na broj telefona{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.
       </p>
     </>
   ),
@@ -587,9 +587,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve informacije oko pranja tepiha i nameštaja možete nas kontaktirati na sledeće brojeve telefona:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         i{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -604,7 +604,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Kako biste saznali više o uslugama pranja tepiha, pozovite nas na broj{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.
       </p>
     </>
   ),
@@ -631,7 +631,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Kako biste saznali više o uslugama pranja tepiha, pozovite nas na broj{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.
       </p>
     </>
   ),
@@ -646,7 +646,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Kako biste saznali više o uslugama pranja tepiha, pozovite nas na broj{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.
       </p>
     </>
   ),
@@ -661,9 +661,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Pogledajte naše{" "}
-        <Link href="/usluge/" className="text-gold hover:text-gold-dark">Usluge</Link>{" "}
+        <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Usluge</Link>{" "}
         i{" "}
-        <Link href="/galerija/" className="text-gold hover:text-gold-dark">Foto galeriju</Link>.
+        <Link href="/galerija/" className="text-gold-text hover:text-gold-dark underline">Foto galeriju</Link>.
       </p>
     </>
   ),
@@ -678,7 +678,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Kako biste saznali više o uslugama pranja tepiha, pozovite nas na broj{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.
       </p>
     </>
   ),
@@ -689,7 +689,7 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
         Tepih Servis Andrić nudi čišćenje tepiha koje se suočava sa dubokom nečistoćom i prašinom područja sa velikim prometom. Korišćenjem visoko-kvalitetnih, ekološki prihvatljivih proizvoda i naprednih tehnika pranja i čišćenja možemo Vam pomoći da sačuvate svetao izgled, boju i životni vek Vašeg tepiha.
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
-        <Link href="/transport-tepiha/" className="text-gold hover:text-gold-dark">Transport tepiha Lokacija Vojvode Stepe</Link>
+        <Link href="/transport-tepiha/" className="text-gold-text hover:text-gold-dark underline">Transport tepiha Lokacija Vojvode Stepe</Link>
       </p>
     </>
   ),
@@ -704,9 +704,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Pogledajte naše{" "}
-        <Link href="/usluge/" className="text-gold hover:text-gold-dark">Usluge</Link>{" "}
+        <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Usluge</Link>{" "}
         i{" "}
-        <Link href="/galerija/" className="text-gold hover:text-gold-dark">Foto galeriju</Link>.
+        <Link href="/galerija/" className="text-gold-text hover:text-gold-dark underline">Foto galeriju</Link>.
       </p>
     </>
   ),
@@ -725,9 +725,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve informacije i zakazivanje kontaktirajte nas na:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         ili{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -746,9 +746,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve informacije i zakazivanje kontaktirajte nas na:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         ili{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -767,9 +767,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve informacije i zakazivanje kontaktirajte nas na:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         ili{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),
@@ -788,9 +788,9 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         Za sve informacije i zakazivanje kontaktirajte nas na:{" "}
-        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>{" "}
         ili{" "}
-        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+        <a href="tel:0693332555" className="text-gold-text hover:text-gold-dark underline">069 333 2 555</a>.
       </p>
     </>
   ),

@@ -99,7 +99,7 @@ export default function PranjeDecijihKolicaPage() {
                 bez bakterija i alergena. Redovno čišćenje kolica doprinosi i očuvanju materijala, kao i lakšoj
                 održivosti, jer sprečava nagomilavanje prljavštine i habanje. Tačnu cenu možete pogledati na
                 stranici{" "}
-                <Link href="/cenovnik/" className="text-gold hover:text-gold-dark underline">Cenovnik</Link>.
+                <Link href="/cenovnik/" className="text-gold-text hover:text-gold-dark underline">Cenovnik</Link>.
               </p>
 
               <div className="grid grid-cols-3 gap-4 mt-8">

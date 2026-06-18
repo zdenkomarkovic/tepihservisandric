@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { HOME_META } from "@/lib/siteData";
 import { CONTACT } from "@/lib/constants";
-import { CheckIcon } from "@/components/ui/Icons";
 import { HeroSlider } from "./HeroSlider";
 
 const HERO_FEATURES = [

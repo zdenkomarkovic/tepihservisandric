@@ -310,7 +310,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Ako želite da oživite svoj tepih i pružite mu svež i elegantan izgled, zamena resa je pravi korak. Bez obzira da li su stare resice oštećene ili želite promeniti estetiku tepiha, tepih servis nudi profesionalnu uslugu zamene resa sa širokim izborom materijala. Odaberite pamučne, vunene ili svilene resice kako biste prilagodili izgled tepiha svojim željama. Oživite svoj tepih danas i uživajte u novom sjaju i eleganciji koje će doneti Vašem prostoru.</p>
 
-      <p>Zakažite termin za zamenu resa na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a> i prepustite svoj tepih stručnjacima koji će sa pažnjom i veštinom obnoviti njegov izgled!</p>
+      <p>Zakažite termin za zamenu resa na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a> i prepustite svoj tepih stručnjacima koji će sa pažnjom i veštinom obnoviti njegov izgled!</p>
     </>
   ),
 
@@ -335,7 +335,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Ako želite pružiti Vašem tepihu vrhunsko čišćenje i produžiti njegov životni vek, mašinsko pranje tepiha sa ispiranjem centrifugom je izbor koji treba razmotriti. Ova moderna tehnika čišćenja pruža dubinsko čišćenje, precizno doziranje hemijskih sredstava, efikasno uklanjanje vlage i pouzdanost koju pružaju stručni tepih servisi. Prepustite svoj tepih profesionalcima i uživajte u čistom i bezbednom tepihu koji će osvežiti Vaš dom.</p>
 
-      <p>Zakažite termin za mašinsko pranje tepiha sa ispiranjem centrifugom na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a> i uverite se u sve prednosti ove moderne metode čišćenja!</p>
+      <p>Zakažite termin za mašinsko pranje tepiha sa ispiranjem centrifugom na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a> i uverite se u sve prednosti ove moderne metode čišćenja!</p>
     </>
   ),
 
@@ -351,7 +351,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Naši profesionalci imaju dugogodišnje iskustvo i koriste najnoviju opremu i tehnologiju kako bi Vaš tepih izgledao savršeno.</p>
 
-      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 
@@ -369,7 +369,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Ne zaboravite da redovno pranje tepiha i nameštaja može uštedeti novac na dugoročnom planu, jer će Vaši tepisi i nameštaj trajati mnogo duže ako su redovno održavani.</p>
 
-      <p>Kako biste saznali više o uslugama čišćenja tepiha i nameštaja, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Kako biste saznali više o uslugama čišćenja tepiha i nameštaja, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 
@@ -393,7 +393,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Tepisi se preuzimaju na dogovorenoj lokaciji i specijalizovanim kombijem se prevoze do perionice. Nakon pranja i sušenja servis takođe vraća tepih na dogovorenu lokaciju. Tepisi se transportuju na bezbedan način da ne bi došlo do nekih oštećenja.</p>
 
-      <p>Lokacije na kojima se vrši transport i dostava dele se u dve zone. U delovima grada koji se nalaze u prvoj zoni tepisi se preuzimaju bez obzira na kvadraturu a transport je besplatan. Za delove grada koji se nalaze u drugoj zoni važi pravilo da tepih mora imati najmanje 6m2 (ako je kvadratura manja od toga obračunava se kao 6m2). U kojoj zoni se nalazi vaš deo grada možete pogledati <a href="/kontakt/" className="text-gold hover:text-gold-dark">ovde</a>.</p>
+      <p>Lokacije na kojima se vrši transport i dostava dele se u dve zone. U delovima grada koji se nalaze u prvoj zoni tepisi se preuzimaju bez obzira na kvadraturu a transport je besplatan. Za delove grada koji se nalaze u drugoj zoni važi pravilo da tepih mora imati najmanje 6m2 (ako je kvadratura manja od toga obračunava se kao 6m2). U kojoj zoni se nalazi vaš deo grada možete pogledati <a href="/kontakt/" className="text-gold-text hover:text-gold-dark underline">ovde</a>.</p>
     </>
   ),
 
@@ -424,7 +424,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Tepih servis Andrić nudi uslugu dubinskog pranja tepiha, uređajima visokog kvaliteta uz garantovanu bezbednost.</p>
 
-      <p>Ako ste zainteresovani za čišćenje tepiha u Tepih servisu Andrić, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>. Radujemo se što ćemo Vam pomoći da Vaš tepih izgleda sjajno kao prvog dana.</p>
+      <p>Ako ste zainteresovani za čišćenje tepiha u Tepih servisu Andrić, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>. Radujemo se što ćemo Vam pomoći da Vaš tepih izgleda sjajno kao prvog dana.</p>
     </>
   ),
 
@@ -496,7 +496,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <h2>Pozovite profesionalca</h2>
       <p>Čak i ako se zaista dobro brinete o svom tepihu, s vremena na vreme, predlažemo da investirate u profesionalno čišćenje i pranje tepiha. Ovo će Vam omogućiti da budete sigurni da će Vaš tepih da izgleda novo što je duže moguće.</p>
-      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 
@@ -518,7 +518,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Ukoliko tražite visokokvalitetno, dubinsko čišćenje tepiha, angažovanje profesionalaca je jedini način. Kada zakažete usluge profesionalnog čišćenja tepiha, čistite ne samo gornji deo tepiha, već i podlogu.</p>
 
-      <p>Ako ste zainteresovani za čišćenje tepiha u Tepih servisu Andrić, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>. Radujemo se što ćemo Vam pomoći da pronađete rešenja za čišćenje tepiha koja tražite.</p>
+      <p>Ako ste zainteresovani za čišćenje tepiha u Tepih servisu Andrić, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>. Radujemo se što ćemo Vam pomoći da pronađete rešenja za čišćenje tepiha koja tražite.</p>
     </>
   ),
 
@@ -544,7 +544,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
       <h2>Usklađen sa zidovima</h2>
       <p>Tepisi će ove godine biti usklađeni sa bojama zidova kako bi se stvorio osećaj kontinuiteta i sveobuhvatan komfor. Koordinacija boja je blagodat za male sužene prostore jer čini da se pod i zid stapaju jedan u drugi, čineći tako prostoriju većom nego što zapravo jeste. Ovaj trend najbolje deluje u klasičnim neutralnim nijansama, gde je dozvoljeno da jedna boja ide od poda naviše kako bi se stvorila ugodna pozadina koja čini da sav nameštaj i dekor budu blistavi.</p>
 
-      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 
@@ -554,7 +554,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p><strong>1.</strong> Pre svega, nije svaka mašina za pranje tepiha dobra. Važno je da mašina za pranje tepiha ispuni očekivanja i opere tepihe dobrog kvaliteta. Funkcionalnost je jedno od najvažnijih pitanja.</p>
 
-      <p><Link href="/" className="text-gold hover:text-gold-dark">Tepih Servis Andrić raspolaže sa najsavremenijim mašinama za automatizovano pranje tepiha</Link></p>
+      <p><Link href="/" className="text-gold-text hover:text-gold-dark underline">Tepih Servis Andrić raspolaže sa najsavremenijim mašinama za automatizovano pranje tepiha</Link></p>
 
       <p><strong>2.</strong> Mašina za pranje tepiha nije samo vozilo izmišljeno za četkanje. Stavljanje četke na automatsku mašinu za pranje tepiha ne znači da je to veoma dobra mašina za pranje tepiha. Postoji nekoliko važnih pitanja, od krutosti noža do operativnog sistema, operativnog sistema do motora. To takođe ne znači da će se samo četkicama tepih očistiti vrlo dobro. Pre i posle postoje neki procesi. A u poslu pranja tepiha ti procesi čine celinu. Nakon što je postupak dobro obavljen, na primer nekoliko puta četkanja, zatim struganja i češljanja, te dobro ispiranje, tepisi će se dobro očistiti. Ako su svi ovi procesi obavljeni, onda je ovo mašina za tepihe sa dobrom funkcionalnošću.</p>
 
@@ -562,9 +562,9 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p><strong>4.</strong> Tvrdoća četkica, snaga četkica, pritisak četke na tepih. Četke treba da budu paralelne sa površinom tepiha. Kvalitet opštih mehaničkih i elektronskih komponenata automatske mašine za pranje tepiha, kvalitet hroma u kontaktu sa vodom i deterdžentom, lakoća razumevanja displej ekrana - sve ove karakteristike treba uzeti u obzir prilikom izbora automatska mašina za čišćenje tepiha.</p>
 
-      <p><a href="/usluge/" className="text-gold hover:text-gold-dark">Proverite zašto je Tepih Servis Andrić najbolji tepih servis u Beogradu. Kvalitet pružene usluge i higijena na prvom mestu.</a></p>
+      <p><a href="/usluge/" className="text-gold-text hover:text-gold-dark underline">Proverite zašto je Tepih Servis Andrić najbolji tepih servis u Beogradu. Kvalitet pružene usluge i higijena na prvom mestu.</a></p>
 
-      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 
@@ -601,7 +601,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Neka domaćinstva pokušavaju sama da očiste tepihe ili unajmljuju mašine za čišćenje tepiha. Kod tepiha sa dubokim resama postoji rizik od oštećenja ako se ne koristi najbolja mašina za čišćenje. Umesto toga, unajmite profesionalnu kompaniju za čišćenje tepiha, koja će se pobrinuti da tepih bude vrlo čist i neoštećen.</p>
 
-      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 
@@ -615,7 +615,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Uvek uzmite u obzir materijal Vašeg tepiha. Imajte na umu da samočišćenje nikada ne može biti zamena za čišćenje od strane stručnjaka. Ako želite da uživate u korišćenju svog tepiha duže vreme, profesionalno ga čistite u redovnim intervalima.</p>
 
-      <p>Sada kada znate kako da najlakše i najbolje operete tepih, na Vama je da nas pozovete na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Sada kada znate kako da najlakše i najbolje operete tepih, na Vama je da nas pozovete na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 
@@ -640,7 +640,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Tepih Servis Andrić Beograd je tu da Vam pomogne u rutinskom čišćenju. Možete računati da će naš tim u Vašem domu isporučiti najefikasnija rešenja za čišćenje koja su takođe zdrava i sigurna za Vaše voljene i našu lokalnu zajednicu.</p>
 
-      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 
@@ -652,7 +652,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Ceđenjem u profesionalnim mašinama našeg tepih servisa, otklanja se svaki rizik od razlivanja ili mešanja boja. Efikasno, brzo, kvalitetno, bezbedno. Nakon ceđenja tepisi se dodatno suše u specijalnoj komori koja je opremljena sistemom za sušenje toplim vazduhom i eliminisanjem vlage.</p>
 
-      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Kako biste saznali više o uslugama čišćenja tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 
@@ -678,7 +678,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
       <h2>Ako imate kućnog ljubimca</h2>
       <p>Svi želimo kućnog ljubimca, ali ako imate tepihe, trebalo bi da češće čistite tepihe. Vaši ljubimci mogu isprljati tepihe zbog kojih će tepisi ostati mokri i puni bakterija. Dakle, ako Vaši kućni ljubimci provode dosta vremena u zatvorenom, trebalo bi da se prijavite za redovno čišćenje tepiha.</p>
 
-      <p>Kako biste saznali više o uslugama čišćenja koje odgovaraju Vama i Vašim potrebama, ne oklevajte da odmah podignete telefon i pozovete Tepih Servis Andrić na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Kako biste saznali više o uslugama čišćenja koje odgovaraju Vama i Vašim potrebama, ne oklevajte da odmah podignete telefon i pozovete Tepih Servis Andrić na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 
@@ -710,7 +710,7 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
 
       <p>Nakon pranja, tepisi se suše u centrifugalnim mašinama koje u svega nekoliko minuta uklanjaju višak vlage. Brzo i efikasno sušenje posebno je važno za ručno bojene i svilene tepihe kako bi se sačuvale originalne boje i kvalitet vlakana.</p>
 
-      <p>Tepih Servis Andrić u Beogradu od 1984. godine pruža profesionalne usluge pranja tepiha sa preuzimanjem i dostavom na adresu. Kako biste zakazali pranje Vašeg tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+      <p>Tepih Servis Andrić u Beogradu od 1984. godine pruža profesionalne usluge pranja tepiha sa preuzimanjem i dostavom na adresu. Kako biste zakazali pranje Vašeg tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold-text hover:text-gold-dark underline">065 333 2 555</a>.</p>
     </>
   ),
 };

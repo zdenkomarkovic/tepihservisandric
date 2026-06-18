@@ -82,7 +82,7 @@ export default function ZamenaResaPage() {
                 Naš tepih servis nudi rese od tri vrste materijala: pamučne, vunene i svilene. Birate prema
                 izgledu i materijalu Vašeg tepiha, a tačne cene po vrsti materijala možete pogledati na
                 stranici{" "}
-                <Link href="/cenovnik/" className="text-gold hover:text-gold-dark underline">Cenovnik</Link>.
+                <Link href="/cenovnik/" className="text-gold-text hover:text-gold-dark underline">Cenovnik</Link>.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mt-8">

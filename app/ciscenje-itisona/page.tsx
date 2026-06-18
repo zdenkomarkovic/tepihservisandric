@@ -87,10 +87,10 @@ export default function CistenjeItisonaPage() {
             <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
               Nakon čišćenja, ako su ivice itisona oštećene ili je potrebno prilagoditi dužinu prostoru,
               nudimo i{" "}
-              <Link href="/opsivanje-etisona/" className="text-gold hover:text-gold-dark underline">sečenje i opšivanje itisona</Link>.
+              <Link href="/opsivanje-etisona/" className="text-gold-text hover:text-gold-dark underline">sečenje i opšivanje itisona</Link>.
             </p>
             <p className="text-gray-700 leading-relaxed mb-10 max-w-3xl">
-              Ako želite da iskoristite profesionalne usluge kompanije od poverenja sa velikim iskustvom, ne ustručavajte se da nas kontaktirate. Ovde pogledajte naše <Link href="/usluge/" className="text-gold hover:text-gold-dark">usluge</Link> ili nas <Link href="/kontakt/" className="text-gold hover:text-gold-dark">kontaktirajte</Link>, a primere našeg rada možete videti u našoj <Link href="/galerija/" className="text-gold hover:text-gold-dark">galeriji</Link>.
+              Ako želite da iskoristite profesionalne usluge kompanije od poverenja sa velikim iskustvom, ne ustručavajte se da nas kontaktirate. Ovde pogledajte naše <Link href="/usluge/" className="text-gold-text hover:text-gold-dark underline">usluge</Link> ili nas <Link href="/kontakt/" className="text-gold-text hover:text-gold-dark underline">kontaktirajte</Link>, a primere našeg rada možete videti u našoj <Link href="/galerija/" className="text-gold-text hover:text-gold-dark underline">galeriji</Link>.
             </p>
 
             {/* Images */}

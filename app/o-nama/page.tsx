@@ -70,7 +70,7 @@ export default function ONamaPage() {
               </p>
               <p>
                 Bilo da je u pitanju mašinsko dubinsko pranje, opšivanje, zamena resa ili{" "}
-                <Link href="/pranje-decijah-kolica/" className="text-gold hover:text-gold-dark underline">pranje dečijih kolica</Link>,
+                <Link href="/pranje-decijah-kolica/" className="text-gold-text hover:text-gold-dark underline">pranje dečijih kolica</Link>,
                 naš tim u Tepih servisu Andrić trudi se da svaki posao obavi profesionalno i u
                 dogovorenom roku. Zahvaljujući dugogodišnjem iskustvu i porodičnoj tradiciji, mnogi
                 klijenti nam veruju svoje tepihe već godinama.
@@ -88,7 +88,7 @@ export default function ONamaPage() {
                 <p className="text-gray-600 text-sm leading-relaxed">
                   Sa sigurnošću možemo reći da nudimo najbolji odnos cene i kvaliteta, i specijalne
                   pogodnosti za veće količine. Pogledajte naš{" "}
-                  <Link href="/cenovnik/" className="text-gold hover:text-gold-dark underline">cenovnik</Link>{" "}
+                  <Link href="/cenovnik/" className="text-gold-text hover:text-gold-dark underline">cenovnik</Link>{" "}
                   za sve detalje.
                 </p>
               </div>
@@ -103,7 +103,7 @@ export default function ONamaPage() {
                 <h3 className="font-bold text-navy text-lg mb-2">Kvalitet</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   Koristimo visoko savremenu opremu i najkvalitetnija sredstva za čišćenje tepiha i{" "}
-                  <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold hover:text-gold-dark underline">dubinsko pranje nameštaja</Link>.
+                  <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold-text hover:text-gold-dark underline">dubinsko pranje nameštaja</Link>.
                 </p>
               </div>
             </div>

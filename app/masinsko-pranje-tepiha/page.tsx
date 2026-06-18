@@ -92,12 +92,12 @@ export default function MasinskoPranjeTepihaPage() {
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Ostale usluge Tepih servisa Andrić</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Tepih Servis Andrić pruža stručno čišćenje tepiha,{" "}
-                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold hover:text-gold-dark underline">mašinsko dubinsko čišćenje nameštaja</Link>,
+                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold-text hover:text-gold-dark underline">mašinsko dubinsko čišćenje nameštaja</Link>,
                 čišćenje i pranje dušeka,{" "}
-                <Link href="/pranje-decijah-kolica/" className="text-gold hover:text-gold-dark underline">hemijsko čišćenje dečijih kolica</Link>,{" "}
-                <Link href="/opsivanje-tepiha/" className="text-gold hover:text-gold-dark underline">opšivanje tepiha</Link>{" "}
+                <Link href="/pranje-decijah-kolica/" className="text-gold-text hover:text-gold-dark underline">hemijsko čišćenje dečijih kolica</Link>,{" "}
+                <Link href="/opsivanje-tepiha/" className="text-gold-text hover:text-gold-dark underline">opšivanje tepiha</Link>{" "}
                 i{" "}
-                <Link href="/zamena-resa/" className="text-gold hover:text-gold-dark underline">zamenu resa</Link>.
+                <Link href="/zamena-resa/" className="text-gold-text hover:text-gold-dark underline">zamenu resa</Link>.
                 Kao Vaše komšije, razumemo kako cenite svoje dragocenosti i svoj dom. Naša napredna obuka,
                 iskustvo i stručna oprema osiguravaju da se Vaš posao obavlja pažljivo, pouzdano i potpuno
                 osigurano, sa profesionalnim pristupom i stručnjacima za čišćenje tepiha i poda. Održavajte

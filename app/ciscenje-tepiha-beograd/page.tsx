@@ -84,7 +84,7 @@ export default function CistenjeTepihaBeogradPage() {
             <p className="text-gray-700 leading-relaxed mb-10 max-w-3xl">
               Čišćenje šamponom je dobra opcija za redovno održavanje i lakše zaprljanje tepiha. Za duboko
               ukorenjenu prljavštinu, fleke i veću učestalost korišćenja prostora, preporučujemo{" "}
-              <Link href="/masinsko-pranje-tepiha/" className="text-gold hover:text-gold-dark underline">mašinsko dubinsko pranje sa rotacionim četkama</Link>,
+              <Link href="/masinsko-pranje-tepiha/" className="text-gold-text hover:text-gold-dark underline">mašinsko dubinsko pranje sa rotacionim četkama</Link>,
               koje dopire dublje u vlakna tepiha.
             </p>
 

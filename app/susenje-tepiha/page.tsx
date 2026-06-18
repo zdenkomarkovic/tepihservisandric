@@ -79,7 +79,7 @@ export default function SusenjeTepihaPage() {
                 Pomoću ekološke usluge čišćenja, Tepih Servis Andrić uklanja zagađivače, oslobađa tepih od
                 grinja i sprečava rast plesni, a istovremeno se brine o životnoj sredini. Pre sušenja, tepih
                 prolazi kroz{" "}
-                <Link href="/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/" className="text-gold hover:text-gold-dark underline">pranje i ispiranje centrifugom</Link>,
+                <Link href="/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/" className="text-gold-text hover:text-gold-dark underline">pranje i ispiranje centrifugom</Link>,
                 čime se uklanja višak vode pre samog sušenja.
               </p>
 
