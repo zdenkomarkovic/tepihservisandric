@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { INFO_META } from "@/lib/siteData";
-import { CONTACT, HOURS, SITE_URL, SOCIAL } from "@/lib/constants";
+import { CONTACT, HOURS, SITE_URL, SOCIAL, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -13,6 +13,13 @@ export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,
   alternates: { canonical: `${SITE_URL}/kontakt/` },
+  openGraph: {
+    type: "website",
+    title: meta.title,
+    description: meta.description,
+    url: `${SITE_URL}/kontakt/`,
+    images: [OG_IMAGE_DEFAULT],
+  },
 };
 
 const breadcrumbSchema = {

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { INFO_META } from "@/lib/siteData";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,
   alternates: { canonical: `${SITE_URL}/video/` },
+  openGraph: {
+    type: "website",
+    title: meta.title,
+    description: meta.description,
+    url: `${SITE_URL}/video/`,
+    images: [OG_IMAGE_DEFAULT],
+  },
 };
 
 const YOUTUBE_VIDEOS = [

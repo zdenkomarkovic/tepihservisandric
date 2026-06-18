@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { INFO_META } from "@/lib/siteData";
-import { SITE_URL, CONTACT } from "@/lib/constants";
+import { SITE_URL, CONTACT, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,
   alternates: { canonical: `${SITE_URL}/o-nama/` },
+  openGraph: {
+    type: "website",
+    title: meta.title,
+    description: meta.description,
+    url: `${SITE_URL}/o-nama/`,
+    images: [OG_IMAGE_DEFAULT],
+  },
 };
 
 const breadcrumbSchema = {

@@ -3,30 +3,30 @@ import Image from "next/image";
 import { CONTACT, HOURS, SOCIAL, SITE_NAME } from "@/lib/constants";
 
 const USEFUL_LINKS = [
-  { href: "/pranje-tepiha/", label: "Pranje tepiha Beograd" },
-  { href: "/cenovnik/", label: "Tepih servis cenovnik" },
-  { href: "/cenovnik/", label: "Cena pranja tepiha" },
-  { href: "/usluge/", label: "Tepih servis" },
-  { href: "/kontakt/", label: "Tepih servis lokacije koje pokrivamo" },
-  { href: "/masinsko-pranje-tepiha/", label: "Mašinsko pranje tepiha" },
-  {
-    href: "/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/",
-    label: "Automatsko pranje tepiha",
-  },
-  { href: "/najcesca-pitanja/", label: "Najčešća pitanja za pranje tepiha" },
-  { href: "/usluge/", label: "Dostava i pranje tepiha" },
-  { href: "/masinsko-pranje-tepiha/", label: "Dubinsko pranje tepiha" },
-  { href: "/ciscenje-mebl-namestaja/", label: "Dubinsko pranje nameštaja" },
-  { href: "/dubinsko-ciscenje-namestaja/", label: "Mašinsko pranje nameštaja" },
-  { href: "/pranje-decijah-kolica/", label: "Pranje dečijih kolica" },
+  { href: "/usluge/", label: "Usluge tepih servisa" },
+  { href: "/cenovnik/", label: "Cenovnik" },
+  { href: "/galerija/", label: "Foto galerija" },
+  { href: "/o-nama/", label: "O nama" },
+  { href: "/najcesca-pitanja/", label: "Najčešća pitanja" },
+  { href: "/blog/", label: "Blog" },
+  { href: "/zaposlenje/", label: "Zaposlenje" },
+  { href: "/kontakt/", label: "Kontakt i lokacije" },
 ] as const;
 
 const SERVICE_LINKS = [
-  { href: "/masinsko-pranje-tepiha/", label: "Masinsko pranje tepiha" },
+  { href: "/pranje-tepiha/", label: "Pranje tepiha" },
+  { href: "/masinsko-pranje-tepiha/", label: "Mašinsko dubinsko pranje" },
+  { href: "/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/", label: "Pranje sa centrifugom" },
+  { href: "/ciscenje-tepiha-beograd/", label: "Čišćenje tepiha šamponom" },
   { href: "/susenje-tepiha/", label: "Sušenje tepiha" },
-  { href: "/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/", label: "Centrifuga" },
-  { href: "/transport-tepiha/", label: "Dostava i transport tepiha" },
+  { href: "/tresenje-tepiha/", label: "Trešenje tepiha" },
+  { href: "/transport-tepiha/", label: "Transport tepiha" },
+  { href: "/ciscenje-mebl-namestaja/", label: "Pranje nameštaja" },
   { href: "/pranje-decijah-kolica/", label: "Pranje dečijih kolica" },
+  { href: "/opsivanje-tepiha/", label: "Opšivanje tepiha" },
+  { href: "/opsivanje-etisona/", label: "Opšivanje itisona" },
+  { href: "/ciscenje-itisona/", label: "Čišćenje itisona šamponom" },
+  { href: "/zamena-resa/", label: "Zamena resa" },
 ] as const;
 
 export function Footer() {
@@ -199,36 +199,27 @@ export function Footer() {
         </div>
       </div>
 
-      {/* SEO text */}
+      {/* Popularne lokacije */}
       <div className="border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-white/50">
-            <Link
-              href="/pranje-tepiha/"
-              className="hover:text-white/40 transition-colors"
-            >
-              Pranje tepiha
+            <Link href="/lokacija/vozdovac/" className="hover:text-white/40 transition-colors">
+              Tepih servis Voždovac
             </Link>
-            <Link
-              href="/masinsko-pranje-tepiha/"
-              className="hover:text-white/40 transition-colors"
-            >
-              Mašinsko dubinsko pranje
-            </Link>
-            <Link
-              href="/ciscenje-tepiha-beograd/"
-              className="hover:text-white/40 transition-colors"
-            >
-              Ciscenje tepiha Beograd
-            </Link>
-            <Link
-              href="/lokacija/novi-beograd/"
-              className="hover:text-white/40 transition-colors"
-            >
+            <Link href="/lokacija/novi-beograd/" className="hover:text-white/40 transition-colors">
               Tepih servis Novi Beograd
             </Link>
-            <Link href="/ciscenje-itisona/" className="hover:text-white/40 transition-colors">
-              Ciscenje itisona
+            <Link href="/lokacija/zvezdara/" className="hover:text-white/40 transition-colors">
+              Tepih servis Zvezdara
+            </Link>
+            <Link href="/lokacija/vracar/" className="hover:text-white/40 transition-colors">
+              Tepih servis Vračar
+            </Link>
+            <Link href="/lokacija/zemun/" className="hover:text-white/40 transition-colors">
+              Tepih servis Zemun
+            </Link>
+            <Link href="/lokacija/cukaricka-padina/" className="hover:text-white/40 transition-colors">
+              Tepih servis Čukarica
             </Link>
           </div>
         </div>

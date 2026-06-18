@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { INFO_META } from "@/lib/siteData";
-import { SITE_URL, CONTACT } from "@/lib/constants";
+import { SITE_URL, CONTACT, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -13,6 +13,13 @@ export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,
   alternates: { canonical: `${SITE_URL}/zaposlenje/` },
+  openGraph: {
+    type: "website",
+    title: meta.title,
+    description: meta.description,
+    url: `${SITE_URL}/zaposlenje/`,
+    images: [OG_IMAGE_DEFAULT],
+  },
 };
 
 const breadcrumbSchema = {
@@ -22,6 +29,31 @@ const breadcrumbSchema = {
     { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
     { "@type": "ListItem", position: 2, name: meta.h1, item: `${SITE_URL}/zaposlenje/` },
   ],
+};
+
+const jobPostingSchema = {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  title: "Radnik za pranje i čišćenje tepiha, nameštaja i dečijih kolica",
+  description:
+    "Tepih servis Andrić u Beogradu zapošljava radnike za pranje i čišćenje tepiha, nameštaja i dečijih kolica. Posao obuhvata razgovor sa klijentima, biranje metoda čišćenja i uklanjanje mrlja.",
+  datePosted: new Date().toISOString().split("T")[0],
+  employmentType: ["FULL_TIME", "PART_TIME"],
+  hiringOrganization: {
+    "@type": "Organization",
+    name: "Tepih Servis Andrić Beograd",
+    sameAs: SITE_URL,
+  },
+  jobLocation: {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Ladno brdo 4g",
+      addressLocality: "Beograd",
+      postalCode: "11000",
+      addressCountry: "RS",
+    },
+  },
 };
 
 export default function ZaposlenjeePage() {
@@ -139,6 +171,7 @@ export default function ZaposlenjeePage() {
       </main>
       <Footer />
       <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={jobPostingSchema} />
     </>
   );
 }

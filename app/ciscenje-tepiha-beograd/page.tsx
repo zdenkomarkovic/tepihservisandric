@@ -32,6 +32,19 @@ const breadcrumbSchema = {
   ],
 };
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: meta.h1,
+  description: meta.description,
+  url: `${SITE_URL}/ciscenje-tepiha-beograd/`,
+  provider: {
+    "@type": "Organization",
+    name: "Tepih Servis Andrić Beograd",
+    url: SITE_URL,
+  },
+};
+
 export default function CistenjeTepihaBeogradPage() {
   return (
     <>
@@ -105,6 +118,7 @@ export default function CistenjeTepihaBeogradPage() {
       </main>
       <Footer />
       <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={serviceSchema} />
     </>
   );
 }

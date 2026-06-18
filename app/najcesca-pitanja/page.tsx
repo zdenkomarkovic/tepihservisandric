@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { INFO_META } from "@/lib/siteData";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { FAQ_DATA } from "@/lib/faqData";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,
   alternates: { canonical: `${SITE_URL}/najcesca-pitanja/` },
+  openGraph: {
+    type: "website",
+    title: meta.title,
+    description: meta.description,
+    url: `${SITE_URL}/najcesca-pitanja/`,
+    images: [OG_IMAGE_DEFAULT],
+  },
 };
 
 const faqSchema = {

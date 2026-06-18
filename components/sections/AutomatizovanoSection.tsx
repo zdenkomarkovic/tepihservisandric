@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CheckIcon } from "@/components/ui/Icons";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { SITE_URL } from "@/lib/constants";
 
 const PROCESS_ITEMS: { label: string; href?: string }[] = [
   { label: "Preuzimanje tepiha sa adrese", href: "/transport-tepiha/" },
@@ -19,9 +21,23 @@ const PROCESS_ITEMS: { label: string; href?: string }[] = [
   { label: "Pakovanje i dostava tepiha", href: "/transport-tepiha/" },
 ];
 
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "Automatizovano pranje tepiha",
+  description: "Kompletan proces pranja tepiha u Tepih servisu Andrić, od preuzimanja do dostave.",
+  step: PROCESS_ITEMS.map(({ label, href }, i) => ({
+    "@type": "HowToStep",
+    position: i + 1,
+    name: label,
+    ...(href && { url: `${SITE_URL}${href}` }),
+  })),
+};
+
 export function AutomatizovanoSection() {
   return (
-    <section className="bg-cream py-16 md:py-24">
+    <>
+      <section className="bg-cream py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
@@ -63,5 +79,7 @@ export function AutomatizovanoSection() {
         </div>
       </div>
     </section>
+    <JsonLd data={howToSchema} />
+  </>
   );
 }

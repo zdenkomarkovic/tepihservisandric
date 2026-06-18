@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { BLOG_INDEX_META, BLOG_POST_META, BLOG_POSTS_ORDERED } from "@/lib/siteData";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -13,6 +13,13 @@ export const metadata: Metadata = {
   description: BLOG_INDEX_META.description,
   alternates: {
     canonical: `${SITE_URL}/blog/`,
+  },
+  openGraph: {
+    type: "website",
+    title: BLOG_INDEX_META.title,
+    description: BLOG_INDEX_META.description,
+    url: `${SITE_URL}/blog/`,
+    images: [OG_IMAGE_DEFAULT],
   },
 };
 

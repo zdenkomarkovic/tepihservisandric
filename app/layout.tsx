@@ -55,8 +55,8 @@ const localBusinessSchema = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 44.7583,
-    longitude: 20.5333,
+    latitude: 44.76703052729707,
+    longitude: 20.517446634745358,
   },
   hasMap: SOCIAL.gmb,
   openingHoursSpecification: [
@@ -90,6 +90,8 @@ const localBusinessSchema = {
     { "@type": "AdministrativeArea", "name": "Palilula" },
     { "@type": "AdministrativeArea", "name": "Zvezdara" },
     { "@type": "AdministrativeArea", "name": "Rakovica" },
+    { "@type": "AdministrativeArea", "name": "Vračar" },
+    { "@type": "AdministrativeArea", "name": "Zemun" },
   ],
   image: `${SITE_URL}/tepih-servis-andric-10.jpg`,
   sameAs: [

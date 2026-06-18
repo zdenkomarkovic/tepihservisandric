@@ -701,4 +701,16 @@ export const BLOG_POST_CONTENT: Record<string, ReactNode> = {
       <p>Svakodnevnim korišćenjem, nameštaj se vremenom prlja. To su i dovoljni razlozi zbog kojih je preporučljivo periodično očistiti tapacirani nameštaj. Čišćenje i pranje nameštaja radimo po zahtevima kako u stambenom tako i u poslovnom prostoru.</p>
     </>
   ),
+
+  "masinsko-pranje-tepiha-u-beogradu": (
+    <>
+      <p>U zavisnosti od vrste tepiha određuje se pritisak, ali i mekoća vlakana četke koje koristimo. Set od šest četki koje istovremeno vrše pranje tepiha, u kombinaciji sa profesionalnim hemijskim sredstvima, sasvim uklanja sve tipove nečistoća, temeljno tretirajući čak i samu osnovu vlakana.</p>
+
+      <p>Mašinsko pranje tepiha u Beogradu koje nudimo u Tepih Servisu Andrić podrazumeva korišćenje najsavremenije opreme prilagođene svakoj vrsti tepiha — od persijskih i svilenih do sintetičkih i modernih dizajnerskih tepiha. Svaki tepih prolazi kroz temeljnu inspekciju pre pranja kako bismo odabrali optimalan metod čišćenja.</p>
+
+      <p>Nakon pranja, tepisi se suše u centrifugalnim mašinama koje u svega nekoliko minuta uklanjaju višak vlage. Brzo i efikasno sušenje posebno je važno za ručno bojene i svilene tepihe kako bi se sačuvale originalne boje i kvalitet vlakana.</p>
+
+      <p>Tepih Servis Andrić u Beogradu od 1984. godine pruža profesionalne usluge pranja tepiha sa preuzimanjem i dostavom na adresu. Kako biste zakazali pranje Vašeg tepiha, pozovite nas na broj <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>.</p>
+    </>
+  ),
 };

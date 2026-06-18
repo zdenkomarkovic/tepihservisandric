@@ -2,7 +2,7 @@
 // Izvor istine za sve podatke o firmi koji se koriste u SEO-u, schemi i UI-u.
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://tepihservisandric.rs";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.tepihservisandric.rs";
 
 export const SITE_NAME = "Tepih Servis Andrić Beograd";
 
