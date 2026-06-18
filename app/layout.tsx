@@ -73,13 +73,6 @@ const localBusinessSchema = {
       closes: "18:00",
     },
   ],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: 4.8,
-    reviewCount: 97,
-    bestRating: 5,
-    worstRating: 1,
-  },
   areaServed: [
     { "@type": "City", "name": "Beograd", "sameAs": "https://www.wikidata.org/wiki/Q3711" },
     { "@type": "AdministrativeArea", "name": "Voždovac" },

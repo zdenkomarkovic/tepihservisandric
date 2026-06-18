@@ -38,6 +38,7 @@ const jobPostingSchema = {
   description:
     "Tepih servis Andrić u Beogradu zapošljava radnike za pranje i čišćenje tepiha, nameštaja i dečijih kolica. Posao obuhvata razgovor sa klijentima, biranje metoda čišćenja i uklanjanje mrlja.",
   datePosted: new Date().toISOString().split("T")[0],
+  validThrough: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000).toISOString().split("T")[0],
   employmentType: ["FULL_TIME", "PART_TIME"],
   hiringOrganization: {
     "@type": "Organization",

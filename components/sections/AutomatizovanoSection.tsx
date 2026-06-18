@@ -30,6 +30,7 @@ const howToSchema = {
     "@type": "HowToStep",
     position: i + 1,
     name: label,
+    text: label,
     ...(href && { url: `${SITE_URL}${href}` }),
   })),
 };
