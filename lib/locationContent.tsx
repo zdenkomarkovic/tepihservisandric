@@ -731,4 +731,67 @@ export const LOCATION_CONTENT: Record<string, React.ReactNode> = {
       </p>
     </>
   ),
+  zemun: (
+    <>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Tepih Servis Andrić pokriva i opštinu Zemun, jednu od najvećih opština u Beogradu, smeštenu na levoj obali Save. Stanovnicima Zemuna nudimo kompletnu uslugu pranja tepiha, nameštaja i dečijih kolica, sa preuzimanjem i dostavom na adresu.
+      </p>
+      <h2 className="text-xl font-bold text-navy mt-8 mb-3">Dubinsko mašinsko pranje tepiha Zemun</h2>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Naše automatizovane mašine sa rotacionim četkama temeljno čiste tepihe iz dubine vlakana, uklanjajući prašinu, alergene i neprijatne mirise. Koristimo ekološki bezbedna sredstva, a tepisi se nakon pranja suše u specijalnim komorama do potpune suvoće.
+      </p>
+      <h2 className="text-xl font-bold text-navy mt-8 mb-3">Preuzimanje i dostava tepiha — Zemun</h2>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Za lokacije u Zemunu, koje spadaju u Zonu 2, minimalna kvadratura za preuzimanje tepiha je 6m². Pozovite nas i dogovorimo termin preuzimanja koji Vama odgovara.
+      </p>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Za sve informacije i zakazivanje kontaktirajte nas na:{" "}
+        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        ili{" "}
+        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+      </p>
+    </>
+  ),
+  vidikovac: (
+    <>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Tepih Servis Andrić pruža usluge pranja tepiha i na Vidikovcu, naselju u opštini Čukarica poznatom po pogledu na dolinu Save, po kome je i dobilo ime.
+      </p>
+      <h2 className="text-xl font-bold text-navy mt-8 mb-3">Profesionalno pranje tepiha Vidikovac</h2>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Mašinsko dubinsko pranje obavljamo automatizovanim mašinama sa šest rotacionih četki, koje uklanjaju nečistoću iz same dubine tepiha, uz upotrebu ekoloških sredstava bezbednih za decu i kućne ljubimce.
+      </p>
+      <h2 className="text-xl font-bold text-navy mt-8 mb-3">Preuzimanje i dostava tepiha — Vidikovac</h2>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Za lokacije na Vidikovcu, koje spadaju u Zonu 2, minimalna kvadratura za preuzimanje tepiha je 6m². Pozovite nas i dogovorimo termin preuzimanja koji Vama odgovara.
+      </p>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Za sve informacije i zakazivanje kontaktirajte nas na:{" "}
+        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        ili{" "}
+        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+      </p>
+    </>
+  ),
+  "filmski-grad": (
+    <>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Tepih Servis Andrić pokriva i Filmski grad, deo opštine Čukarica poznat po nasleđu beogradske filmske industrije i blizini Košutnjaka.
+      </p>
+      <h2 className="text-xl font-bold text-navy mt-8 mb-3">Dubinsko čišćenje tepiha Filmski grad</h2>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Naše mašine za dubinsko pranje uklanjaju i najsitniju prljavštinu iz tepiha, koristeći samo propisanu količinu ekoloških sredstava, kako bi se očuvao kvalitet i boja Vašeg tepiha.
+      </p>
+      <h2 className="text-xl font-bold text-navy mt-8 mb-3">Preuzimanje i dostava tepiha — Filmski grad</h2>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Za lokacije u Filmskom gradu, koje spadaju u Zonu 2, minimalna kvadratura za preuzimanje tepiha je 6m². Pozovite nas i dogovorimo termin preuzimanja koji Vama odgovara.
+      </p>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        Za sve informacije i zakazivanje kontaktirajte nas na:{" "}
+        <a href="tel:0653332555" className="text-gold hover:text-gold-dark">065 333 2 555</a>{" "}
+        ili{" "}
+        <a href="tel:0693332555" className="text-gold hover:text-gold-dark">069 333 2 555</a>.
+      </p>
+    </>
+  ),
 };

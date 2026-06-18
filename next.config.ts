@@ -23,23 +23,6 @@ const nextConfig: NextConfig = {
   // VAŽNO: Ne menjati ove redirecte bez odobrenja — direktno utiču na SEO.
   async redirects() {
     return [
-      // Lokacije koje su ugašene — redirektuju na homepage
-      {
-        source: "/lokacija/filmski-grad{/}?",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/lokacija/zemun{/}?",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/lokacija/vidikovac{/}?",
-        destination: "/",
-        permanent: true,
-      },
-
       // Preimenovana stranica
       {
         source: "/ciscenje-decijih-kolica{/}?",

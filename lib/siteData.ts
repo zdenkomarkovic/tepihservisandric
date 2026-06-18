@@ -432,6 +432,24 @@ export const LOCATION_META: Record<string, PageMeta> = {
     h1: "Tepih Servis, Pranje Tepiha Zvezdara (Centar)",
     pageH1: "Pranje Tepiha Zvezdara (Centar) — Tepih Servis Andrić",
   },
+  zemun: {
+    title: "Pranje Tepiha Zemun | Tepih Servis Andrić",
+    description: "Tepih Servis Andrić nudi pranje tepiha Zemun — preuzimamo i dostavljamo. Dubinsko čišćenje tepiha, nameštaja i dečijih kolica. Beograd.",
+    h1: "Tepih Servis, Pranje Tepiha Zemun",
+    pageH1: "Pranje Tepiha Zemun — Tepih Servis Andrić",
+  },
+  vidikovac: {
+    title: "Pranje Tepiha Vidikovac | Tepih Servis Andrić",
+    description: "Tepih Servis Andrić nudi pranje tepiha Vidikovac — preuzimamo i dostavljamo. Dubinsko čišćenje tepiha, nameštaja i dečijih kolica. Beograd.",
+    h1: "Tepih Servis, Pranje Tepiha Vidikovac",
+    pageH1: "Pranje Tepiha Vidikovac — Tepih Servis Andrić",
+  },
+  "filmski-grad": {
+    title: "Pranje Tepiha Filmski Grad | Tepih Servis Andrić",
+    description: "Tepih Servis Andrić nudi pranje tepiha Filmski grad — preuzimamo i dostavljamo. Dubinsko čišćenje tepiha, nameštaja i dečijih kolica. Beograd.",
+    h1: "Tepih Servis, Pranje Tepiha Filmski Grad",
+    pageH1: "Pranje Tepiha Filmski Grad — Tepih Servis Andrić",
+  },
 };
 
 // Slugovi svih lokacijskih stranica — za generateStaticParams i sitemap
