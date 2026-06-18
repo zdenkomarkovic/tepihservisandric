@@ -23,36 +23,43 @@ const SLIDES = [
 
 export function HeroSlider() {
   const [current, setCurrent] = useState(0);
+  const [loaded, setLoaded] = useState<number[]>([0]);
 
   useEffect(() => {
     const id = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % SLIDES.length);
+      setCurrent((prev) => {
+        const next = (prev + 1) % SLIDES.length;
+        setLoaded((l) => (l.includes(next) ? l : [...l, next]));
+        return next;
+      });
     }, 5000);
     return () => clearInterval(id);
   }, []);
 
   return (
     <>
-      {SLIDES.map((slide, i) => (
-        <div
-          key={slide.src}
-          className="absolute inset-0 transition-opacity duration-1000"
-          style={{ opacity: i === current ? 1 : 0 }}
-        >
-          <Image
-            src={slide.src}
-            alt={slide.alt}
-            fill
-            priority={i === 0}
-            loading={i === 0 ? "eager" : "lazy"}
-            className="object-cover"
-            style={{
-              objectPosition: slide.position,
-              animation: i === current ? "hero-zoom 6s ease-out forwards" : "none",
-            }}
-          />
-        </div>
-      ))}
+      {SLIDES.map((slide, i) =>
+        loaded.includes(i) ? (
+          <div
+            key={slide.src}
+            className="absolute inset-0 transition-opacity duration-1000"
+            style={{ opacity: i === current ? 1 : 0 }}
+          >
+            <Image
+              src={slide.src}
+              alt={slide.alt}
+              fill
+              priority={i === 0}
+              sizes="100vw"
+              className="object-cover"
+              style={{
+                objectPosition: slide.position,
+                animation: i === current ? "hero-zoom 6s ease-out forwards" : "none",
+              }}
+            />
+          </div>
+        ) : null
+      )}
 
       {/* Dots */}
       <div className="hidden md:flex absolute bottom-16 left-4 md:left-[max(1rem,calc((100vw-80rem)/2+1rem))] gap-2 z-20">

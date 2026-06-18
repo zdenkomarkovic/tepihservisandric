@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     title: meta.title,
     description: meta.description,
     url: `${SITE_URL}/opsivanje-tepiha/`,
-    images: [OG_IMAGE_DEFAULT],
+    images: [
+      { url: `${SITE_URL}/opsivanje-tepiha.jpg`, width: 640, height: 480, alt: meta.h1 },
+    ],
   },
 };
 

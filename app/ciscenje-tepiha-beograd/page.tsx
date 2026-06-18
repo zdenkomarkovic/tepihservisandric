@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     title: meta.title,
     description: meta.description,
     url: `${SITE_URL}/ciscenje-tepiha-beograd/`,
-    images: [OG_IMAGE_DEFAULT],
+    images: [
+      { url: `${SITE_URL}/tepih-servis-andric-03s (3).jpg`, width: 640, height: 480, alt: meta.h1 },
+    ],
   },
 };
 

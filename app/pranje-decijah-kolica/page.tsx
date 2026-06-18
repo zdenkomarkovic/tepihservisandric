@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     title: meta.title,
     description: meta.description,
     url: `${SITE_URL}/pranje-decijah-kolica/`,
-    images: [OG_IMAGE_DEFAULT],
+    images: [
+      { url: `${SITE_URL}/ciscenje-decijih-kolica-1s.jpg`, width: 640, height: 480, alt: meta.h1 },
+    ],
   },
 };
 

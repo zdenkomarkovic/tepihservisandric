@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     title: meta.title,
     description: meta.description,
     url: `${SITE_URL}/dubinsko-ciscenje-namestaja/`,
-    images: [OG_IMAGE_DEFAULT],
+    images: [
+      { url: `${SITE_URL}/masinsko-dubinsko-pranje-namestaja-1.jpg`, width: 640, height: 480, alt: meta.h1 },
+    ],
   },
 };
 

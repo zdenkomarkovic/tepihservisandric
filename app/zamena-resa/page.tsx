@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     title: meta.title,
     description: meta.description,
     url: `${SITE_URL}/zamena-resa/`,
-    images: [OG_IMAGE_DEFAULT],
+    images: [
+      { url: `${SITE_URL}/zamena-resa-pre.jpg`, width: 640, height: 480, alt: meta.h1 },
+    ],
   },
 };
 

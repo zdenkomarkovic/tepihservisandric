@@ -31,7 +31,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       url: `${SITE_URL}/lokacija/${slug}/`,
-      images: [OG_IMAGE_DEFAULT],
+      images: [
+        LOCATION_IMAGES[slug]?.[0]
+          ? { url: `${SITE_URL}${LOCATION_IMAGES[slug]![0]}`, width: 640, height: 480, alt: meta.h1 }
+          : OG_IMAGE_DEFAULT,
+      ],
     },
   };
 }

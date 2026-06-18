@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     title: meta.title,
     description: meta.description,
     url: `${SITE_URL}/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/`,
-    images: [OG_IMAGE_DEFAULT],
+    images: [
+      { url: `${SITE_URL}/masinsko-pranje-tepiha.png`, width: 640, height: 480, alt: meta.h1 },
+    ],
   },
 };
 
