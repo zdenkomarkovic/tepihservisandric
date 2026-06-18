@@ -70,22 +70,39 @@ export default function DubinskoPolusuvoPage() {
           <div className="max-w-7xl mx-auto px-4">
             <article className="bg-white rounded-xl p-6 md:p-10 shadow-sm">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Ova vrsta čišćenja primenjuje se najčešće na velikim površinama podnih prostirki koje se nalaze u stambenom ili poslovnom prostoru i nije ih moguće doneti u servis. Za ovu vrstu pranje koriste se ekološke PH neutralne hemikalije.
+                Ova vrsta čišćenja primenjuje se najčešće na velikim površinama podnih prostirki koje se nalaze u stambenom ili poslovnom prostoru i nije ih moguće doneti u servis — čišćenje obavljamo direktno na licu mesta, kod Vas. Za ovu vrstu čišćenja koriste se ekološke, PH neutralne hemikalije.
               </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Čišćenje na licu mesta, bez transporta</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Tepih Servis Andrić pruža stručno čišćenje tepiha, mašinsko dubinsko čišćenje nameštaja, čišćenje i pranje dušeka, hemijsko čišćenje dečijih kolica, opšivanje tepiha i zamena resa. Kao Vaše komšije, razumemo kako cenite svoje dragocenosti i svoj dom.
+                Za razliku od{" "}
+                <Link href="/masinsko-pranje-tepiha/" className="text-gold hover:text-gold-dark underline">mašinskog dubinskog pranja</Link>{" "}
+                koje se radi u našem servisu nakon preuzimanja tepiha, dubinsko polusuvo čišćenje obavljamo
+                direktno na adresi, jer su podne prostirke koje pokrivamo prevelike ili fiksirane za prostor da
+                bi se transportovale.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Pored ove usluge, Tepih Servis Andrić pruža i stručno čišćenje tepiha,{" "}
+                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold hover:text-gold-dark underline">mašinsko dubinsko čišćenje nameštaja</Link>,
+                čišćenje i pranje dušeka,{" "}
+                <Link href="/pranje-decijah-kolica/" className="text-gold hover:text-gold-dark underline">hemijsko čišćenje dečijih kolica</Link>,{" "}
+                <Link href="/opsivanje-tepiha/" className="text-gold hover:text-gold-dark underline">opšivanje tepiha</Link>{" "}
+                i{" "}
+                <Link href="/zamena-resa/" className="text-gold hover:text-gold-dark underline">zamenu resa</Link>.
+                Kao Vaše komšije, razumemo kako cenite svoje dragocenosti i svoj dom.
               </p>
 
               <div className="mt-8 space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                   {[
-                    "/dubinsko-polusuvo-ciscenje-1.png",
-                    "/dubinsko-polusuvo-ciscenje-2.png",
-                  ].map((src) => (
+                    { src: "/dubinsko-polusuvo-ciscenje-1.png", alt: "Dubinsko polusuvo čišćenje na licu mesta" },
+                    { src: "/dubinsko-polusuvo-ciscenje-2.png", alt: "Čišćenje velike podne prostirke u Beogradu" },
+                  ].map(({ src, alt }) => (
                     <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                       <Image
                         src={src}
-                        alt="Dubinsko polusuvo čišćenje tepiha Beograd"
+                        alt={alt}
                         fill
                         className="object-cover"
                         sizes="(max-width: 768px) 50vw, 33vw"
@@ -95,15 +112,13 @@ export default function DubinskoPolusuvoPage() {
                 </div>
                 <Image
                   src="/dubinsko-polusuvo-ciscenje-3.jpg"
-                  alt="Dubinsko polusuvo čišćenje tepiha Beograd"
+                  alt="Tepih servis Andrić — polusuvo čišćenje prostirke"
                   width={1200}
                   height={800}
                   className="w-full h-auto rounded-xl"
                   sizes="100vw"
                 />
               </div>
-
-              <p className="text-gray-500 text-sm mt-8">Dubinsko polusuvo ciscenje i pranje tepiha · Polu suvo pranje tepiha · Tepih servis Andric</p>
             </article>
           </div>
         </div>

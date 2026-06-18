@@ -204,16 +204,16 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-white/50">
             <Link
-              href="/pranje-tepiha-najbolja-cena-beograd/"
+              href="/pranje-tepiha/"
               className="hover:text-white/40 transition-colors"
             >
-              Pranje tepiha Najbolja cena Beograd
+              Pranje tepiha
             </Link>
             <Link
-              href="/dubinsko-pranje-tepiha-beograd/"
+              href="/masinsko-pranje-tepiha/"
               className="hover:text-white/40 transition-colors"
             >
-              Dubinsko pranje tepiha Beograd
+              Mašinsko dubinsko pranje
             </Link>
             <Link
               href="/ciscenje-tepiha-beograd/"
@@ -222,10 +222,10 @@ export function Footer() {
               Ciscenje tepiha Beograd
             </Link>
             <Link
-              href="/tepih-servis-novi-beograd-najbolje-cene/"
+              href="/lokacija/novi-beograd/"
               className="hover:text-white/40 transition-colors"
             >
-              Tepih servis Novi Beograd Najbolje cene
+              Tepih servis Novi Beograd
             </Link>
             <Link href="/ciscenje-itisona/" className="hover:text-white/40 transition-colors">
               Ciscenje itisona

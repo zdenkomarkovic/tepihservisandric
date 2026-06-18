@@ -50,7 +50,7 @@ export default function CistenjeItisonaPage() {
           <div className="max-w-7xl mx-auto px-4">
             <h1 className="text-3xl md:text-4xl font-bold text-navy mb-6">{meta.h1}</h1>
             <p className="text-gray-700 leading-relaxed max-w-3xl mb-4">
-              Tepih servis Andrić Vam nudi kompletnu uslugu održavanje itisona - čišćenje, pranje, zamena dotrajalih resa, opšivanje.
+              Tepih servis Andrić Vam nudi kompletnu uslugu održavanja itisona - čišćenje, pranje, zamena dotrajalih resa, opšivanje.
             </p>
             <p className="text-gray-700 leading-relaxed max-w-3xl">
               Redovno usisavanje je neophodno za itisone, ali samo usisavanje ne uklanja uvek grinje i plesni koje se zaglave na gomili. Profesionalno dubinsko pranje itisona uklanja sve ostatke, bakterije, viruse i hemijske opasnosti izazvane ostacima parfema i insekticida.
@@ -64,8 +64,15 @@ export default function CistenjeItisonaPage() {
             <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
               Profesionalno čišćenje treba obavljati često, i što češće u jako korišćenom prostoru. Profesionalna sredstva za čišćenje itisona koriste specijalizovane proizvode za čišćenje koji pomažu da vlakna itisona budu netaknuta, a to može produžiti životni vek itisona.
             </p>
+            <h2 className="text-xl font-bold text-navy mt-8 mb-3">Kako izgleda čišćenje itisona šamponom</h2>
             <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
-              Temeljnim čišćenjem prvo se uklanja prašina, ostaci hrane, dlake, ljuspice kože i ostali ostaci. Nanosi se vlažni šampon pogodan za tip itisona. To se dobro utrlja mašinom da prodre kroz ceo itisona. Konačno, tečnost i prljavština se isisavaju.
+              Temeljnim čišćenjem prvo se uklanja prašina, ostaci hrane, dlake, ljuspice kože i ostali ostaci. Nanosi se vlažni šampon pogodan za tip itisona. To se dobro utrlja mašinom da prodre kroz ceo itison. Konačno, tečnost i prljavština se isisavaju.
+            </p>
+            <h2 className="text-xl font-bold text-navy mt-8 mb-3">Povezana usluga: opšivanje itisona</h2>
+            <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
+              Nakon čišćenja, ako su ivice itisona oštećene ili je potrebno prilagoditi dužinu prostoru,
+              nudimo i{" "}
+              <Link href="/opsivanje-etisona/" className="text-gold hover:text-gold-dark underline">sečenje i opšivanje itisona</Link>.
             </p>
             <p className="text-gray-700 leading-relaxed mb-10 max-w-3xl">
               Ako želite da iskoristite profesionalne usluge kompanije od poverenja sa velikim iskustvom, ne ustručavajte se da nas kontaktirate. Ovde pogledajte naše <Link href="/usluge/" className="text-gold hover:text-gold-dark">usluge</Link> ili nas <Link href="/kontakt/" className="text-gold hover:text-gold-dark">kontaktirajte</Link>, a primere našeg rada možete videti u našoj <Link href="/galerija/" className="text-gold hover:text-gold-dark">galeriji</Link>.
@@ -76,7 +83,7 @@ export default function CistenjeItisonaPage() {
               <div className="relative aspect-video rounded-xl overflow-hidden">
                 <Image
                   src="/tepih-servis-andric-10s.jpg"
-                  alt="Ciscenje itisona"
+                  alt="Čišćenje itisona šamponom — Tepih servis Andrić"
                   fill
                   className="object-cover"
                 />
@@ -84,7 +91,7 @@ export default function CistenjeItisonaPage() {
               <div className="relative aspect-video rounded-xl overflow-hidden">
                 <Image
                   src="/tepih-servis-andric-10.jpg"
-                  alt="Ciscenje itisona"
+                  alt="Proces čišćenja itisona u Beogradu"
                   fill
                   className="object-cover"
                 />
@@ -92,7 +99,7 @@ export default function CistenjeItisonaPage() {
               <div className="relative aspect-video rounded-xl overflow-hidden">
                 <Image
                   src="/tepih-servis-andric-8.jpg"
-                  alt="Ciscenje itisona"
+                  alt="Rezultat čišćenja itisona"
                   fill
                   className="object-cover"
                 />

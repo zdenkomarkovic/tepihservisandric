@@ -4,16 +4,19 @@ import { CheckIcon } from "@/components/ui/Icons";
 
 const PROCESS_ITEMS: { label: string; href?: string }[] = [
   { label: "Preuzimanje tepiha sa adrese", href: "/transport-tepiha/" },
-  { label: "Usisavanje tepiha (tresač — automatsko trešenje)", href: "/tresenje-tepiha/" },
+  { label: "Usisavanje tepiha (tresač - automatsko trešenje)", href: "/tresenje-tepiha/" },
   { label: "Merenje i slikanje tepiha pre pranja" },
   { label: "Natapanje tepiha u koritima sa vodom" },
   { label: "Pranje automatizovanim mašinama setom od 5 četki", href: "/masinsko-pranje-tepiha/" },
   { label: "Pranje resa ručno (ako tepih ima rese)" },
-  { label: "Centrifugiranje tepiha i ispiranje do bistre kapi", href: "/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/" },
-  { label: "Prirodno sušenje (preko dana)" },
+  {
+    label: "Centrifugiranje tepiha i ispiranje do bistre kapi",
+    href: "/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/",
+  },
+  { label: "Prirodno sušenje (preko dana)", href: "/susenje-tepiha/" },
   { label: "Sušenje u automatizovanim komorama (preko noći)", href: "/susenje-tepiha/" },
   { label: "Finish usisavanje automatizovanim mašinama, parfemisanje, slikanje posle pranja" },
-  { label: "Pakovanje i dostava tepiha" },
+  { label: "Pakovanje i dostava tepiha", href: "/transport-tepiha/" },
 ];
 
 export function AutomatizovanoSection() {
@@ -43,8 +46,12 @@ export function AutomatizovanoSection() {
                 <li key={i} className="flex items-start gap-3">
                   <CheckIcon className="text-gold shrink-0 mt-0.5" />
                   {href ? (
-                    <Link href={href} className="text-gray-700 text-sm leading-relaxed hover:text-gold transition-colors">
+                    <Link
+                      href={href}
+                      className="text-gray-700 text-sm leading-relaxed underline underline-offset-2 decoration-gold/40 hover:decoration-gold transition-colors"
+                    >
                       {label}
+                      <span className="ml-1 text-gold text-xs">→</span>
                     </Link>
                   ) : (
                     <span className="text-gray-700 text-sm leading-relaxed">{label}</span>

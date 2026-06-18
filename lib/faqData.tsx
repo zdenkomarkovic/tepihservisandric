@@ -61,17 +61,6 @@ export const FAQ_DATA: FaqItem[] = [
     ),
   },
   {
-    question: "Da li vršite uslugu opšivanja tepiha?",
-    answerText:
-      "Da. Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje postojećih ivica na tepihu, nakon skraćivanja ili usecanja itisona — a sve u cilju kako ne bi došlo do rasipanja i paranja tepiha ili itisona.",
-    answer: (
-      <>
-        Da. Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje postojećih ivica na tepihu, nakon skraćivanja ili usecanja itisona. Više informacija na stranici{" "}
-        <Link href="/opsivanje-tepiha/" className="text-gold hover:text-gold-dark">Opšivanje tepiha</Link>.
-      </>
-    ),
-  },
-  {
     question: "Da li perete nameštaj i dečija kolica?",
     answerText:
       "Da. Pored tepiha nudimo i mašinsko dubinsko pranje nameštaja (sofe, fotelje, madraci) kao i profesionalno pranje dečijih kolica.",
@@ -81,6 +70,17 @@ export const FAQ_DATA: FaqItem[] = [
         <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold hover:text-gold-dark">mašinsko dubinsko pranje nameštaja</Link>{" "}
         (sofe, fotelje, madraci) kao i{" "}
         <Link href="/pranje-decijah-kolica/" className="text-gold hover:text-gold-dark">profesionalno pranje dečijih kolica</Link>.
+      </>
+    ),
+  },
+  {
+    question: "Da li vršite uslugu opšivanja tepiha?",
+    answerText:
+      "Da. Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje postojećih ivica na tepihu, nakon skraćivanja ili usecanja itisona — a sve u cilju kako ne bi došlo do rasipanja i paranja tepiha ili itisona.",
+    answer: (
+      <>
+        Da. Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje postojećih ivica na tepihu, nakon skraćivanja ili usecanja itisona. Više informacija na stranici{" "}
+        <Link href="/opsivanje-tepiha/" className="text-gold hover:text-gold-dark">Opšivanje tepiha</Link>.
       </>
     ),
   },

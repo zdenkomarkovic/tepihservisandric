@@ -68,15 +68,18 @@ export default function MasinskoPranjeTepihaPage() {
         <div className="bg-cream py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4">
             <article className="bg-white rounded-xl p-6 md:p-10 shadow-sm">
+              <h2 className="text-xl font-bold text-navy mb-3">Kako izgleda mašinsko polusuvo pranje</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Ovakvo pranje odvija se automatizovanim mašinama koje vrše dubinsko temeljno pranje zahvaljujući istovremenom radu 6 rotirajućih četki koje istovremeno prelaze preko tepiha ne ostavljajući ni jedan milimetar nečistoće. Ove mašine u sebi poseduju dozere za hemijska sredstva i vodu koja je potrebna u odnosu na vrstu Vašeg tepiha. Idealan način da očuvate kvalitet Vašeg tepiha a da istovremeno odstranite sve fleke, koristeći samo propisanu količinu hemijskih sredstava koja je potrebna, kako se tepih ne bi preterano tretirao.
               </p>
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Zašto je dubinsko pranje važno</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Dubinsko pranje kao što i sama reč kaže dubinski čisti i otklanja nečistoće, bakterije iz same dubine Vašeg tepiha. Dubinskim pranjem u mnogome doprinosite higijeni Vašeg doma, a samim tim i zdraviju Vaše porodice.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Dubinsko pranje je primenjivo apsolutno svuda kako u stambenim tako i poslovnim prostorima. Pranje tepiha treba vršiti redovno, bar jednom u dva meseca, a preporuka je i češće u zavisnosti od frekvencije i broja ljudi koji koriste prostor.
               </p>
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Kvalitet i nega Vašeg tepiha</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Tepih Servis Andrić nudi čišćenje tepiha koje se suočava sa dubokom nečistoćom i prašinom područja sa velikim prometom. Korišćenjem visokokvalitetnih, ekološki prihvatljivih proizvoda i naprednih metoda čišćenja možemo Vam pomoći da sačuvate svetao izgled, boju i životni vek Vašeg tepiha.
               </p>
@@ -86,8 +89,19 @@ export default function MasinskoPranjeTepihaPage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 Zaštitite svoju investiciju na podu tepiha profesionalnim uslugama čišćenja tepiha u Tepih Servisu Andrić.
               </p>
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Ostale usluge Tepih servisa Andrić</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Tepih Servis Andrić pruža stručno čišćenje tepiha, mašinsko dubinsko čišćenje nameštaja, čišćenje i pranje dušeka, hemijsko čišćenje dečijih kolica, opšivanje tepiha i zamena resa. Kao Vaše komšije, razumemo kako cenite svoje dragocenosti i svoj dom. Naša napredna obuka, iskustvo i stručna oprema osiguravaju da se vaš posao obavlja pažljivo i pouzdano. Potpuno osiguran. Profesionalna usluga. Stručnjaci za čišćenje tepiha i poda. Održavajte svoj dom prema najvišim standardima. Kontaktirajte nas još danas.
+                Tepih Servis Andrić pruža stručno čišćenje tepiha,{" "}
+                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold hover:text-gold-dark underline">mašinsko dubinsko čišćenje nameštaja</Link>,
+                čišćenje i pranje dušeka,{" "}
+                <Link href="/pranje-decijah-kolica/" className="text-gold hover:text-gold-dark underline">hemijsko čišćenje dečijih kolica</Link>,{" "}
+                <Link href="/opsivanje-tepiha/" className="text-gold hover:text-gold-dark underline">opšivanje tepiha</Link>{" "}
+                i{" "}
+                <Link href="/zamena-resa/" className="text-gold hover:text-gold-dark underline">zamenu resa</Link>.
+                Kao Vaše komšije, razumemo kako cenite svoje dragocenosti i svoj dom. Naša napredna obuka,
+                iskustvo i stručna oprema osiguravaju da se Vaš posao obavlja pažljivo, pouzdano i potpuno
+                osigurano, sa profesionalnim pristupom i stručnjacima za čišćenje tepiha i poda. Održavajte
+                svoj dom prema najvišim standardima — kontaktirajte nas još danas.
               </p>
             </article>
           </div>

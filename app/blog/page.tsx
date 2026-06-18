@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { BLOG_INDEX_META, BLOG_POST_META, BLOG_POSTS_ORDERED } from "@/lib/siteData";
 import { SITE_URL } from "@/lib/constants";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -13,6 +14,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${SITE_URL}/blog/`,
   },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog/` },
+  ],
 };
 
 const CARD_IMAGES = [
@@ -40,13 +50,13 @@ export default function BlogPage() {
         {/* Page header */}
         <div className="bg-white py-12 md:py-16 border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4">
-            <h1 className="text-3xl md:text-4xl font-bold text-navy mb-6">Blog</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-navy mb-6">Blog o pranju i održavanju tepiha</h1>
             <p className="text-gray-700 text-base leading-relaxed">
-              Dobrodošli na naš blog za čišćenje tepiha. Cilj nam je da ovaj blog postane resurs za
-              one koji traže savete i trikove kada je u pitanju održavanje njihovih tepiha i nameštaja
-              i održavanje čistoće doma. Volimo da objavljujemo preporuke i ideje za postizanje
-              najveće vrednosti Vaših tepiha, zato često proverite naše najnovije objave, savete i
-              trikove za uspešno čišćenje!
+              Dobrodošli na blog Tepih servisa Andrić iz Beograda, posvećen čišćenju tepiha. Cilj
+              nam je da ovaj blog postane resurs za one koji traže savete i trikove kada je u pitanju
+              održavanje njihovih tepiha i nameštaja i održavanje čistoće doma. Volimo da
+              objavljujemo preporuke i ideje za postizanje najveće vrednosti Vaših tepiha, zato
+              često proverite naše najnovije objave, savete i trikove za uspešno čišćenje!
             </p>
           </div>
         </div>
@@ -95,6 +105,7 @@ export default function BlogPage() {
         </div>
       </main>
       <Footer />
+      <JsonLd data={breadcrumbSchema} />
     </>
   );
 }

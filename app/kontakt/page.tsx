@@ -40,12 +40,13 @@ export default function KontaktPage() {
         {/* Hero */}
         <div className="bg-white py-12 md:py-16 border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4">
-            <h1 className="text-3xl md:text-4xl font-bold text-navy mb-6">Kontakt & Lokacije</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-navy mb-6">Kontakt i lokacije Tepih servisa Andrić u Beogradu</h1>
             <p className="text-gray-700 text-base leading-relaxed">
-              Hvala Vam što ste posetili Tepih Servis Andrić. Trudimo se da osiguramo potpuno
-              zadovoljstvo naših klijenata od trenutka početnih konsultacija do postavljanja čistog
-              i mirisnog tepiha u Vaš dom, vodeći računa da Vas usput edukujemo o pranju i
-              održavanju tepiha.
+              Hvala Vam što ste posetili Tepih servis Andrić u Beogradu. Trudimo se da osiguramo
+              potpuno zadovoljstvo naših klijenata od trenutka početnih konsultacija do postavljanja
+              čistog i mirisnog tepiha u Vaš dom, vodeći računa da Vas usput edukujemo o pranju i
+              održavanju tepiha. Ispod pogledajte sve kontakt podatke i lokacije koje pokrivamo u
+              Beogradu.
             </p>
           </div>
         </div>

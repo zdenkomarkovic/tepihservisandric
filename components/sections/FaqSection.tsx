@@ -17,7 +17,7 @@ export function FaqSection() {
         </p>
 
         <div className="space-y-3">
-          {faqs.map(({ question, answerText }) => (
+          {faqs.map(({ question, answer }) => (
             <details
               key={question}
               className="group bg-cream rounded-xl border border-gray-200 overflow-hidden"
@@ -29,7 +29,7 @@ export function FaqSection() {
                 </span>
               </summary>
               <div className="px-6 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-200 pt-4">
-                {answerText}
+                {answer}
               </div>
             </details>
           ))}

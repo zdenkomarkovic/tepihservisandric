@@ -70,7 +70,33 @@ export default function DubinskoCistenjeNamestajaPage() {
           <div className="max-w-7xl mx-auto px-4">
             <article className="bg-white rounded-xl p-6 md:p-10 shadow-sm">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Da bi Vaš nameštaj ponovo zasijao i bio zaista čist, pozovite nas jer mi koristimo specijalne mašine za čišćenje. Otklanjamo sve alergene, grinje, prašinu i fleke. Vraćamo boju Vašem nameštaju. Kada Vaš nameštaj prođe sve naše mašine, on izgleda kao da ste ga tek punili. Vraćamo mu stari sjaj, boju i čistoću uz prijatne mirise koji će osvežiti Vaš prostor.
+                Da bi Vaš nameštaj ponovo zasijao i bio zaista čist, koristimo specijalne mašine za dubinsko
+                pranje, ne samo površinsko čišćenje. Otklanjamo sve alergene, grinje, prašinu i fleke,
+                vraćajući boju i sjaj Vašem nameštaju. Kada nameštaj prođe kroz naš proces, izgleda kao da ste
+                ga tek kupili.
+              </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Mašinski proces pranja nameštaja</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Naše mašine koriste rotacione četke prilagođene mekšem, tapaciranom materijalu, koje pažljivo
+                prelaze preko nameštaja bez oštećenja tkanine. Nakon pranja, specijalni uređaji za ekstrakciju
+                izvlače vodu i sredstvo iz dubine jastučenja, čime se ubrzava sušenje i sprečava stvaranje
+                vlage ili neprijatnih mirisa unutar nameštaja.
+              </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Zašto dubinsko pranje, a ne samo površinsko čišćenje</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Alergeni, grinje i prašina se vremenom nakupljaju duboko u vlaknima tapaciranog nameštaja, ne
+                samo na površini. Obično kućno usisavanje ili površinsko brisanje ne dopire do tog sloja, dok
+                naš mašinski proces dubinski čisti celu strukturu tkanine, čime se značajno poboljšava higijena
+                prostora u kome boravite.
+              </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Koji nameštaj perete</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Perimo sofe, fotelje, taburee, jastuke i dušeke, prilagođavajući metodu vrsti i osetljivosti
+                materijala. Tačne cene po komadu možete pogledati na stranici{" "}
+                <Link href="/cenovnik/" className="text-gold hover:text-gold-dark underline">Cenovnik</Link>.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mt-8">

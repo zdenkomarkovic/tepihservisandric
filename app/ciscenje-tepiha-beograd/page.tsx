@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { SERVICE_META } from "@/lib/siteData";
 import { SITE_URL, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
@@ -60,14 +61,16 @@ export default function CistenjeTepihaBeogradPage() {
         {/* Content */}
         <div className="bg-cream py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-xl font-bold text-navy mt-8 mb-3">Kako izgleda čišćenje šamponom</h2>
             <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
               Temeljnim čišćenjem prvo se uklanja prašina, ostaci hrane, dlake, ljuspice kože i ostali ostaci. Nanosi se vlažni šampon pogodan za tip tepiha. To se dobro utrlja mašinom da prodre kroz ceo tepih. Konačno, tečnost i prljavština se isisavaju.
             </p>
-            <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
-              Redovnim čišćenjem koristeći najbolje tehnike i tehnologije, pomažemo Vam da održite izgled Vašeg tepiha i potencijalno produžite vek trajanja tepiha. Bilo da se radi o stalnom održavanju ili godišnjem čišćenju, učinićemo sve da Vaš tepih izgleda što bolje.
-            </p>
+            <h2 className="text-xl font-bold text-navy mt-8 mb-3">Kada se koristi čišćenje šamponom</h2>
             <p className="text-gray-700 leading-relaxed mb-10 max-w-3xl">
-              Zaštitite svoju investiciju na podu profesionalnim uslugama čišćenja tepiha u Tepih Servisu Andrić.
+              Čišćenje šamponom je dobra opcija za redovno održavanje i lakše zaprljanje tepiha. Za duboko
+              ukorenjenu prljavštinu, fleke i veću učestalost korišćenja prostora, preporučujemo{" "}
+              <Link href="/masinsko-pranje-tepiha/" className="text-gold hover:text-gold-dark underline">mašinsko dubinsko pranje sa rotacionim četkama</Link>,
+              koje dopire dublje u vlakna tepiha.
             </p>
 
             {/* Images */}
@@ -75,7 +78,7 @@ export default function CistenjeTepihaBeogradPage() {
               <div className="relative aspect-video rounded-xl overflow-hidden">
                 <Image
                   src="/tepih-servis-andric-03s (3).jpg"
-                  alt="Čišćenje tepiha"
+                  alt="Čišćenje tepiha šamponom — Tepih servis Andrić"
                   fill
                   className="object-cover"
                 />
@@ -83,7 +86,7 @@ export default function CistenjeTepihaBeogradPage() {
               <div className="relative aspect-video rounded-xl overflow-hidden">
                 <Image
                   src="/tepih-servis-andric-02s.jpg"
-                  alt="Ciscenje tepiha"
+                  alt="Proces čišćenja tepiha u Beogradu"
                   fill
                   className="object-cover"
                 />
@@ -91,7 +94,7 @@ export default function CistenjeTepihaBeogradPage() {
               <div className="relative aspect-video rounded-xl overflow-hidden">
                 <Image
                   src="/tepih-servis-andric-02s (4).jpg"
-                  alt="Ciscenje tepiha Beograd"
+                  alt="Rezultat čišćenja tepiha šamponom"
                   fill
                   className="object-cover"
                 />

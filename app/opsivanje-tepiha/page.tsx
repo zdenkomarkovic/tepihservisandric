@@ -70,18 +70,34 @@ export default function OpsivanjeTepihaPage() {
           <div className="max-w-7xl mx-auto px-4">
             <article className="bg-white rounded-xl p-6 md:p-10 shadow-sm">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Opšivanje se radi na krajnjim ivicama tepiha kako se on ne bi rasparao ili ukoliko klijent želi promenu boje na ivicama. Moguće je i skidanje resa ukoliko želite i opšivanje tepiha kako bi sačuvao njegovu strukturu.
+                Opšivanje se radi na krajnjim ivicama tepiha kako se on ne bi rasparao, ili ukoliko klijent
+                želi promenu boje na ivicama. Pažljivo opšivanje čuva strukturu tepiha i sprečava dalje
+                oštećenje rubova tokom svakodnevne upotrebe.
+              </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Kada je potrebno sečenje i opšivanje</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Tepih se ponekad seče i opšiva kako bi se prilagodio dimenzijama prostora, na primer kada je
+                potrebno da stane u određeni deo sobe ili stepenište. Opšivanje se takođe radi nakon{" "}
+                <Link href="/zamena-resa/" className="text-gold hover:text-gold-dark underline">skidanja ili zamene resa</Link>,
+                ili kada klijent želi da promeni boju ivica radi usklađivanja sa enterijerom.
+              </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Cena sečenja i opšivanja tepiha</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Cena zavisi od dužine ivice i izbora trake. Tačne cene možete pogledati na stranici{" "}
+                <Link href="/cenovnik/" className="text-gold hover:text-gold-dark underline">Cenovnik</Link>.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mt-8">
                 {[
-                  "/opsivanje-tepiha.jpg",
-                  "/opsivanje-tepiha-2.jpg",
-                ].map((src) => (
+                  { src: "/opsivanje-tepiha.jpg", alt: "Opšivanje tepiha — Tepih servis Andrić" },
+                  { src: "/opsivanje-tepiha-2.jpg", alt: "Proces sečenja i opšivanja ivica tepiha" },
+                ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                     <Image
                       src={src}
-                      alt="Opšivanje tepiha Beograd"
+                      alt={alt}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 50vw, 25vw"

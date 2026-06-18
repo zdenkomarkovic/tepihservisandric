@@ -25,174 +25,154 @@ export const HOME_META: PageMeta = {
 // ─── Service pages ─────────────────────────────────────────────────────────
 export const SERVICE_META: Record<string, PageMeta> = {
   "pranje-tepiha": {
-    title: "Suvo i dubinsko Pranje tepiha Najbolja cena Beograd Vozdovac",
+    title: "Pranje tepiha - Tepih Servis Andrić Beograd",
     description:
-      "Suvo i dubinsko Pranje tepiha Najbolja cena Beograd Vozdovac - Proverite zašto je Tepih Servis Andrić najbolji tepih servis u Beogradu.",
-    h1: "Pranje tepiha Najbolja cena Beograd Vozdovac",
+      "Profesionalno pranje tepiha u Beogradu — mašinsko dubinsko čišćenje, transport i dostava na adresu. Pozovite Tepih servis Andrić za besplatnu procenu.",
+    h1: "Pranje tepiha",
   },
   "masinsko-pranje-tepiha": {
-    title: "Polu suvo mašinsko dubinsko pranje tepiha Najbolja cena Beograd",
+    title: "Mašinsko polusuvo pranje tepiha - Tepih Servis Andrić Beograd",
     description:
-      "Polusuvo i suvo masinsko dubinsko pranje tepiha Povoljna cena Beograd Vozdovac - Potpuno očuvanje kvaliteta tepiha.",
-    h1: "Mašinsko dubinsko pranje tepiha",
-    pageH1: "Polu suvo mašinsko dubinsko pranje tepiha Najbolja cena Beograd",
+      "Polusuvo mašinsko dubinsko pranje tepiha sa šest rotirajućih četki, uz potpuno očuvanje kvaliteta i boje Vašeg tepiha. Pozovite Tepih servis Andrić u Beogradu.",
+    h1: "Mašinsko dubinsko pranje polusuvo",
+    pageH1: "Mašinsko dubinsko pranje tepiha polusuvo u Beogradu",
   },
   "masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom": {
-    title: "Mašinsko pranje tepiha - Čišćenje tepiha Beograd",
+    title: "Pranje tepiha sa ispiranjem centrifugom - Tepih Servis Andrić",
     description:
-      "Masinsko pranje tepiha sa ispiranjem Ciscenje tepiha Beograd - Pranje tepiha u našem tepih servisu se vrsi mašinama koje su poslednje generacije.",
-    h1: "Mašinsko pranje tepiha sa ispiranjem centrifugom",
-    pageH1: "Čišćenje tepiha Beograd",
-  },
-  "dubinsko-pranje-tepiha-beograd": {
-    title: "Dubinsko pranje tepiha Beograd",
-    description:
-      "Dubinsko pranje tepiha Beograd - Proverite zašto je Tepih Servis Andrić najbolji tepih servis u Beogradu.",
-    h1: "Dubinsko pranje tepiha Beograd",
-    pageH1: "Pranje tepiha Beograd",
+      "Mašinsko pranje tepiha sa ispiranjem centrifugom u Beogradu — uklanjamo svaku fleku i prljavštinu, koristeći mašine poslednje generacije. Pozovite Tepih servis Andrić.",
+    h1: "Mašinsko pranje sa ispiranjem centrifugom",
+    pageH1: "Mašinsko pranje tepiha sa ispiranjem centrifugom u Beogradu",
   },
   "dubinsko-polusuvo-ciscenje": {
-    title: "Dubinsko polusuvo ciscenje i pranje tepiha",
+    title: "Dubinsko polusuvo čišćenje tepiha - Tepih Servis Andrić Beograd",
     description:
-      "Dubinsko polusuvo ciscenje i pranje tepiha - Polu suvo pranje tepiha u našem tepih servisu. Pozovite nas za sve informacije.",
-    h1: "Dubinsko polusuvo ciscenje i pranje tepiha",
-    pageH1: "Polu suvo pranje tepiha Beograd",
+      "Dubinsko polusuvo čišćenje velikih tepiha i prostirki na licu mesta u Beogradu, bez potrebe da ih donosite u servis. Pozovite Tepih servis Andrić.",
+    h1: "Dubinsko polusuvo čišćenje",
+    pageH1: "Dubinsko polusuvo čišćenje tepiha na licu mesta",
   },
   "dubinsko-ciscenje-namestaja": {
-    title: "Masinsko dubinsko pranje namestaja Beograd Povoljna cena",
+    title: "Mašinsko dubinsko pranje nameštaja - Tepih Servis Andrić Beograd",
     description:
-      "Masinsko dubinsko pranje namestaja Beograd Povoljna cena - Naše usluge će sigurno ukloniti sve mrlje i mirise koje je Vaš ljubimac ostavio za sobom.",
-    h1: "Masinsko dubinsko pranje namestaja Povoljna cena",
-    pageH1: "Masinsko dubinsko pranje namestaja Beograd",
+      "Mašinsko dubinsko pranje nameštaja u Beogradu — rotacione četke i ekstrakcija uklanjaju alergene i prljavštinu iz dubine tkanine. Pozovite Tepih servis Andrić.",
+    h1: "Mašinsko dubinsko pranje nameštaja",
+    pageH1: "Mašinsko dubinsko pranje nameštaja u Beogradu",
   },
   "ciscenje-mebl-namestaja": {
-    title: "Dubinsko ciscenje i pranje mebl namestaja Pranje mebla",
+    title: "Čišćenje i pranje mebl nameštaja - Tepih Servis Andrić Beograd",
     description:
-      "Dubinsko ciscenje i pranje mebl namestaja  - Da bi Vaš meblirani nameštaj bio potpuno čist, potrebno je više od kućnog usisavanja.",
-    h1: "Dubinsko pranje i ciscenje mebl namestaja",
-    pageH1: "Pranje mebla Tepih servis Andrić Beograd",
+      "Profesionalno čišćenje i dubinsko pranje mebl nameštaja u Beogradu — ekološki proizvodi koji čuvaju boju i kvalitet Vašeg nameštaja. Pozovite Tepih servis Andrić.",
+    h1: "Čišćenje i pranje mebl nameštaja",
+    pageH1: "Čišćenje i pranje mebl nameštaja u Beogradu",
   },
   "ciscenje-tepiha-beograd": {
-    title: "Ciscenje tepiha Beograd - Čišćenje tepiha",
+    title: "Čišćenje tepiha šamponom - Tepih Servis Andrić Beograd",
     description:
-      "Ciscenje tepiha Beograd - Čišćenje tepiha. Proverite zašto je Tepih Servis Andrić najbolji tepih servis u Beogradu.",
-    h1: "Ciscenje tepiha Beograd",
-    pageH1: "Čišćenje tepiha",
+      "Čišćenje tepiha šamponom u Beogradu — nanošenje, utrljavanje i ekstrakcija prljavštine specijalizovanom opremom. Pozovite Tepih servis Andrić.",
+    h1: "Čišćenje tepiha šamponom",
+    pageH1: "Čišćenje tepiha šamponom u Beogradu",
   },
   "ciscenje-itisona": {
-    title: "Ciscenje itisona Beograd Najbolja cena",
+    title: "Čišćenje itisona šamponom - Tepih Servis Andrić Beograd",
     description:
-      "Ciscenje itisona Beograd Najbolja cena - Tepih servis Andrić Vam nudi kompletnu uslugu održavanje itisona - čišćenje, pranje, zamena dotrajalih resa, opšivanje.",
-    h1: "Ciscenje itisona",
+      "Čišćenje itisona šamponom u Beogradu — uklanjamo prašinu, alergene i fleke iz hodnika i stepenica. Pozovite Tepih servis Andrić.",
+    h1: "Čišćenje itisona šamponom",
   },
   "susenje-tepiha": {
-    title: "Pranje i susenje tepiha u komorama Tepih servis Beograd",
+    title: "Sušenje tepiha u komorama - Tepih Servis Andrić Beograd",
     description:
-      "Pranje i susenje tepiha u komorama Tepih servis Andric - Sušenje u specijalnim komorama, gde vladaju visoke temperature uz protok i strujanje vazduha.",
-    h1: "Susenje tepiha u komorama",
-    pageH1: "Sušenje tepiha",
+      "Sušenje tepiha u specijalnim komorama u Beogradu, uz visoke temperature i kontrolisan protok vazduha za potpunu suvoću. Pozovite Tepih servis Andrić.",
+    h1: "Sušenje tepiha",
+    pageH1: "Sušenje tepiha u komorama u Beogradu",
   },
   "tresenje-tepiha": {
-    title: "Masinsko tresenje tepiha Beograd Povoljna cena",
+    title: "Mašinsko trešenje tepiha - Tepih Servis Andrić Beograd",
     description:
-      "Masinsko tresenje tepiha Tepih servis Andric Beograd - Tepih koji kod nas prođe mašinsko trešenje je potpuno čist i spreman za pranje.",
-    h1: "Masinsko tresenje tepiha",
-    pageH1: "Masinsko tresenje tepiha Tepih servis Andric Beograd",
+      "Mašinsko trešenje tepiha u Beogradu uklanja prašinu, pesak i nečistoće pre samog pranja. Pozovite Tepih servis Andrić za procenu.",
+    h1: "Trešenje tepiha",
+    pageH1: "Mašinsko trešenje tepiha u Beogradu",
   },
   "transport-tepiha": {
-    title: "Transport Dostava Isporuka Prevoz tepiha Beograd",
+    title: "Transport i dostava tepiha - Tepih Servis Andrić Beograd",
     description:
-      "Transport i dostava tepiha, isporuka i prevoz tepiha i vraćanje na adresu! Tepih servis Andrić Beograd.",
-    h1: "Transport i dostava tepiha",
-    pageH1: "Isporuka i prevoz tepiha Beograd",
+      "Besplatno preuzimanje i dostava tepiha na adresu u Beogradu — Zona 1 bez ograničenja kvadrature, Zona 2 od 6m². Pozovite Tepih servis Andrić.",
+    h1: "Transport tepiha",
+    pageH1: "Transport i dostava tepiha u Beogradu",
   },
   "opsivanje-tepiha": {
-    title: "Secenje i opsivanje tepiha Najbolja cena Beograd",
+    title: "Sečenje i opšivanje tepiha - Tepih Servis Andrić Beograd",
     description:
-      "Secenje i opsivanje tepiha Povoljna cena - Opšivanje se radi na krajnjim ivicama tepiha kako se on ne bi rasparao.",
-    h1: "Secenje i opsivanje tepiha",
-    pageH1: "Opsivanje tepiha Najpovoljnija cena",
+      "Sečenje i opšivanje tepiha u Beogradu — prilagođavamo dimenzije i štitimo ivice od rasparanja. Pozovite Tepih servis Andrić za procenu.",
+    h1: "Opšivanje tepiha",
+    pageH1: "Sečenje i opšivanje tepiha u Beogradu",
   },
   "opsivanje-etisona": {
-    title: "Opsivanje etisona / itisona Tepih servis",
+    title: "Opšivanje itisona - Tepih Servis Andrić Beograd",
     description:
-      "Opsivanje etisona / itisona Tepih servis Andric Beograd - Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje...",
-    h1: "Opsivanje etisona / itisona",
-    pageH1: "Opsivanje etisona Najpovoljnija cena",
+      "Sečenje i opšivanje itisona po dužnom metru u Beogradu — idealno za hodnike, stepenice i ulaze. Pozovite Tepih servis Andrić za procenu.",
+    h1: "Opšivanje itisona",
+    pageH1: "Opšivanje itisona u Beogradu",
   },
   "zamena-resa": {
-    title: "Zamena resa na tepisima Tepih servis Beograd",
+    title: "Zamena resa na tepihu - Tepih Servis Andrić Beograd",
     description:
-      "Zamena resa Tepih servis Andric - Naš tepih servis Vam nudi rese od više materijala, na Vama je da izaberete.",
+      "Zamena oštećenih resa na tepihu u Beogradu — birate između pamučnih, vunenih i svilenih resa. Pozovite Tepih servis Andrić za procenu.",
     h1: "Zamena resa",
-    pageH1: "Zamena resa na tepisima",
+    pageH1: "Zamena resa na tepihu u Beogradu",
   },
   "pranje-decijih-kolica": {
-    title: "Pranje i čišcenje dečijih kolica Povoljna cena Beograd",
+    title: "Pranje dečijih kolica - Tepih Servis Andrić Beograd",
     description:
-      "Pranje i ciscenje decijah kolica Povoljna cena Tepih servis Beograd - Pružamo usluge profesionalnog čišćenja dečijah kolica.",
-    h1: "Pranje dečijah kolica",
-    pageH1: "Pranje i čišćenje dečijih kolica povoljna cena Beograd",
-  },
-  "pranje-tepiha-najbolja-cena-beograd": {
-    title: "Pranje tepiha Najbolja cena Beograd",
-    description:
-      "Pranje tepiha Povoljna cena Beograd Najbolja cena pranja tepiha po kvadratu - Pozovite nas za pranje tepiha.",
-    h1: "Pranje tepiha Najbolja cena Beograd",
-    pageH1: "Pranje tepiha cena po kvadratu",
-  },
-  "tepih-servis-novi-beograd-najbolje-cene": {
-    title: "Tepih servis Novi Beograd Najbolje cene",
-    description:
-      "Tepih servis Novi Beograd Najbolje cene - Otklanjamo sve alergene, grinje, prašinu i fleke.",
-    h1: "Tepih servis Novi Beograd Najbolje cene",
+      "Profesionalno pranje i dezinfekcija dečijih kolica u Beogradu — kompletno rasklapanje, čišćenje toplom parom i dezinfekcija svakog dela. Pozovite Tepih servis Andrić.",
+    h1: "Pranje dečijih kolica",
+    pageH1: "Pranje dečijih kolica u Beogradu",
   },
 };
 
 // ─── Info / utility pages ──────────────────────────────────────────────────
 export const INFO_META: Record<string, PageMeta> = {
   usluge: {
-    title: "Usluge tepih servisa",
-    description: "Usluge tepih servisa - Pogledajte sve usluge koje nudi tepih servis Andrić.",
-    h1: "Usluge",
+    title: "Usluge tepih servisa Andrić Beograd",
+    description: "Pogledajte kompletnu listu usluga: mašinsko pranje, sušenje, opšivanje, transport i još mnogo toga. Pozovite nas i zakažite termin već danas.",
+    h1: "Usluge tepih servisa u Beogradu",
   },
   "o-nama": {
-    title: "O nama Tepih servis Andrić Beograd",
+    title: "O nama - Tepih Servis Andrić Beograd",
     description:
-      "Tepih servis Andrić Beograd - Jedan od prvih tepih servisa u Beogradu sa velikim iskustvom i dugom tradicijom.",
+      "Tepih servis Andrić je jedan od prvih tepih servisa u Beogradu, sa dugom tradicijom od 1984. godine i velikim iskustvom u dubinskom pranju tepiha i nameštaja.",
     h1: "O nama",
   },
   kontakt: {
-    title: "Kontakt & Lokacije tepih servisa",
-    description: "Kontakt & Lokacije tepih servisa - Kontaktirajte nas za sve informacije.",
+    title: "Kontakt i lokacije - Tepih Servis Andrić Beograd",
+    description: "Pozovite nas ili pogledajte sve lokacije u Beogradu koje pokrivamo. Besplatna dostava i preuzimanje tepiha u Zoni 1.",
     h1: "Kontakt & Lokacije",
   },
   cenovnik: {
-    title: "Cenovnik - Usluge - Tepih Servis Andrić Beograd",
-    description: "Pogledajte cenovnik usluga tepih servisa Andrić.",
-    h1: "Cenovnik",
+    title: "Cenovnik usluga - Tepih Servis Andrić Beograd",
+    description: "Cena pranja tepiha kreće od 480 RSD po kvadratnom metru, u zavisnosti od vrste i veličine tepiha. Pogledajte kompletan cenovnik usluga.",
+    h1: "Cenovnik usluga pranja tepiha",
   },
   galerija: {
-    title: "Foto galerija",
-    description: "Galerija slika - Pogledajte slike naših radova. Tepih servis Andrić Beograd.",
+    title: "Foto galerija - Tepih Servis Andrić Beograd",
+    description: "Pogledajte fotografije naših radova: pranje, sušenje i opšivanje tepiha u Tepih servisu Andrić Beograd.",
     h1: "Foto galerija",
   },
   video: {
-    title: "Video",
+    title: "Video - Tepih Servis Andrić Beograd",
     description:
-      "Pogledajte video zapise i proces pranja tepiha u specijalizovanom tepih servisu Andrić.",
-    h1: "Video",
+      "Pogledajte video zapise procesa pranja tepiha u tepih servisu Andrić u Beogradu.",
+    h1: "Video pranja tepiha u Beogradu",
   },
   "najcesca-pitanja": {
-    title: "Najcesca pitanja za pranje tepiha",
+    title: "Najčešća pitanja o pranju tepiha - Tepih Servis Andrić Beograd",
     description:
-      "Najcesca pitanja za pranje tepiha - Pogledajte odgovore na najčešće postavljana pitanja.",
+      "Pronađite odgovore na najčešća pitanja o ceni, trajanju, dostavi i vrstama tepiha koje peremo.",
     h1: "Najčešća pitanja",
   },
   zaposlenje: {
-    title: "Zaposlenje Tepih servis Andrić Beograd",
+    title: "Zaposlenje - Tepih Servis Andrić Beograd",
     description:
-      "Tepih servis Andrić Beograd - Usled povećanog obima posla zapošljamo nove radnike u Tepih Servisu Andrić.",
+      "Zbog povećanog obima posla, Tepih servis Andrić zapošljava nove radnike u Beogradu. Pogledajte trenutno otvorene pozicije.",
     h1: "Zaposlenje",
   },
 };
@@ -461,7 +441,7 @@ export const LOCATION_SLUGS = Object.keys(LOCATION_META);
 export const BLOG_INDEX_META: PageMeta = {
   title: "Blog Tepih Servis Andrić Beograd",
   description:
-    "Pogledajte poslednje blog priče i informišite se o uslugama tepih servisa, kao i dodatnim uslugama koje nudi tepih servis Andrić.",
+    "Pogledajte najnovije blog objave i informišite se o uslugama tepih servisa, kao i dodatnim uslugama koje nudi tepih servis Andrić.",
   h1: "Blog",
 };
 

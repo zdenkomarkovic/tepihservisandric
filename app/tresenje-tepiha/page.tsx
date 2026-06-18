@@ -70,13 +70,22 @@ export default function TresenjeTepihaPage() {
           <div className="max-w-7xl mx-auto px-4">
             <article className="bg-white rounded-xl p-6 md:p-10 shadow-sm">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Služi za detaljno čišćenje tepiha od različitih vrsta nečistoća, prašine, peska i svih drugih mrva. Ovaj proces vršimo uz pomoć automatizovanih mašina za trešenje tepiha nakon čega je on zaista očišćen i spreman za pranje.
+                Trešenje služi za detaljno čišćenje tepiha od različitih vrsta nečistoća, prašine, peska i
+                svih drugih mrva. Ovaj proces vršimo uz pomoć automatizovanih mašina za trešenje tepiha, nakon
+                čega je tepih zaista očišćen i spreman za pranje.
+              </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Sledeći korak: pranje tepiha</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Nakon trešenja, tepih ide na{" "}
+                <Link href="/masinsko-pranje-tepiha/" className="text-gold hover:text-gold-dark underline">mašinsko dubinsko pranje</Link>,
+                gde se uklanjaju i najsitnije fleke i nečistoće koje trešenje ne može da otkloni.
               </p>
 
               <div className="mt-8 space-y-4">
                 <Image
                   src="/tepih-servis-andric-beograd.jpg"
-                  alt="Mašinsko trešenje tepiha Beograd"
+                  alt="Mašina za trešenje tepiha — Tepih servis Andrić"
                   width={1200}
                   height={800}
                   className="w-full h-auto rounded-xl"
@@ -84,14 +93,14 @@ export default function TresenjeTepihaPage() {
                 />
                 <div className="grid grid-cols-3 gap-4">
                   {[
-                    "/tresenje-tepiha-1.png",
-                    "/tresenje-tepiha-2.png",
-                    "/tresenje-tepiha-3.png",
-                  ].map((src) => (
+                    { src: "/tresenje-tepiha-1.png", alt: "Proces trešenja tepiha u Beogradu" },
+                    { src: "/tresenje-tepiha-2.png", alt: "Uklanjanje prašine trešenjem tepiha" },
+                    { src: "/tresenje-tepiha-3.png", alt: "Tepih nakon trešenja, spreman za pranje" },
+                  ].map(({ src, alt }) => (
                     <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                       <Image
                         src={src}
-                        alt="Mašinsko trešenje tepiha Beograd"
+                        alt={alt}
                         fill
                         className="object-cover"
                         sizes="(max-width: 768px) 33vw, 25vw"

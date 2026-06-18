@@ -47,6 +47,30 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
+      // Konsolidovana stranica — spojena sa /masinsko-pranje-tepiha/
+      {
+        source: "/dubinsko-pranje-tepiha-beograd",
+        destination: "/masinsko-pranje-tepiha",
+        permanent: true,
+      },
+      {
+        source: "/dubinsko-pranje-tepiha-beograd/",
+        destination: "/masinsko-pranje-tepiha/",
+        permanent: true,
+      },
+
+      // Konsolidovana stranica — spojena sa /lokacija/novi-beograd/
+      {
+        source: "/tepih-servis-novi-beograd-najbolje-cene",
+        destination: "/lokacija/novi-beograd",
+        permanent: true,
+      },
+      {
+        source: "/tepih-servis-novi-beograd-najbolje-cene/",
+        destination: "/lokacija/novi-beograd/",
+        permanent: true,
+      },
+
       //Pogrešni putevi ka slikama — nastali usled bad linkova u sadržaju
       {
         source: "/lokacija/slike/instagram.png",

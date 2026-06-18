@@ -70,7 +70,15 @@ export default function SusenjeTepihaPage() {
           <div className="max-w-7xl mx-auto px-4">
             <article className="bg-white rounded-xl p-6 md:p-10 shadow-sm">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Tepih može zarobiti zagađivače u zatvorenom prostoru poput prašine, prljavštine i različitih mirisa. To može dovesti do toga da deca i odrasli pate od povećanog rizika od astme ili alergija. Redovno pranje tepiha može pomoći u prevenciji ovoga, međutim, profesionalne usluge čišćenja tepiha pomoći će da se osigura da tepih ne sadrži prljavštinu ili druge alergene. Pomoću ekološke usluge čišćenja tepiha Tepih Servis Andrić je zadužen da ukloni zagađivače, oslobodi se grinja i sprečava rast plesni, a istovremeno da se brine o životnoj sredini.
+                Tepih može zarobiti zagađivače u zatvorenom prostoru poput prašine, prljavštine i različitih
+                mirisa. To može dovesti do toga da deca i odrasli pate od povećanog rizika od astme ili
+                alergija. Redovno pranje tepiha može pomoći u prevenciji ovoga, međutim, profesionalne usluge
+                čišćenja tepiha pomoći će da se osigura da tepih ne sadrži prljavštinu ili druge alergene.
+                Pomoću ekološke usluge čišćenja, Tepih Servis Andrić uklanja zagađivače, oslobađa tepih od
+                grinja i sprečava rast plesni, a istovremeno se brine o životnoj sredini. Pre sušenja, tepih
+                prolazi kroz{" "}
+                <Link href="/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/" className="text-gold hover:text-gold-dark underline">pranje i ispiranje centrifugom</Link>,
+                čime se uklanja višak vode pre samog sušenja.
               </p>
 
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Pranje i susenje tepiha u komorama</h2>
@@ -84,15 +92,15 @@ export default function SusenjeTepihaPage() {
 
               <div className="grid grid-cols-2 gap-4 mt-8">
                 {[
-                  "/susenje-tepiha-4.png",
-                  "/susenje-tepiha-3.png",
-                  "/susenje-tepiha-2.png",
-                  "/susenje-tepiha-1.png",
-                ].map((src) => (
+                  { src: "/susenje-tepiha-4.png", alt: "Sušenje tepiha u komori — Tepih servis Andrić" },
+                  { src: "/susenje-tepiha-3.png", alt: "Komora za sušenje tepiha u Beogradu" },
+                  { src: "/susenje-tepiha-2.png", alt: "Proces sušenja tepiha vrelim vazduhom" },
+                  { src: "/susenje-tepiha-1.png", alt: "Tepih spreman nakon sušenja u komori" },
+                ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-video rounded-xl overflow-hidden">
                     <Image
                       src={src}
-                      alt="Sušenje tepiha u komorama"
+                      alt={alt}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 50vw, 25vw"

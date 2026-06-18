@@ -46,7 +46,6 @@ const SERVICE_SLUGS = [
   "pranje-tepiha",
   "masinsko-pranje-tepiha",
   "masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom",
-  "dubinsko-pranje-tepiha-beograd",
   "dubinsko-polusuvo-ciscenje",
   "dubinsko-ciscenje-namestaja",
   "ciscenje-mebl-namestaja",
@@ -59,8 +58,6 @@ const SERVICE_SLUGS = [
   "opsivanje-etisona",
   "zamena-resa",
   "pranje-decijah-kolica",
-  "pranje-tepiha-najbolja-cena-beograd",
-  "tepih-servis-novi-beograd-najbolje-cene",
 ];
 
 const INFO_SLUGS = [

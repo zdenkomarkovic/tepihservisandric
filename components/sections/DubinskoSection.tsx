@@ -1,9 +1,17 @@
 import { HeartIcon, ShieldIcon, SparkleIcon } from "@/components/ui/Icons";
 
 const DUBINSKO_CARDS = [
-  { prefix: "Tepih Servis Vozdovac Beograd", label: "Zdravlje na prvom mestu", icon: <HeartIcon /> },
-  { prefix: "Tepih Servis Vozdovac Beograd", label: "Antibakterijska sredstva", icon: <ShieldIcon /> },
-  { prefix: "Tepih Servis Vozdovac Beograd", label: "Higijena na visokom nivou", icon: <SparkleIcon /> },
+  { prefix: "Pranje tepiha za zdrav dom", label: "Zdravlje na prvom mestu", icon: <HeartIcon /> },
+  {
+    prefix: "Tepih servis sa antibakterijskim sredstvima",
+    label: "Antibakterijska sredstva",
+    icon: <ShieldIcon />,
+  },
+  {
+    prefix: "Tepih servis u Beogradu visoke higijene",
+    label: "Higijena na visokom nivou",
+    icon: <SparkleIcon />,
+  },
 ] as const;
 
 export function DubinskoSection() {
@@ -20,7 +28,10 @@ export function DubinskoSection() {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {DUBINSKO_CARDS.map(({ prefix, label, icon }) => (
-            <div key={label} className="flex flex-col items-center gap-4 bg-cream rounded-2xl p-8 text-center">
+            <div
+              key={label}
+              className="flex flex-col items-center gap-4 bg-cream rounded-2xl p-8 text-center"
+            >
               <div className="w-14 h-14 rounded-full bg-navy flex items-center justify-center text-gold shrink-0">
                 {icon}
               </div>

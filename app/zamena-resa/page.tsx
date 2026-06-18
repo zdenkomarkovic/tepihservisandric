@@ -70,13 +70,17 @@ export default function ZamenaResaPage() {
           <div className="max-w-7xl mx-auto px-4">
             <article className="bg-white rounded-xl p-6 md:p-10 shadow-sm">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Ukoliko su vam rese na tepihu oštećene, možemo ih zameniti novim kako bi tepih izgledao punije, novije i bolje. Ukoliko do sad niste imali rese a želeli biste da ih došijemo, možete izabrati čak tri vrste pamučne, vunene ili svilene.
+                Ukoliko su Vam rese na tepihu oštećene ili dotrajale, možemo ih zameniti novim kako bi tepih
+                izgledao punije i novije. Nove rese se postavljaju i iz estetskih razloga, na tepihe gde rese
+                nisu šivene fabrički.
               </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Materijali resa</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Zamena resa ili stavljanje novih resa, na tepih, radi se na tepihu gde su stare rese dotrajale i veoma oštećene. Takođe nove rese se mogu stavljati i iz estetskih razloga na tepihe gde rese nisu šivene fabrički. Naš tepih servis vam nudi rese od vise materijala, kao što su pamučne, vunene i svilene rese.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Tepih servis Andrić pruža uslugu zamena resa na Vašem tepihu. Ako želite da zamenite dotrajale rese na omiljenom tepihu, da osvežite tepih novim resama. U ponudi imamo rese od više materijala, kao sto su pamučne rese, vunene rese, svilene rese, lanene i druge.
+                Naš tepih servis nudi rese od tri vrste materijala: pamučne, vunene i svilene. Birate prema
+                izgledu i materijalu Vašeg tepiha, a tačne cene po vrsti materijala možete pogledati na
+                stranici{" "}
+                <Link href="/cenovnik/" className="text-gold hover:text-gold-dark underline">Cenovnik</Link>.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mt-8">

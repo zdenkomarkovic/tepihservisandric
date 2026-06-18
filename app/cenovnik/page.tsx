@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { INFO_META } from "@/lib/siteData";
 import { SITE_URL } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
@@ -17,14 +18,18 @@ export const metadata: Metadata = {
 
 function PriceTable({
   title,
+  href,
   rows,
 }: {
   title: string;
+  href?: string;
   rows: { label: string; unit?: string; price: string; note?: string }[];
 }) {
   return (
     <div className="mb-10">
-      <h2 className="text-lg font-bold text-white bg-navy px-5 py-3 rounded-t-xl">{title}</h2>
+      <h2 className="text-lg font-bold text-white bg-navy px-5 py-3 rounded-t-xl">
+        {href ? <Link href={href} className="text-white">{title}</Link> : title}
+      </h2>
       <div className="border border-gray-200 rounded-b-xl overflow-hidden">
         {rows.map((row, i) => (
           <div
@@ -71,14 +76,12 @@ export default function CenovnikPage() {
         {/* Page header */}
         <div className="bg-white py-12 md:py-16 border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4">
-            <h1 className="text-3xl md:text-4xl font-bold text-navy mb-6">Cenovnik</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-navy mb-6">Cenovnik usluga pranja tepiha</h1>
             <p className="text-gray-700 text-base leading-relaxed max-w-3xl">
-              Tepih Servis Andrić pruža stručno čišćenje tepiha, dubinsko čišćenje nameštaja,
-              čišćenje i pranje dušeka, hemijsko čišćenje dečijih kolica, opšivanje tepiha i zamena
-              resa. Kao Vaše komšije, razumemo kako cenite svoje dragocenosti i svoj dom. Naša
-              napredna obuka, iskustvo i stručna oprema osiguravaju da se Vaš tepih pere pažljivo i
-              pouzdano. Potpuno sigurno. Profesionalna usluga. Stručnjaci za čišćenje tepiha.
-              Održavajte Vaš dom prema najvišim standardima. Kontaktirajte nas još danas.
+              Verujemo u transparentne cene bez skrivenih troškova. U nastavku pogledajte kompletan
+              cenovnik svih usluga našeg tepih servisa u Beogradu — od pranja tepiha i nameštaja, do
+              opšivanja i zamene resa. Za tačnu procenu na osnovu veličine i vrste Vašeg tepiha,
+              pozovite nas ili nam pošaljite fotografiju.
             </p>
           </div>
         </div>
@@ -88,6 +91,7 @@ export default function CenovnikPage() {
           <div className="max-w-7xl mx-auto px-4">
             <PriceTable
               title="Pranje tepiha"
+              href="/pranje-tepiha/"
               rows={[
                 {
                   label: "Mašinsko dubinsko čišćenje tepiha sa ispiranjem do bistre kapi",
@@ -105,6 +109,7 @@ export default function CenovnikPage() {
 
             <PriceTable
               title="Mašinsko dubinsko čišćenje nameštaja"
+              href="/ciscenje-mebl-namestaja/"
               rows={[
                 { label: "Pranje stolice", unit: "1 kom", price: "300 - 500 RSD" },
                 { label: "Pranje taburea", unit: "1 kom", price: "300 - 600 RSD" },
@@ -132,6 +137,7 @@ export default function CenovnikPage() {
 
             <PriceTable
               title="Hemijsko čišćenje dečijih kolica"
+              href="/pranje-decijah-kolica/"
               rows={[
                 {
                   label: "Hemijsko čišćenje dečijih kolica sa transportom",
@@ -145,6 +151,7 @@ export default function CenovnikPage() {
 
             <PriceTable
               title="Opšivanje tepiha"
+              href="/opsivanje-tepiha/"
               rows={[
                 { label: "Opšivanje tepiha", unit: "Po metru dužnom", price: "320 RSD" },
                 {
@@ -157,6 +164,7 @@ export default function CenovnikPage() {
 
             <PriceTable
               title="Zamena resa ručno čvorovanje"
+              href="/zamena-resa/"
               rows={[
                 {
                   label: "Pamučne",
@@ -178,6 +186,7 @@ export default function CenovnikPage() {
 
             <PriceTable
               title="Zamena resa sa trakom za ojačavanje pri zameni resa"
+              href="/zamena-resa/"
               rows={[
                 { label: "Pamučne", unit: "1 m", price: "1.400 RSD" },
                 { label: "Svilene", unit: "1 m", price: "2.000 RSD" },

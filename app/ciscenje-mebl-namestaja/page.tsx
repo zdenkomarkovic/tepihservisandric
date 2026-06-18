@@ -75,26 +75,36 @@ export default function CiscenjeMeblNamestajaPage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 Korišćenjem visokokvalitetnih, ekološki prihvatljivih proizvoda za pranje nameštaja i naprednih metoda čišćenja možemo Vam pomoći da sačuvate svetao izgled, boju i životni vek Vašeg nameštaja.
               </p>
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Kada je vreme za čišćenje nameštaja</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Naša napredna obuka, iskustvo i stručna oprema osiguravaju da se Vaš posao obavlja pažljivo i pouzdano. Potpuno osiguran. Profesionalna usluga. Stručnjaci za čišćenje tepiha i nameštaja - Tepih servis Andrić.
-                Održavajte svoj dom prema najvišim standardima. Kontaktirajte nas još danas i pozovite nas ukoliko Vam je potrebno dubinsko pranje nameštaja.
+                Tapacirani nameštaj je preporučljivo dubinski očistiti bar jednom godišnje, a češće ako u
+                domaćinstvu imate decu, kućne ljubimce ili alergije na prašinu. Vidljive mrlje, neprijatan
+                miris ili promena boje tkanine siguran su znak da je vreme za profesionalno čišćenje, pre
+                nego što nečistoća dublje prodre u materijal.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Naša napredna obuka, iskustvo i stručna oprema osiguravaju da se Vaš posao obavlja pažljivo,
+                pouzdano i potpuno osigurano, uz profesionalnu uslugu naših stručnjaka za čišćenje tepiha i
+                nameštaja. Održavajte svoj dom prema najvišim standardima — kontaktirajte Tepih servis Andrić
+                već danas ukoliko Vam je potrebno{" "}
+                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold hover:text-gold-dark underline">dubinsko pranje nameštaja</Link>.
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
                 {[
-                  "/ciscenje-mebl-namestaja.jpg",
-                  "/ciscenje-mebl-namestaja-2.jpg",
-                  "/pranje-namestaja-1.png",
-                  "/pranje-namestaja-2.png",
-                  "/pranje-namestaja-3.png",
-                  "/pranje-namestaja-4.png",
-                  "/pranje-namestaja-5.png",
-                  "/pranje-namestaja-6.png",
-                ].map((src) => (
+                  { src: "/ciscenje-mebl-namestaja.jpg", alt: "Čišćenje mebl nameštaja — Tepih servis Andrić" },
+                  { src: "/ciscenje-mebl-namestaja-2.jpg", alt: "Dubinsko pranje nameštaja u Beogradu" },
+                  { src: "/pranje-namestaja-1.png", alt: "Pranje tapaciranog nameštaja" },
+                  { src: "/pranje-namestaja-2.png", alt: "Profesionalno čišćenje nameštaja — Andrić Beograd" },
+                  { src: "/pranje-namestaja-3.png", alt: "Uklanjanje mrlja sa mebl nameštaja" },
+                  { src: "/pranje-namestaja-4.png", alt: "Mašinsko pranje nameštaja u tepih servisu Andrić" },
+                  { src: "/pranje-namestaja-5.png", alt: "Rezultat čišćenja mebl nameštaja" },
+                  { src: "/pranje-namestaja-6.png", alt: "Nega i održavanje tapaciranog nameštaja" },
+                ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                     <Image
                       src={src}
-                      alt="Dubinsko pranje i čišćenje mebl nameštaja Beograd"
+                      alt={alt}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 50vw, 25vw"

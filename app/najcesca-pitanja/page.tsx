@@ -29,6 +29,15 @@ const faqSchema = {
   })),
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: meta.h1, item: `${SITE_URL}/najcesca-pitanja/` },
+  ],
+};
+
 export default function NajcescaPitanjaPage() {
   return (
     <>
@@ -45,7 +54,12 @@ export default function NajcescaPitanjaPage() {
         {/* Hero */}
         <div className="bg-white py-12 md:py-16 border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4">
-            <h1 className="text-3xl md:text-4xl font-bold text-navy mb-6">{meta.h1}</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-navy mb-6">Najčešća pitanja o pranju tepiha</h1>
+            <p className="text-gray-700 text-base leading-relaxed max-w-3xl">
+              Pripremili smo odgovore na pitanja koja nam klijenti najčešće postavljaju o pranju tepiha,
+              nameštaja i dečijih kolica u našem tepih servisu u Beogradu. Ako ne pronađete odgovor koji
+              Vam je potreban, slobodno nas kontaktirajte telefonom ili putem e-maila.
+            </p>
           </div>
         </div>
 
@@ -86,6 +100,7 @@ export default function NajcescaPitanjaPage() {
       </main>
       <Footer />
       <JsonLd data={faqSchema} />
+      <JsonLd data={breadcrumbSchema} />
     </>
   );
 }

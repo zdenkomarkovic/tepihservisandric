@@ -22,93 +22,93 @@ export const metadata: Metadata = {
 const SERVICES = [
   {
     href: "/pranje-tepiha/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Tepih servis Beograd",
     title: "Pranje tepiha",
     desc: "Tepih servis Andrić nudi savremene metode čišćenja tepiha povratiće prvobitni sjaj i boju Vaših tepiha.",
     icon: <WaterIcon />,
   },
   {
     href: "/masinsko-pranje-tepiha/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Mašinsko pranje tepiha",
     title: "Mašinsko dubinsko pranje polusuvo",
     desc: "Ovakav tretman pranja tepiha omogućava i podrazumeva potpuno očuvanje kvaliteta tepiha.",
     icon: <GearIcon />,
   },
   {
     href: "/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Dubinsko pranje tepiha",
     title: "Mašinsko pranje sa ispiranjem centrifugom",
     desc: "Mašinsko pranje tepiha u našem tepih servisu se vrsi mašinama koje su poslednje generacije.",
     icon: <SpinIcon />,
   },
   {
     href: "/susenje-tepiha/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Sušenje tepiha Beograd",
     title: "Sušenje tepiha u komorama",
     desc: "Sušenje u specijalnim komorama, gde vladaju visoke temperature uz protok i strujanje vazduha.",
     icon: <SunIcon />,
   },
   {
     href: "/dubinsko-ciscenje-namestaja/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Tepih servis za nameštaj",
     title: "Mašinsko dubinsko pranje nameštaja",
     desc: "Naše usluge će sigurno ukloniti sve mrlje i mirise koje je Vaš ljubimac ostavio za sobom.",
     icon: <SofaIcon />,
   },
   {
     href: "/opsivanje-tepiha/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Opšivanje tepiha Beograd",
     title: "Opšivanje tepiha",
     desc: "Opšivanje se radi na krajnjim ivicama tepiha kako se on ne bi rasparao ili ukoliko klijent želi promenu boje na ivicama.",
     icon: <NeedleIcon />,
   },
   {
     href: "/opsivanje-etisona/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Opšivanje itisona Beograd",
     title: "Opšivanje itisona",
-    desc: "Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje...",
+    desc: "Opšivanje tepiha klijent može zahtevati iz više razloga: nakon uklanjanja starih resa, promena boje ivica ili skraćivanja itisona.",
     icon: <NeedleIcon />,
   },
   {
     href: "/zamena-resa/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Popravka tepiha",
     title: "Zamena resa",
     desc: "Naš tepih servis Vam nudi rese od više materijala, na Vama je da izaberete.",
     icon: <ScissorsIcon />,
   },
   {
     href: "/pranje-decijah-kolica/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Higijensko pranje kolica",
     title: "Pranje dečijih kolica",
     desc: "Pružamo usluge profesionalnog čišćenja dečijih kolica.",
     icon: <StrollerIcon />,
   },
   {
     href: "/tresenje-tepiha/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Tepih servis trešenje",
     title: "Trešenje tepiha",
     desc: "Tepih koji kod nas prođe mašinsko trešenje je potpuno čist i spreman za pranje.",
     icon: <WindIcon />,
   },
   {
     href: "/transport-tepiha/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Preuzimanje i dostava tepiha",
     title: "Transport tepiha",
     desc: "Transport i dostava, preuzimanje tepiha i vraćanje na adresu!",
     icon: <TruckIcon />,
   },
   {
     href: "/ciscenje-mebl-namestaja/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Dubinsko pranje nameštaja",
     title: "Čišćenje i pranje mebl nameštaja",
     desc: "Da bi Vaš meblirani nameštaj bio potpuno čist, potrebno je više od kućnog usisavanja.",
     icon: <SofaIcon />,
   },
   {
     href: "/dubinsko-polusuvo-ciscenje/",
-    prefix: "Pranje tepiha Beograd",
+    prefix: "Polusuvo čišćenje tepiha",
     title: "Dubinsko polusuvo čišćenje",
-    desc: "Preprati koje koristimo za čiscenje, produžavaju i životni vek trajana tepiha.",
+    desc: "Preparati koje koristimo za čišćenje produžavaju životni vek trajanja tepiha.",
     icon: <DropIcon />,
   },
 ] as const;
@@ -139,17 +139,17 @@ export default function UslugePage() {
         <div className="bg-white py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4">
             <h1 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Usluge tepih servisa
+              Usluge tepih servisa u Beogradu
             </h1>
             <p className="text-gray-700 text-base leading-relaxed mb-4 max-w-3xl">
-              Redovnim čišćenjem koristeći najbolje tehnike i tehnologije, pomažemo Vam da održite
-              izgled Vašeg tepiha i potencijalno produžite vek trajanja tepiha. Bilo da se radi o
-              stalnom održavanju ili godišnjem čišćenju, učinićemo sve da Vaš tepih izgleda što
-              bolje.
+              Tepih servis Andrić u Beogradu nudi kompletnu paletu usluga za negu Vaših tepiha,
+              itisona i nameštaja — od dubinskog mašinskog pranja do sušenja, opšivanja i
+              transporta. Svaku uslugu prilagođavamo vrsti i stanju Vašeg tepiha, kako bi rezultat
+              bio najbolji mogući.
             </p>
             <p className="text-gray-700 text-base leading-relaxed max-w-3xl">
-              Zaštitite svoju investiciju na podu profesionalnim uslugama čišćenja tepiha u Tepih
-              Servisu Andrić.
+              Pogledajte detaljan opis svake usluge u nastavku, ili nas pozovite za besplatnu
+              procenu i zakazivanje termina.
             </p>
           </div>
         </div>

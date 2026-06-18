@@ -92,28 +92,33 @@ export default function PranjeDecijihKolicaPage() {
 
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Prednosti dubinskog pranja dečijih kolica</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Kvalitetno pranje dečijih kolica ne samo da pruža čistoću, već i značajno produžava njihov vek trajanja. Čistom i dezinfikovanom kolicom pružate vašoj bebi sigurno i higijensko okruženje, bez bakterija i alergena. Redovno čišćenje kolica doprinosi i očuvanju materijala, kao i lakšoj održivosti, jer sprečava nagomilavanje prljavštine i habanje.
+                Kvalitetno pranje dečijih kolica ne samo da pruža čistoću, već i značajno produžava njihov vek
+                trajanja. Čistom i dezinfikovanom kolicom pružate Vašoj bebi sigurno i higijensko okruženje,
+                bez bakterija i alergena. Redovno čišćenje kolica doprinosi i očuvanju materijala, kao i lakšoj
+                održivosti, jer sprečava nagomilavanje prljavštine i habanje. Tačnu cenu možete pogledati na
+                stranici{" "}
+                <Link href="/cenovnik/" className="text-gold hover:text-gold-dark underline">Cenovnik</Link>.
               </p>
 
               <div className="grid grid-cols-3 gap-4 mt-8">
                 {[
-                  "/ciscenje-decijih-kolica-1s.jpg",
-                  "/ciscenje-decijih-kolica-2s.jpg",
-                  "/ciscenje-decijih-kolica-3s.jpg",
-                  "/ciscenje-decijih-kolica-4s.jpg",
-                  "/ciscenje-decijih-kolica-5s.jpg",
-                  "/ciscenje-decijih-kolica-6s.jpg",
-                  "/ciscenje-decijih-kolica-7s.jpg",
-                  "/ciscenje-decijih-kolica-8s.jpg",
-                  "/ciscenje-decijih-kolica-9s.jpg",
-                  "/pranje-kolica-1.png",
-                  "/pranje-kolica-2.png",
-                  "/pranje-kolica-3.png",
-                ].map((src) => (
+                  { src: "/ciscenje-decijih-kolica-1s.jpg", alt: "Pranje dečijih kolica — Tepih servis Andrić" },
+                  { src: "/ciscenje-decijih-kolica-2s.jpg", alt: "Dezinfekcija dečijih kolica u Beogradu" },
+                  { src: "/ciscenje-decijih-kolica-3s.jpg", alt: "Rasklapanje kolica pre čišćenja" },
+                  { src: "/ciscenje-decijih-kolica-4s.jpg", alt: "Čišćenje dela kolica sredstvom za bebe" },
+                  { src: "/ciscenje-decijih-kolica-5s.jpg", alt: "Dezinfekcija toplotnom parom" },
+                  { src: "/ciscenje-decijih-kolica-6s.jpg", alt: "Ispiranje i omekšavanje materijala kolica" },
+                  { src: "/ciscenje-decijih-kolica-7s.jpg", alt: "Dubinsko usisavanje dečijih kolica" },
+                  { src: "/ciscenje-decijih-kolica-8s.jpg", alt: "Sušenje dečijih kolica" },
+                  { src: "/ciscenje-decijih-kolica-9s.jpg", alt: "Sklapanje očišćenih kolica" },
+                  { src: "/pranje-kolica-1.png", alt: "Pakovanje kolica streč folijom" },
+                  { src: "/pranje-kolica-2.png", alt: "Rezultat pranja dečijih kolica" },
+                  { src: "/pranje-kolica-3.png", alt: "Dečija kolica spremna za isporuku" },
+                ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                     <Image
                       src={src}
-                      alt="Pranje dečijih kolica Beograd"
+                      alt={alt}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 33vw, 25vw"

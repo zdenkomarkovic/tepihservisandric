@@ -70,7 +70,7 @@ export default function MasinskoDubinskoPranjeIspiranjemCentrifugomPage() {
           <div className="max-w-7xl mx-auto px-4">
             <article className="bg-white rounded-xl p-6 md:p-10 shadow-sm">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Mašinsko pranje i čišćenje tepiha: Ovakav način dubinskog pranja takođe se odvija automatizovanim pametnim mašinama koje istovremenim korišćenjem 5 četki prelaze preko tepiha otklanjajući svaku fleku i najsitniju prljavštinu i dezinfikuju ga. Koristi se samo neophodna količina hemijskih sredstava u zavisnosti od vrste i veličine Vašeg tepiha. Dodatna opcija je centrifuga koja će iz Vašeg tepiha izvući svu vlagu.
+                Ovakav način dubinskog pranja odvija se automatizovanim pametnim mašinama koje istovremenim korišćenjem 5 četki prelaze preko tepiha otklanjajući svaku fleku i najsitniju prljavštinu i dezinfikuju ga. Koristi se samo neophodna količina hemijskih sredstava u zavisnosti od vrste i veličine Vašeg tepiha. Dodatna opcija je centrifuga koja će iz Vašeg tepiha izvući svu vlagu.
               </p>
 
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Dubinsko čišćenje tepiha</h2>
@@ -80,10 +80,11 @@ export default function MasinskoDubinskoPranjeIspiranjemCentrifugomPage() {
 
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Ispiranje tepiha centrifugom</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Nakon što se tepih temeljno opere, sledeći korak u procesu je ispiranje i uklanjanje suvišne vode. Centrifuga igra ključnu ulogu u ovoj fazi. Ova moćna mašina izvlači vlagu iz tepiha, ostavljajući ga gotovo suvog, što značajno ubrzava proces sušenja. Ispiranje tepiha centrifugom ne samo da uklanja preostalu vodu, već i sve ostatke deterdženata, osiguravajući da tepih bude potpuno čist i osvežen. Ova tehnika čini da tepih zadrži svoj prvobitni izgled i elastičnost, a uz to sprečava stvaranje neprijatnih mirisa koji se mogu javiti usled dužeg zadržavanja vlage.
+                Nakon što se tepih temeljno opere, sledeći korak u procesu je ispiranje i uklanjanje suvišne vode. Centrifuga igra ključnu ulogu u ovoj fazi. Ova moćna mašina izvlači vlagu iz tepiha, ostavljajući ga gotovo suvog, što značajno ubrzava proces sušenja. Ispiranje tepiha centrifugom ne samo da uklanja preostalu vodu, već i sve ostatke deterdženata, osiguravajući da tepih bude potpuno čist i osvežen. Ova tehnika čini da tepih zadrži svoj prvobitni izgled i elastičnost, a uz to sprečava stvaranje neprijatnih mirisa koji se mogu javiti usled dužeg zadržavanja vlage. Nakon centrifugiranja, tepih dodatno prolazi kroz{" "}
+                <Link href="/susenje-tepiha/" className="text-gold hover:text-gold-dark underline">sušenje u specijalnim komorama</Link>.
               </p>
 
-              <p className="text-gray-500 text-sm mt-8">Mašinsko pranje tepiha</p>
+              <h3 className="text-lg font-bold text-navy mt-8 mb-2">Mašinsko pranje tepiha — fotografija</h3>
 
               <div className="relative w-full aspect-video rounded-xl overflow-hidden max-w-3xl mt-8">
                 <Image
