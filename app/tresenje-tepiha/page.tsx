@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: meta.description,
     url: `${SITE_URL}/tresenje-tepiha/`,
     images: [
-      { url: `${SITE_URL}/tepih-servis-andric-beograd.jpg`, width: 640, height: 480, alt: meta.h1 },
+      { url: `${SITE_URL}/tepih-servis-andric-beograd.webp`, width: 640, height: 480, alt: meta.h1 },
     ],
   },
 };
@@ -86,7 +86,7 @@ export default function TresenjeTepihaPage() {
 
               <div className="mt-8 space-y-4">
                 <Image
-                  src="/tepih-servis-andric-beograd.jpg"
+                  src="/tepih-servis-andric-beograd.webp"
                   alt="Mašina za trešenje tepiha — Tepih servis Andrić"
                   width={1200}
                   height={800}
@@ -96,8 +96,8 @@ export default function TresenjeTepihaPage() {
                 <div className="grid grid-cols-3 gap-4">
                   {[
                     { src: "/tresenje-tepiha-1.jpg", alt: "Proces trešenja tepiha u Beogradu" },
-                    { src: "/tresenje-tepiha-2.jpg", alt: "Uklanjanje prašine trešenjem tepiha" },
-                    { src: "/tresenje-tepiha-3.jpg", alt: "Tepih nakon trešenja, spreman za pranje" },
+                    { src: "/tresenje-tepiha-2.webp", alt: "Uklanjanje prašine trešenjem tepiha" },
+                    { src: "/tresenje-tepiha-3.webp", alt: "Tepih nakon trešenja, spreman za pranje" },
                   ].map(({ src, alt }) => (
                     <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                       <Image

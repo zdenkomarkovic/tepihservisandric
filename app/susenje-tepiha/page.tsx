@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: meta.description,
     url: `${SITE_URL}/susenje-tepiha/`,
     images: [
-      { url: `${SITE_URL}/susenje-tepiha-4.jpg`, width: 640, height: 480, alt: meta.h1 },
+      { url: `${SITE_URL}/susenje-tepiha-4.webp`, width: 640, height: 480, alt: meta.h1 },
     ],
   },
 };
@@ -94,10 +94,10 @@ export default function SusenjeTepihaPage() {
 
               <div className="grid grid-cols-2 gap-4 mt-8">
                 {[
-                  { src: "/susenje-tepiha-4.jpg", alt: "Sušenje tepiha u komori — Tepih servis Andrić" },
-                  { src: "/susenje-tepiha-3.jpg", alt: "Komora za sušenje tepiha u Beogradu" },
-                  { src: "/susenje-tepiha-2.jpg", alt: "Proces sušenja tepiha vrelim vazduhom" },
-                  { src: "/susenje-tepiha-1.jpg", alt: "Tepih spreman nakon sušenja u komori" },
+                  { src: "/susenje-tepiha-4.webp", alt: "Sušenje tepiha u komori — Tepih servis Andrić" },
+                  { src: "/susenje-tepiha-3.webp", alt: "Komora za sušenje tepiha u Beogradu" },
+                  { src: "/susenje-tepiha-2.webp", alt: "Proces sušenja tepiha vrelim vazduhom" },
+                  { src: "/susenje-tepiha-1.webp", alt: "Tepih spreman nakon sušenja u komori" },
                 ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-video rounded-xl overflow-hidden">
                     <Image

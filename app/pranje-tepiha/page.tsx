@@ -122,11 +122,11 @@ export default function PranjeTepihaPage() {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
                 {[
                   { src: "/pranje-tepiha-4 (2).jpg", alt: "Mašinsko pranje tepiha u Beogradu" },
-                  { src: "/pranje-tepiha-5 (1).jpg", alt: "Dubinsko čišćenje tepiha — tepih servis Andrić" },
-                  { src: "/pranje-tepiha-6 (1).jpg", alt: "Proces pranja tepiha rotacionim četkama" },
-                  { src: "/pranje-tepiha-1 (1).jpg", alt: "Rezultat pranja tepiha — tepih servis Andrić" },
-                  { src: "/pranje-tepiha-2 (1).jpg", alt: "Pranje tepiha mašinama poslednje generacije" },
-                  { src: "/pranje-tepiha-3 (1).jpg", alt: "Profesionalno opran tepih — Andrić Beograd" },
+                  { src: "/pranje-tepiha-5 (1).webp", alt: "Dubinsko čišćenje tepiha — tepih servis Andrić" },
+                  { src: "/pranje-tepiha-6 (1).webp", alt: "Proces pranja tepiha rotacionim četkama" },
+                  { src: "/pranje-tepiha-1 (1).webp", alt: "Rezultat pranja tepiha — tepih servis Andrić" },
+                  { src: "/pranje-tepiha-2 (1).webp", alt: "Pranje tepiha mašinama poslednje generacije" },
+                  { src: "/pranje-tepiha-3 (1).webp", alt: "Profesionalno opran tepih — Andrić Beograd" },
                 ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-video rounded-xl overflow-hidden">
                     <Image

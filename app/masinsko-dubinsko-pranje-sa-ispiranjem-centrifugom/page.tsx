@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: meta.description,
     url: `${SITE_URL}/masinsko-dubinsko-pranje-sa-ispiranjem-centrifugom/`,
     images: [
-      { url: `${SITE_URL}/masinsko-pranje-tepiha.jpg`, width: 640, height: 480, alt: meta.h1 },
+      { url: `${SITE_URL}/masinsko-pranje-tepiha.webp`, width: 640, height: 480, alt: meta.h1 },
     ],
   },
 };
@@ -90,7 +90,7 @@ export default function MasinskoDubinskoPranjeIspiranjemCentrifugomPage() {
 
               <div className="relative w-full aspect-video rounded-xl overflow-hidden max-w-3xl mt-8">
                 <Image
-                  src="/masinsko-pranje-tepiha.jpg"
+                  src="/masinsko-pranje-tepiha.webp"
                   alt={meta.h1}
                   fill
                   className="object-cover"

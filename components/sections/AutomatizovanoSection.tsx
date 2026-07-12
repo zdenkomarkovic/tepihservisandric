@@ -43,7 +43,7 @@ export function AutomatizovanoSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/masine-za-pranje-tepiha.jpg"
+              src="/masine-za-pranje-tepiha.webp"
               alt="Mašine za pranje tepiha — Tepih Servis Andrić Beograd"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

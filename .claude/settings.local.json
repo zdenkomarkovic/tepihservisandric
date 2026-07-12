@@ -18,7 +18,11 @@
       "Bash(xargs grep -l \"next/image\")",
       "Bash(rm scripts/convert-png-to-jpg.js)",
       "Bash(rmdir scripts *)",
-      "WebFetch(domain:www.googleapis.com)"
+      "WebFetch(domain:www.googleapis.com)",
+      "Bash(git ls-tree *)",
+      "Bash(node -e ' *)",
+      "Read(//tmp/**)",
+      "Bash(rm -f scripts/convert-jpg-to-webp.js scripts/reconcile-image-refs.js scripts/revert-list.json)"
     ]
   }
 }

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const SLIDES = [
   {
-    src: "/hero1.jpg",
+    src: "/hero1.webp",
     alt: "Mašine za pranje tepiha — Tepih Servis Andrić",
     position: "center 20%",
   },

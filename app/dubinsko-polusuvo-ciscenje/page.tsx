@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: meta.description,
     url: `${SITE_URL}/dubinsko-polusuvo-ciscenje/`,
     images: [
-      { url: `${SITE_URL}/dubinsko-polusuvo-ciscenje-1.jpg`, width: 640, height: 480, alt: meta.h1 },
+      { url: `${SITE_URL}/dubinsko-polusuvo-ciscenje-1.webp`, width: 640, height: 480, alt: meta.h1 },
     ],
   },
 };
@@ -98,8 +98,8 @@ export default function DubinskoPolusuvoPage() {
               <div className="mt-8 space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                   {[
-                    { src: "/dubinsko-polusuvo-ciscenje-1.jpg", alt: "Dubinsko polusuvo čišćenje na licu mesta" },
-                    { src: "/dubinsko-polusuvo-ciscenje-2.jpg", alt: "Čišćenje velike podne prostirke u Beogradu" },
+                    { src: "/dubinsko-polusuvo-ciscenje-1.webp", alt: "Dubinsko polusuvo čišćenje na licu mesta" },
+                    { src: "/dubinsko-polusuvo-ciscenje-2.webp", alt: "Čišćenje velike podne prostirke u Beogradu" },
                   ].map(({ src, alt }) => (
                     <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                       <Image

@@ -105,17 +105,17 @@ export default function PranjeDecijihKolicaPage() {
               <div className="grid grid-cols-3 gap-4 mt-8">
                 {[
                   { src: "/ciscenje-decijih-kolica-1s.jpg", alt: "Pranje dečijih kolica — Tepih servis Andrić" },
-                  { src: "/ciscenje-decijih-kolica-2s.jpg", alt: "Dezinfekcija dečijih kolica u Beogradu" },
-                  { src: "/ciscenje-decijih-kolica-3s.jpg", alt: "Rasklapanje kolica pre čišćenja" },
-                  { src: "/ciscenje-decijih-kolica-4s.jpg", alt: "Čišćenje dela kolica sredstvom za bebe" },
-                  { src: "/ciscenje-decijih-kolica-5s.jpg", alt: "Dezinfekcija toplotnom parom" },
-                  { src: "/ciscenje-decijih-kolica-6s.jpg", alt: "Ispiranje i omekšavanje materijala kolica" },
-                  { src: "/ciscenje-decijih-kolica-7s.jpg", alt: "Dubinsko usisavanje dečijih kolica" },
-                  { src: "/ciscenje-decijih-kolica-8s.jpg", alt: "Sušenje dečijih kolica" },
-                  { src: "/ciscenje-decijih-kolica-9s.jpg", alt: "Sklapanje očišćenih kolica" },
-                  { src: "/pranje-kolica-1.jpg", alt: "Pakovanje kolica streč folijom" },
-                  { src: "/pranje-kolica-2.jpg", alt: "Rezultat pranja dečijih kolica" },
-                  { src: "/pranje-kolica-3.jpg", alt: "Dečija kolica spremna za isporuku" },
+                  { src: "/ciscenje-decijih-kolica-2s.webp", alt: "Dezinfekcija dečijih kolica u Beogradu" },
+                  { src: "/ciscenje-decijih-kolica-3s.webp", alt: "Rasklapanje kolica pre čišćenja" },
+                  { src: "/ciscenje-decijih-kolica-4s.webp", alt: "Čišćenje dela kolica sredstvom za bebe" },
+                  { src: "/ciscenje-decijih-kolica-5s.webp", alt: "Dezinfekcija toplotnom parom" },
+                  { src: "/ciscenje-decijih-kolica-6s.webp", alt: "Ispiranje i omekšavanje materijala kolica" },
+                  { src: "/ciscenje-decijih-kolica-7s.webp", alt: "Dubinsko usisavanje dečijih kolica" },
+                  { src: "/ciscenje-decijih-kolica-8s.webp", alt: "Sušenje dečijih kolica" },
+                  { src: "/ciscenje-decijih-kolica-9s.webp", alt: "Sklapanje očišćenih kolica" },
+                  { src: "/pranje-kolica-1.webp", alt: "Pakovanje kolica streč folijom" },
+                  { src: "/pranje-kolica-2.webp", alt: "Rezultat pranja dečijih kolica" },
+                  { src: "/pranje-kolica-3.webp", alt: "Dečija kolica spremna za isporuku" },
                 ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                     <Image

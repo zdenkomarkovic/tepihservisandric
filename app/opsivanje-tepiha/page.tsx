@@ -94,7 +94,7 @@ export default function OpsivanjeTepihaPage() {
               <div className="grid grid-cols-2 gap-4 mt-8">
                 {[
                   { src: "/opsivanje-tepiha.jpg", alt: "Opšivanje tepiha — Tepih servis Andrić" },
-                  { src: "/opsivanje-tepiha-2.jpg", alt: "Proces sečenja i opšivanja ivica tepiha" },
+                  { src: "/opsivanje-tepiha-2.webp", alt: "Proces sečenja i opšivanja ivica tepiha" },
                 ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                     <Image

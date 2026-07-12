@@ -6,7 +6,7 @@ export function VideoBannerSection() {
   return (
     <section className="relative w-full h-64 md:h-80 overflow-hidden">
       <Image
-        src="/pozadina2024.jpg"
+        src="/pozadina2024.webp"
         alt="Video pranja tepiha - Tepih Servis Andrić Beograd"
         fill
         className="object-cover opacity-40"

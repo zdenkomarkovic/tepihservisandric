@@ -88,7 +88,7 @@ export default function ZamenaResaPage() {
               <div className="grid grid-cols-2 gap-4 mt-8">
                 {[
                   "/zamena-resa-pre.jpg",
-                  "/zamena-resa-posle.jpg",
+                  "/zamena-resa-posle.webp",
                 ].map((src) => (
                   <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                     <Image

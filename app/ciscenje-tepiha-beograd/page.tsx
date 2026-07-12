@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: meta.description,
     url: `${SITE_URL}/ciscenje-tepiha-beograd/`,
     images: [
-      { url: `${SITE_URL}/tepih-servis-andric-03s (3).jpg`, width: 640, height: 480, alt: meta.h1 },
+      { url: `${SITE_URL}/tepih-servis-andric-03s (3).webp`, width: 640, height: 480, alt: meta.h1 },
     ],
   },
 };
@@ -92,7 +92,7 @@ export default function CistenjeTepihaBeogradPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="relative aspect-video rounded-xl overflow-hidden">
                 <Image
-                  src="/tepih-servis-andric-03s (3).jpg"
+                  src="/tepih-servis-andric-03s (3).webp"
                   alt="Čišćenje tepiha šamponom — Tepih servis Andrić"
                   fill
                   className="object-cover"
@@ -101,7 +101,7 @@ export default function CistenjeTepihaBeogradPage() {
               </div>
               <div className="relative aspect-video rounded-xl overflow-hidden">
                 <Image
-                  src="/tepih-servis-andric-02s.jpg"
+                  src="/tepih-servis-andric-02s.webp"
                   alt="Proces čišćenja tepiha u Beogradu"
                   fill
                   className="object-cover"

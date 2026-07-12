@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: meta.description,
     url: `${SITE_URL}/transport-tepiha/`,
     images: [
-      { url: `${SITE_URL}/transport-i-dostava-tepiha-beograd-01.jpg`, width: 640, height: 480, alt: meta.h1 },
+      { url: `${SITE_URL}/transport-i-dostava-tepiha-beograd-01.webp`, width: 640, height: 480, alt: meta.h1 },
     ],
   },
 };
@@ -95,13 +95,13 @@ export default function TransportTepihaPage() {
 
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
                 {[
-                  { src: "/transport-i-dostava-tepiha-beograd-01.jpg", alt: "Transport tepiha — Tepih servis Andrić" },
-                  { src: "/transport-i-dostava-tepiha-beograd-02f.jpg", alt: "Preuzimanje tepiha sa adrese u Beogradu" },
-                  { src: "/transport-i-dostava-tepiha-beograd-03f.jpg", alt: "Dostavno vozilo tepih servisa Andrić" },
-                  { src: "/transport-i-dostava-tepiha-beograd-04f.jpg", alt: "Utovar tepiha za transport" },
-                  { src: "/transport-i-dostava-tepiha-beograd-05f.jpg", alt: "Bezbedan transport tepiha" },
-                  { src: "/transport-i-dostava-tepiha-beograd-06f.jpg", alt: "Dostava opranog tepiha na adresu" },
-                  { src: "/transport-i-dostava-tepiha-beograd-07f.jpg", alt: "Tepih servis Andrić — vozni park" },
+                  { src: "/transport-i-dostava-tepiha-beograd-01.webp", alt: "Transport tepiha — Tepih servis Andrić" },
+                  { src: "/transport-i-dostava-tepiha-beograd-02f.webp", alt: "Preuzimanje tepiha sa adrese u Beogradu" },
+                  { src: "/transport-i-dostava-tepiha-beograd-03f.webp", alt: "Dostavno vozilo tepih servisa Andrić" },
+                  { src: "/transport-i-dostava-tepiha-beograd-04f.webp", alt: "Utovar tepiha za transport" },
+                  { src: "/transport-i-dostava-tepiha-beograd-05f.webp", alt: "Bezbedan transport tepiha" },
+                  { src: "/transport-i-dostava-tepiha-beograd-06f.webp", alt: "Dostava opranog tepiha na adresu" },
+                  { src: "/transport-i-dostava-tepiha-beograd-07f.webp", alt: "Tepih servis Andrić — vozni park" },
                 ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-video rounded-xl overflow-hidden">
                     <Image

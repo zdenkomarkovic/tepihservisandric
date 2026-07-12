@@ -33,10 +33,10 @@ const breadcrumbSchema = {
 };
 
 const CARD_IMAGES = [
-  "/pranje-tepiha.jpg",
-  "/masine-za-pranje-tepiha.jpg",
-  "/tepih-servis-2024.jpg",
-  "/pranje-tepiha-1.jpg",
+  "/pranje-tepiha.webp",
+  "/masine-za-pranje-tepiha.webp",
+  "/tepih-servis-2024.webp",
+  "/pranje-tepiha-1.webp",
   "/pranje-tepiha-2.jpg",
   "/pranje-tepiha-3.jpg",
 ];

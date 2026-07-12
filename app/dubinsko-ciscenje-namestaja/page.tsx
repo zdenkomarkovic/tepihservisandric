@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: meta.description,
     url: `${SITE_URL}/dubinsko-ciscenje-namestaja/`,
     images: [
-      { url: `${SITE_URL}/masinsko-dubinsko-pranje-namestaja-1.jpg`, width: 640, height: 480, alt: meta.h1 },
+      { url: `${SITE_URL}/masinsko-dubinsko-pranje-namestaja-1.webp`, width: 640, height: 480, alt: meta.h1 },
     ],
   },
 };
@@ -103,10 +103,10 @@ export default function DubinskoCistenjeNamestajaPage() {
 
               <div className="grid grid-cols-2 gap-4 mt-8">
                 {[
-                  "/masinsko-dubinsko-pranje-namestaja-1.jpg",
-                  "/masinsko-dubinsko-pranje-namestaja-2.jpg",
-                  "/masinsko-dubinsko-pranje-namestaja-3.jpg",
-                  "/masinsko-dubinsko-pranje-namestaja-4.jpg",
+                  "/masinsko-dubinsko-pranje-namestaja-1.webp",
+                  "/masinsko-dubinsko-pranje-namestaja-2.webp",
+                  "/masinsko-dubinsko-pranje-namestaja-3.webp",
+                  "/masinsko-dubinsko-pranje-namestaja-4.webp",
                 ].map((src) => (
                   <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                     <Image

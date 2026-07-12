@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: meta.description,
     url: `${SITE_URL}/ciscenje-itisona/`,
     images: [
-      { url: `${SITE_URL}/tepih-servis-andric-10s.jpg`, width: 640, height: 480, alt: meta.h1 },
+      { url: `${SITE_URL}/tepih-servis-andric-10s.webp`, width: 640, height: 480, alt: meta.h1 },
     ],
   },
 };
@@ -97,7 +97,7 @@ export default function CistenjeItisonaPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="relative aspect-video rounded-xl overflow-hidden">
                 <Image
-                  src="/tepih-servis-andric-10s.jpg"
+                  src="/tepih-servis-andric-10s.webp"
                   alt="Čišćenje itisona šamponom — Tepih servis Andrić"
                   fill
                   className="object-cover"
@@ -115,7 +115,7 @@ export default function CistenjeItisonaPage() {
               </div>
               <div className="relative aspect-video rounded-xl overflow-hidden">
                 <Image
-                  src="/tepih-servis-andric-8.jpg"
+                  src="/tepih-servis-andric-8.webp"
                   alt="Rezultat čišćenja itisona"
                   fill
                   className="object-cover"
