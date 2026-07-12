@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const SLIDES = [
   {
-    src: "/hero1.png",
+    src: "/hero1.jpg",
     alt: "Mašine za pranje tepiha — Tepih Servis Andrić",
     position: "center 20%",
   },
@@ -15,7 +15,7 @@ const SLIDES = [
     position: "center 40%",
   },
   {
-    src: "/hero2.png",
+    src: "/hero2.jpg",
     alt: "Profesionalni tepih servis Beograd",
     position: "center 100%",
   },
@@ -51,6 +51,7 @@ export function HeroSlider() {
               fill
               priority={i === 0}
               sizes="100vw"
+              quality={65}
               className="object-cover"
               style={{
                 objectPosition: slide.position,

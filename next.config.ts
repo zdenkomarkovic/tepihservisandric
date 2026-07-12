@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
 
   // Optimizacija slika - dodaj domene po potrebi
   images: {
+    // Default je 60s — bez ovoga se svaka slika re-optimizuje na edge-u
+    // gotovo pri svakom zahtevu, što nepotrebno troši Vercel Image Optimization kvotu.
+    minimumCacheTTL: 2678400, // 31 dan
     remotePatterns: [
       // Primer:
       // {

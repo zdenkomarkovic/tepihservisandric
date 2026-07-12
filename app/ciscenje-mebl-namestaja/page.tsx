@@ -96,12 +96,12 @@ export default function CiscenjeMeblNamestajaPage() {
                 {[
                   { src: "/ciscenje-mebl-namestaja.jpg", alt: "Čišćenje mebl nameštaja — Tepih servis Andrić" },
                   { src: "/ciscenje-mebl-namestaja-2.jpg", alt: "Dubinsko pranje nameštaja u Beogradu" },
-                  { src: "/pranje-namestaja-1.png", alt: "Pranje tapaciranog nameštaja" },
-                  { src: "/pranje-namestaja-2.png", alt: "Profesionalno čišćenje nameštaja — Andrić Beograd" },
-                  { src: "/pranje-namestaja-3.png", alt: "Uklanjanje mrlja sa mebl nameštaja" },
-                  { src: "/pranje-namestaja-4.png", alt: "Mašinsko pranje nameštaja u tepih servisu Andrić" },
-                  { src: "/pranje-namestaja-5.png", alt: "Rezultat čišćenja mebl nameštaja" },
-                  { src: "/pranje-namestaja-6.png", alt: "Nega i održavanje tapaciranog nameštaja" },
+                  { src: "/pranje-namestaja-1.jpg", alt: "Pranje tapaciranog nameštaja" },
+                  { src: "/pranje-namestaja-2.jpg", alt: "Profesionalno čišćenje nameštaja — Andrić Beograd" },
+                  { src: "/pranje-namestaja-3.jpg", alt: "Uklanjanje mrlja sa mebl nameštaja" },
+                  { src: "/pranje-namestaja-4.jpg", alt: "Mašinsko pranje nameštaja u tepih servisu Andrić" },
+                  { src: "/pranje-namestaja-5.jpg", alt: "Rezultat čišćenja mebl nameštaja" },
+                  { src: "/pranje-namestaja-6.jpg", alt: "Nega i održavanje tapaciranog nameštaja" },
                 ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                     <Image

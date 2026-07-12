@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { INFO_META } from "@/lib/siteData";
 import { SITE_URL, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
@@ -8,19 +9,32 @@ import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { JsonLd } from "@/components/seo/JsonLd";
 
 const meta = INFO_META["galerija"]!;
+const PAGE_SIZE = 12;
 
-export const metadata: Metadata = {
-  title: meta.title,
-  description: meta.description,
-  alternates: { canonical: `${SITE_URL}/galerija/` },
-  openGraph: {
-    type: "website",
+interface Props {
+  searchParams: Promise<{ page?: string }>;
+}
+
+export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
+  const { page: pageParam } = await searchParams;
+  const page = Math.max(1, Number(pageParam) || 1);
+  const canonical = page > 1 ? `${SITE_URL}/galerija/?page=${page}` : `${SITE_URL}/galerija/`;
+
+  return {
     title: meta.title,
     description: meta.description,
-    url: `${SITE_URL}/galerija/`,
-    images: [OG_IMAGE_DEFAULT],
-  },
-};
+    alternates: { canonical },
+    // Stranice 2+ ne treba indeksirati (duplirani sadržaj), ali link equity ide dalje.
+    ...(page > 1 && { robots: { index: false, follow: true } }),
+    openGraph: {
+      type: "website",
+      title: meta.title,
+      description: meta.description,
+      url: `${SITE_URL}/galerija/`,
+      images: [OG_IMAGE_DEFAULT],
+    },
+  };
+}
 
 const IMAGES = [
   { src: "/masine-za-pranje-tepiha.jpg",              alt: "Mašine za pranje tepiha — Tepih Servis Andrić" },
@@ -87,7 +101,13 @@ const breadcrumbSchema = {
   ],
 };
 
-export default function GalerijaPage() {
+export default async function GalerijaPage({ searchParams }: Props) {
+  const { page: pageParam } = await searchParams;
+  const totalPages = Math.ceil(IMAGES.length / PAGE_SIZE);
+  const page = Math.min(Math.max(1, Number(pageParam) || 1), totalPages);
+  const start = (page - 1) * PAGE_SIZE;
+  const pageImages = IMAGES.slice(start, start + PAGE_SIZE);
+
   return (
     <>
       <Header />
@@ -120,7 +140,7 @@ export default function GalerijaPage() {
         <div className="bg-cream py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-              {IMAGES.map((img) => (
+              {pageImages.map((img) => (
                 <div key={img.src} className="relative aspect-square rounded-xl overflow-hidden shadow-sm">
                   <Image
                     src={img.src}
@@ -132,6 +152,49 @@ export default function GalerijaPage() {
                 </div>
               ))}
             </div>
+
+            {totalPages > 1 && (
+              <nav className="flex items-center justify-center flex-wrap gap-2 mt-10" aria-label="Paginacija galerije">
+                <Link
+                  href={page <= 2 ? "/galerija/" : `/galerija/?page=${page - 1}`}
+                  aria-disabled={page === 1}
+                  tabIndex={page === 1 ? -1 : undefined}
+                  className={`px-4 py-2 rounded-lg border text-sm font-medium transition-colors ${
+                    page === 1
+                      ? "pointer-events-none opacity-40 border-gray-200 text-gray-400"
+                      : "border-gray-300 text-navy hover:bg-white"
+                  }`}
+                >
+                  Prethodna
+                </Link>
+
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((n) => (
+                  <Link
+                    key={n}
+                    href={n === 1 ? "/galerija/" : `/galerija/?page=${n}`}
+                    aria-current={n === page ? "page" : undefined}
+                    className={`w-10 h-10 flex items-center justify-center rounded-lg text-sm font-medium transition-colors ${
+                      n === page ? "bg-gold text-white" : "border border-gray-300 text-navy hover:bg-white"
+                    }`}
+                  >
+                    {n}
+                  </Link>
+                ))}
+
+                <Link
+                  href={`/galerija/?page=${page + 1}`}
+                  aria-disabled={page === totalPages}
+                  tabIndex={page === totalPages ? -1 : undefined}
+                  className={`px-4 py-2 rounded-lg border text-sm font-medium transition-colors ${
+                    page === totalPages
+                      ? "pointer-events-none opacity-40 border-gray-200 text-gray-400"
+                      : "border-gray-300 text-navy hover:bg-white"
+                  }`}
+                >
+                  Sledeća
+                </Link>
+              </nav>
+            )}
           </div>
         </div>
       </main>

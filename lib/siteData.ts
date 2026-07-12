@@ -692,26 +692,26 @@ export const BLOG_POSTS_ORDERED: {
   {
     slug: "dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi",
     date: "20. Februar 2025.",
-    image: "/dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi.png",
+    image: "/dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi.jpg",
     cardExcerpt: "Tepisi su jedan od ključnih elemenata svakog doma ili poslovnog prostora, ali...",
   },
   {
     slug: "opsivanje-tepiha-produzite-vek-vaseg-omiljenog-tepiha",
     date: "7. Februar 2025.",
-    image: "/opsivanje-tepiha-produzite-vek-vaseg-omiljenog-tepiha.png",
+    image: "/opsivanje-tepiha-produzite-vek-vaseg-omiljenog-tepiha.jpg",
     cardExcerpt:
       "Tepisi su važan deo svakog doma i poslovnog prostora, ali sa vremenom ivice mogu postati istrošene i...",
   },
   {
     slug: "zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati",
     date: "27. Januar 2025.",
-    image: "/zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati.png",
+    image: "/zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati.jpg",
     cardExcerpt: "Dok se mnogi vlasnici tepiha odlučuju za kućne metode čišćenja...",
   },
   {
     slug: "pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu",
     date: "14. Januar 2025.",
-    image: "/pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu.png",
+    image: "/pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu.jpg",
     cardExcerpt: "Tepisi su važan deo svakog doma i poslovnog prostora...",
   },
   {
@@ -724,7 +724,7 @@ export const BLOG_POSTS_ORDERED: {
   {
     slug: "hemijsko-ciscenje-tepiha-efikasno-resenje-za-cist-dom",
     date: "12. Novembar 2024.",
-    image: "/hemijsko-ciscenje-tepiha-efikasno-resenje-za-savrseno-cist-dom.png",
+    image: "/hemijsko-ciscenje-tepiha-efikasno-resenje-za-savrseno-cist-dom.jpg",
     cardExcerpt:
       "Tepisi su neizostavan deo svakog doma, ali isto tako mogu biti i pravi magnet za prašinu, prljavštinu i mrlje...",
   },
@@ -928,17 +928,17 @@ export const BLOG_POSTS_ORDERED: {
 // Slike za blog postove (koriste se na kartici i na samoj post stranici)
 export const BLOG_POST_IMAGES: Record<string, string> = {
   "dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi":
-    "/dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi.png",
+    "/dubinsko-pranje-tepiha-zasto-je-vazno-i-kako-se-pravilno-izvodi.jpg",
   "opsivanje-tepiha-produzite-vek-vaseg-omiljenog-tepiha":
-    "/opsivanje-tepiha-produzite-vek-vaseg-omiljenog-tepiha.png",
+    "/opsivanje-tepiha-produzite-vek-vaseg-omiljenog-tepiha.jpg",
   "zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati":
-    "/zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati.png",
+    "/zasto-je-profesionalno-ciscenje-tepiha-investicija-koja-se-isplati.jpg",
   "pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu":
-    "/pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu.png",
+    "/pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu.jpg",
   "dubinsko-ciscenje-namestaja-kako-produziti-vek-trajanja-vaseg-namestaja":
     "/dubinsko-ciscenje-namestaja-kako-produziti-vek-trajanja-vaseg-namestaja.jpg",
   "hemijsko-ciscenje-tepiha-efikasno-resenje-za-cist-dom":
-    "/hemijsko-ciscenje-tepiha-efikasno-resenje-za-savrseno-cist-dom.png",
+    "/hemijsko-ciscenje-tepiha-efikasno-resenje-za-savrseno-cist-dom.jpg",
   "zasto-je-vazno-redovno-pranje-tepiha": "/zasto-je-vazno-redovno-pranje-tepiha.jpg",
   "dubinsko-pranje-namestaja-zasto-je-vazno": "/dubinsko-pranje-namestaja-zasto-je-vazno.jpg",
   "cist-tepih-zdrav-dom": "/cist-tepih-zdrav-dom.jpg",
@@ -977,10 +977,10 @@ export const BLOG_POST_IMAGES: Record<string, string> = {
 
 // ─── Location page images ────────────────────────────────────────────────────
 export const LOCATION_IMAGES: Record<string, string[]> = {
-  "veliki-mokri-lug": ["/susenje-tepiha-2.png", "/susenje-tepiha-3.png"],
+  "veliki-mokri-lug": ["/susenje-tepiha-2.jpg", "/susenje-tepiha-3.jpg"],
   kaludjerica: ["/ciscenje-mebl-namestaja-2.jpg", "/ciscenje-decijih-kolica-6s.jpg"],
   "mali-mokri-lug": ["/mali-mokri-lug.jpg"],
-  medakovic: ["/pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu.png"],
+  medakovic: ["/pranje-tepiha-beograd-profesionalna-usluga-za-savrsenu-cistocu.jpg"],
   konjarnik: ["/lokacija-konjarnik.jpg", "/konjarnik.jpg"],
   "uciteljsko-naselje": ["/lokacija-konjarnik.jpg", "/profesionalno-pranje-tepiha-09s.jpg"],
   "lekino-brdo": ["/profesionalno-pranje-tepiha-10s.jpg", "/profesionalno-pranje-tepiha-11s.jpg"],

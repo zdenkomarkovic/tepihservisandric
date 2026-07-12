@@ -95,9 +95,9 @@ export default function TresenjeTepihaPage() {
                 />
                 <div className="grid grid-cols-3 gap-4">
                   {[
-                    { src: "/tresenje-tepiha-1.png", alt: "Proces trešenja tepiha u Beogradu" },
-                    { src: "/tresenje-tepiha-2.png", alt: "Uklanjanje prašine trešenjem tepiha" },
-                    { src: "/tresenje-tepiha-3.png", alt: "Tepih nakon trešenja, spreman za pranje" },
+                    { src: "/tresenje-tepiha-1.jpg", alt: "Proces trešenja tepiha u Beogradu" },
+                    { src: "/tresenje-tepiha-2.jpg", alt: "Uklanjanje prašine trešenjem tepiha" },
+                    { src: "/tresenje-tepiha-3.jpg", alt: "Tepih nakon trešenja, spreman za pranje" },
                   ].map(({ src, alt }) => (
                     <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                       <Image

@@ -96,6 +96,7 @@ export default function CistenjeTepihaBeogradPage() {
                   alt="Čišćenje tepiha šamponom — Tepih servis Andrić"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="relative aspect-video rounded-xl overflow-hidden">
@@ -104,6 +105,7 @@ export default function CistenjeTepihaBeogradPage() {
                   alt="Proces čišćenja tepiha u Beogradu"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="relative aspect-video rounded-xl overflow-hidden">
@@ -112,6 +114,7 @@ export default function CistenjeTepihaBeogradPage() {
                   alt="Rezultat čišćenja tepiha šamponom"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
             </div>

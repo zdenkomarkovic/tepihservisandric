@@ -10,6 +10,7 @@ export function VideoBannerSection() {
         alt="Video pranja tepiha - Tepih Servis Andrić Beograd"
         fill
         className="object-cover opacity-40"
+        sizes="100vw"
       />
       <div className="absolute inset-0 bg-navy/60" />
       <div className="relative z-10 h-full flex flex-col items-center justify-center gap-4">

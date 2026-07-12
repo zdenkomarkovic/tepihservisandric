@@ -101,6 +101,7 @@ export default function CistenjeItisonaPage() {
                   alt="Čišćenje itisona šamponom — Tepih servis Andrić"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="relative aspect-video rounded-xl overflow-hidden">
@@ -109,6 +110,7 @@ export default function CistenjeItisonaPage() {
                   alt="Proces čišćenja itisona u Beogradu"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="relative aspect-video rounded-xl overflow-hidden">
@@ -117,6 +119,7 @@ export default function CistenjeItisonaPage() {
                   alt="Rezultat čišćenja itisona"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
             </div>

@@ -113,9 +113,9 @@ export default function PranjeDecijihKolicaPage() {
                   { src: "/ciscenje-decijih-kolica-7s.jpg", alt: "Dubinsko usisavanje dečijih kolica" },
                   { src: "/ciscenje-decijih-kolica-8s.jpg", alt: "Sušenje dečijih kolica" },
                   { src: "/ciscenje-decijih-kolica-9s.jpg", alt: "Sklapanje očišćenih kolica" },
-                  { src: "/pranje-kolica-1.png", alt: "Pakovanje kolica streč folijom" },
-                  { src: "/pranje-kolica-2.png", alt: "Rezultat pranja dečijih kolica" },
-                  { src: "/pranje-kolica-3.png", alt: "Dečija kolica spremna za isporuku" },
+                  { src: "/pranje-kolica-1.jpg", alt: "Pakovanje kolica streč folijom" },
+                  { src: "/pranje-kolica-2.jpg", alt: "Rezultat pranja dečijih kolica" },
+                  { src: "/pranje-kolica-3.jpg", alt: "Dečija kolica spremna za isporuku" },
                 ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                     <Image
