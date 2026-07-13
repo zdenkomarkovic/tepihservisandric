@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
     // Default je 60s — bez ovoga se svaka slika re-optimizuje na edge-u
     // gotovo pri svakom zahtevu, što nepotrebno troši Vercel Image Optimization kvotu.
     minimumCacheTTL: 2678400, // 31 dan
+    // Suženo sa Next.js podrazumevanih 8 device širina (uključujući 2048/3840px) —
+    // sadržaj je max-w-7xl (1280px), pa se te ekstra varijante nikad realno ne koriste,
+    // a svaka bi se posebno naplaćivala kao Vercel Image Optimization transformacija.
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [16, 32, 64, 128, 256, 384],
     remotePatterns: [
       // Primer:
       // {
