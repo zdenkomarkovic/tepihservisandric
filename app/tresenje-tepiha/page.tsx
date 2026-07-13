@@ -36,6 +36,7 @@ const serviceSchema = {
     name: "Tepih Servis Andrić Beograd",
     url: SITE_URL,
   },
+  areaServed: { "@type": "City", name: "Beograd" },
 };
 
 const breadcrumbSchema = {
@@ -75,6 +76,14 @@ export default function TresenjeTepihaPage() {
                 Trešenje služi za detaljno čišćenje tepiha od različitih vrsta nečistoća, prašine, peska i
                 svih drugih mrva. Ovaj proces vršimo uz pomoć automatizovanih mašina za trešenje tepiha, nakon
                 čega je tepih zaista očišćen i spreman za pranje.
+              </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Zašto je trešenje važan prvi korak</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Suva prljavština — pesak, prašina i sitne mrve — deluje kao brusni papir na vlaknima tepiha
+                tokom vlažnog pranja ako se prethodno ne ukloni. Trešenje pre pranja štedi vlakna od
+                nepotrebnog habanja i omogućava sredstvima za pranje da deluju na stvarne mrlje, umesto da se
+                troše na površinsku prljavštinu.
               </p>
 
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Sledeći korak: pranje tepiha</h2>

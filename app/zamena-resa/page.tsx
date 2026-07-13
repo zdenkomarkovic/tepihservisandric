@@ -36,6 +36,7 @@ const serviceSchema = {
     name: "Tepih Servis Andrić Beograd",
     url: SITE_URL,
   },
+  areaServed: { "@type": "City", name: "Beograd" },
 };
 
 const breadcrumbSchema = {
@@ -85,15 +86,30 @@ export default function ZamenaResaPage() {
                 <Link href="/cenovnik/" className="text-gold-text hover:text-gold-dark underline">Cenovnik</Link>.
               </p>
 
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Ručno čvorovanje resa</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Rese ručno čvorujemo, čvor po čvor, u dužini od 1 do 10 cm — prilagođeno originalnom izgledu
+                Vašeg tepiha. Ovakav ručni rad zahteva strpljenje i iskustvo, jer svaki čvor mora biti
+                podjednako zategnut da bi rub tepiha ostao ravan i uredan, bez talasanja ili nakrivljenih
+                niti.
+              </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Kada je vreme za zamenu resa</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Ako su rese pohabane, iskrzane ili ih delimično nema, tepih deluje neuredno bez obzira koliko
+                je dobro opran. Zamena resa je i estetski izbor — možete odabrati drugačiju boju ili
+                materijal od originala i time osvežiti izgled celog tepiha.
+              </p>
+
               <div className="grid grid-cols-2 gap-4 mt-8">
                 {[
-                  "/zamena-resa-pre.jpg",
-                  "/zamena-resa-posle.webp",
-                ].map((src) => (
+                  { src: "/zamena-resa-pre.jpg", alt: "Tepih sa oštećenim resama pre zamene" },
+                  { src: "/zamena-resa-posle.webp", alt: "Tepih sa novim resama nakon zamene" },
+                ].map(({ src, alt }) => (
                   <div key={src} className="relative aspect-square rounded-xl overflow-hidden">
                     <Image
                       src={src}
-                      alt="Zamena resa na tepihu"
+                      alt={alt}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 50vw, 25vw"

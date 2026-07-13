@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { INFO_META } from "@/lib/siteData";
 import { SITE_URL, OG_IMAGE_DEFAULT } from "@/lib/constants";
+import { PRICE_TABLES, buildOfferCatalogSchema } from "./priceData";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -67,6 +68,8 @@ const breadcrumbSchema = {
   ],
 };
 
+const offerCatalogSchema = buildOfferCatalogSchema();
+
 export default function CenovnikPage() {
   return (
     <>
@@ -96,110 +99,9 @@ export default function CenovnikPage() {
         {/* Price tables */}
         <div className="bg-cream py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4">
-            <PriceTable
-              title="Pranje tepiha"
-              href="/pranje-tepiha/"
-              rows={[
-                {
-                  label: "Mašinsko dubinsko čišćenje tepiha sa ispiranjem do bistre kapi",
-                  unit: "m²",
-                  price: "480 RSD",
-                },
-                {
-                  label:
-                    "Hemijsko pranje tepiha polu suvo na bazi pene (kožni, persijski, svileni, buhare)",
-                  unit: "m²",
-                  price: "600 RSD",
-                },
-              ]}
-            />
-
-            <PriceTable
-              title="Mašinsko dubinsko čišćenje nameštaja"
-              href="/ciscenje-mebl-namestaja/"
-              rows={[
-                { label: "Pranje stolice", unit: "1 kom", price: "300 - 500 RSD" },
-                { label: "Pranje taburea", unit: "1 kom", price: "300 - 600 RSD" },
-                { label: "Jastuk manji", unit: "1 kom", price: "300 RSD" },
-                { label: "Jastuk veći", unit: "1 kom", price: "500 RSD" },
-                { label: "Pranje fotelje", unit: "1 kom", price: "1.200 RSD" },
-                { label: "Pranje dvoseda", unit: "1 kom", price: "2.400 RSD" },
-                { label: "Pranje troseda", unit: "1 kom", price: "3.600 RSD" },
-                {
-                  label: "Pranje ugaone garniture",
-                  unit: "Po jednom sednom mestu",
-                  price: "1.200 RSD",
-                },
-              ]}
-            />
-
-            <PriceTable
-              title="Čišćenje i pranje dušeka"
-              rows={[
-                { label: "Single", unit: "1 kom", price: "1.800 RSD" },
-                { label: "Bračni", unit: "1 kom", price: "2.800 RSD" },
-                { label: "Dečiji", unit: "1 kom", price: "1.200 RSD" },
-              ]}
-            />
-
-            <PriceTable
-              title="Hemijsko čišćenje dečijih kolica"
-              href="/pranje-decijah-kolica/"
-              rows={[
-                {
-                  label: "Hemijsko čišćenje dečijih kolica sa transportom",
-                  unit: "1 kom",
-                  price: "3.000 RSD",
-                },
-                { label: "Auto sedište", unit: "1 kom", price: "1.500 RSD" },
-                { label: "Nosiljka", unit: "1 kom", price: "1.500 RSD" },
-              ]}
-            />
-
-            <PriceTable
-              title="Opšivanje tepiha"
-              href="/opsivanje-tepiha/"
-              rows={[
-                { label: "Opšivanje tepiha", unit: "Po metru dužnom", price: "320 RSD" },
-                {
-                  label: "Opšivanje tepiha sa trakom od tepiha",
-                  unit: "Po metru dužnom",
-                  price: "700 RSD",
-                },
-              ]}
-            />
-
-            <PriceTable
-              title="Zamena resa ručno čvorovanje"
-              href="/zamena-resa/"
-              rows={[
-                {
-                  label: "Pamučne",
-                  price: "1.000 RSD",
-                  note: "Rese se rade u dužini od 1 do 10 cm",
-                },
-                {
-                  label: "Svilene",
-                  price: "1.700 RSD",
-                  note: "Rese se rade u dužini od 1 do 10 cm",
-                },
-                {
-                  label: "Vunene",
-                  price: "1.600 RSD",
-                  note: "Rese se rade u dužini od 1 do 10 cm",
-                },
-              ]}
-            />
-
-            <PriceTable
-              title="Zamena resa sa trakom za ojačavanje pri zameni resa"
-              href="/zamena-resa/"
-              rows={[
-                { label: "Pamučne", unit: "1 m", price: "1.400 RSD" },
-                { label: "Svilene", unit: "1 m", price: "2.000 RSD" },
-                { label: "Vunene", unit: "1 m", price: "1.900 RSD" },
-              ]}
-            />
+            {PRICE_TABLES.map((table) => (
+              <PriceTable key={table.title} {...table} />
+            ))}
 
             <p className="text-gray-500 text-sm mt-4">Cenovnik je važeći od 02.06.2026.</p>
           </div>
@@ -208,6 +110,7 @@ export default function CenovnikPage() {
       </main>
       <Footer />
       <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={offerCatalogSchema} />
     </>
   );
 }

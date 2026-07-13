@@ -28,7 +28,8 @@
       "WebFetch(domain:www.tepihservisandric.rs)",
       "Bash(curl -s -A \"Mozilla/5.0\" https://www.tepihservisandric.rs/lokacija/vozdovac/)",
       "mcp__claude_ai_Google_Drive__search_files",
-      "Bash(awk -F'\"' '{print length\\($2\\), $2}')"
+      "Bash(awk -F'\"' '{print length\\($2\\), $2}')",
+      "WebFetch(domain:www.youtube.com)"
     ]
   }
 }

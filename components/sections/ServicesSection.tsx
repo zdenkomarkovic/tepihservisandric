@@ -10,6 +10,9 @@ import {
   StrollerIcon,
   WindIcon,
   TruckIcon,
+  BrushIcon,
+  DropIcon,
+  SparkleIcon,
 } from "@/components/ui/Icons";
 
 const SERVICES = [
@@ -96,6 +99,27 @@ const SERVICES = [
     title: "Čišćenje i pranje mebl nameštaja",
     desc: "Da bi Vaš meblirani nameštaj bio besprekorno čist, koristimo profesionalnu opremu i sredstva.",
     icon: <SofaIcon />,
+  },
+  {
+    href: "/dubinsko-polusuvo-ciscenje/",
+    prefix: "Čišćenje na licu mesta",
+    title: "Dubinsko polusuvo čišćenje",
+    desc: "Za velike tepihe i prostirke koje ne mogu da se transportuju — čistimo direktno kod Vas, bez potrebe da ih donosite u servis.",
+    icon: <BrushIcon />,
+  },
+  {
+    href: "/ciscenje-tepiha-beograd/",
+    prefix: "Čišćenje šamponom",
+    title: "Čišćenje tepiha šamponom",
+    desc: "Nanošenje, utrljavanje i ekstrakcija prljavštine specijalizovanom opremom, za brzo osvežavanje tepiha.",
+    icon: <DropIcon />,
+  },
+  {
+    href: "/ciscenje-itisona/",
+    prefix: "Čišćenje hodnika i stepenica",
+    title: "Čišćenje itisona šamponom",
+    desc: "Uklanjamo prašinu, alergene i fleke iz itisona u hodnicima, stepeništima i poslovnim prostorima.",
+    icon: <SparkleIcon />,
   },
 ] as const;
 

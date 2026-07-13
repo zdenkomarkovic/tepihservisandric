@@ -86,8 +86,8 @@ export default function ONamaPage() {
               <div className="bg-cream rounded-xl p-6 border-t-4 border-gold">
                 <h3 className="font-bold text-navy text-lg mb-2">Iskustvo</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Sa sigurnošću možemo reći da nudimo najbolji odnos cene i kvaliteta, i specijalne
-                  pogodnosti za veće količine. Pogledajte naš{" "}
+                  Preko četiri decenije iskustva u pranju tepiha, nameštaja i dečijih kolica pretočili
+                  smo u profesionalan pristup i najbolji odnos cene i kvaliteta. Pogledajte naš{" "}
                   <Link href="/cenovnik/" className="text-gold-text hover:text-gold-dark underline">cenovnik</Link>{" "}
                   za sve detalje.
                 </p>
@@ -95,15 +95,17 @@ export default function ONamaPage() {
               <div className="bg-cream rounded-xl p-6 border-t-4 border-gold">
                 <h3 className="font-bold text-navy text-lg mb-2">Tradicija</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Tepih Servis Andrić je osnovan 1984. godine i od tada, pa sve do danas nudi
-                  profesionalne i ekspeditivne usluge.
+                  Iz male porodične radnje iz 1984. godine izrasli smo u jedan od većih tepih servisa u
+                  Beogradu, ne gubeći pritom pažljiv, ličan odnos prema svakom klijentu.
                 </p>
               </div>
               <div className="bg-cream rounded-xl p-6 border-t-4 border-gold">
                 <h3 className="font-bold text-navy text-lg mb-2">Kvalitet</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Koristimo visoko savremenu opremu i najkvalitetnija sredstva za čišćenje tepiha i{" "}
-                  <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold-text hover:text-gold-dark underline">dubinsko pranje nameštaja</Link>.
+                  Svaki tepih prolazi kroz{" "}
+                  <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold-text hover:text-gold-dark underline">mašinsko dubinsko pranje</Link>{" "}
+                  najsavremenijom opremom i ekološki bezbednim sredstvima, uz posebnu pažnju za osetljive
+                  materijale poput svile i ručno rađenih tepiha.
                 </p>
               </div>
             </div>

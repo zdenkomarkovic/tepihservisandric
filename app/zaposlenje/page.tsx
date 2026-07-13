@@ -9,6 +9,11 @@ import { JsonLd } from "@/components/seo/JsonLd";
 
 const meta = INFO_META["zaposlenje"]!;
 
+// JobPosting datePosted/validThrough se računaju u nastavku u odnosu na "sada" —
+// bez periodične regeneracije, validThrough bi posle 90 dana istekao i Google
+// Search Console bi prijavio "expired" grešku iako je oglas i dalje aktivan.
+export const revalidate = 86400; // dnevno osvežavanje
+
 export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,

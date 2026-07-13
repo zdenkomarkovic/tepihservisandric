@@ -40,6 +40,7 @@ const serviceSchema = {
   name: meta.h1,
   description: meta.description,
   url: `${SITE_URL}/ciscenje-tepiha-beograd/`,
+  areaServed: { "@type": "City", name: "Beograd" },
   provider: {
     "@type": "Organization",
     name: "Tepih Servis Andrić Beograd",

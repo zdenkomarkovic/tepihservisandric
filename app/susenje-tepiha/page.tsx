@@ -36,6 +36,7 @@ const serviceSchema = {
     name: "Tepih Servis Andrić Beograd",
     url: SITE_URL,
   },
+  areaServed: { "@type": "City", name: "Beograd" },
 };
 
 const breadcrumbSchema = {

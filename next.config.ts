@@ -29,7 +29,7 @@ const nextConfig: NextConfig = {
       // Preimenovana stranica
       {
         source: "/ciscenje-decijih-kolica{/}?",
-        destination: "/pranje-decijih-kolica/",
+        destination: "/pranje-decijah-kolica/",
         permanent: true,
       },
 

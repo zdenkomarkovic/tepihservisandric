@@ -7,7 +7,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import {
   WaterIcon, GearIcon, SpinIcon, SunIcon, SofaIcon,
-  NeedleIcon, ScissorsIcon, StrollerIcon, WindIcon, TruckIcon, DropIcon,
+  NeedleIcon, ScissorsIcon, StrollerIcon, WindIcon, TruckIcon, DropIcon, SparkleIcon,
 } from "@/components/ui/Icons";
 import { JsonLd } from "@/components/seo/JsonLd";
 
@@ -117,6 +117,20 @@ const SERVICES = [
     title: "Dubinsko polusuvo čišćenje",
     desc: "Preparati koje koristimo za čišćenje produžavaju životni vek trajanja tepiha.",
     icon: <DropIcon />,
+  },
+  {
+    href: "/ciscenje-tepiha-beograd/",
+    prefix: "Čišćenje šamponom",
+    title: "Čišćenje tepiha šamponom",
+    desc: "Nanošenje, utrljavanje i ekstrakcija prljavštine specijalizovanom opremom, za brzo osvežavanje tepiha.",
+    icon: <SparkleIcon />,
+  },
+  {
+    href: "/ciscenje-itisona/",
+    prefix: "Čišćenje hodnika i stepenica",
+    title: "Čišćenje itisona šamponom",
+    desc: "Uklanjamo prašinu, alergene i fleke iz itisona u hodnicima, stepeništima i poslovnim prostorima.",
+    icon: <NeedleIcon />,
   },
 ] as const;
 

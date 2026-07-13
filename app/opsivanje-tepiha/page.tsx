@@ -36,6 +36,7 @@ const serviceSchema = {
     name: "Tepih Servis Andrić Beograd",
     url: SITE_URL,
   },
+  areaServed: { "@type": "City", name: "Beograd" },
 };
 
 const breadcrumbSchema = {
@@ -83,6 +84,14 @@ export default function OpsivanjeTepihaPage() {
                 potrebno da stane u određeni deo sobe ili stepenište. Opšivanje se takođe radi nakon{" "}
                 <Link href="/zamena-resa/" className="text-gold-text hover:text-gold-dark underline">skidanja ili zamene resa</Link>,
                 ili kada klijent želi da promeni boju ivica radi usklađivanja sa enterijerom.
+              </p>
+
+              <h2 className="text-xl font-bold text-navy mt-8 mb-3">Dve tehnike opšivanja</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Nudimo klasično opšivanje ivica konac po konac, kao i opšivanje trakom od tepiha za dodatnu
+                čvrstinu na mestima sa velikim prometom, poput hodnika i stepeništa. Tehniku biramo u
+                zavisnosti od materijala tepiha i stepena oštećenja ivice, kako bi rezultat bio i trajan i
+                estetski usklađen sa ostatkom tepiha.
               </p>
 
               <h2 className="text-xl font-bold text-navy mt-8 mb-3">Cena sečenja i opšivanja tepiha</h2>

@@ -36,6 +36,7 @@ const serviceSchema = {
     name: "Tepih Servis Andrić Beograd",
     url: SITE_URL,
   },
+  areaServed: { "@type": "City", name: "Beograd" },
 };
 
 const breadcrumbSchema = {
@@ -85,14 +86,17 @@ export default function DubinskoPolusuvoPage() {
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-4">
-                Pored ove usluge, Tepih Servis Andrić pruža i stručno čišćenje tepiha,{" "}
-                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold-text hover:text-gold-dark underline">mašinsko dubinsko čišćenje nameštaja</Link>,
-                čišćenje i pranje dušeka,{" "}
-                <Link href="/pranje-decijah-kolica/" className="text-gold-text hover:text-gold-dark underline">hemijsko čišćenje dečijih kolica</Link>,{" "}
-                <Link href="/opsivanje-tepiha/" className="text-gold-text hover:text-gold-dark underline">opšivanje tepiha</Link>{" "}
+                Uz dubinsko polusuvo čišćenje na licu mesta, u ponudi imamo i klasično{" "}
+                <Link href="/masinsko-pranje-tepiha/" className="text-gold-text hover:text-gold-dark underline">mašinsko dubinsko pranje</Link>{" "}
+                u servisu,{" "}
+                <Link href="/dubinsko-ciscenje-namestaja/" className="text-gold-text hover:text-gold-dark underline">pranje nameštaja</Link>{" "}
+                i dušeka,{" "}
+                <Link href="/pranje-decijah-kolica/" className="text-gold-text hover:text-gold-dark underline">hemijsko čišćenje dečijih kolica</Link>,
+                kao i{" "}
+                <Link href="/opsivanje-tepiha/" className="text-gold-text hover:text-gold-dark underline">opšivanje</Link>{" "}
                 i{" "}
-                <Link href="/zamena-resa/" className="text-gold-text hover:text-gold-dark underline">zamenu resa</Link>.
-                Kao Vaše komšije, razumemo kako cenite svoje dragocenosti i svoj dom.
+                <Link href="/zamena-resa/" className="text-gold-text hover:text-gold-dark underline">zamenu resa</Link>{" "}
+                — sve što je potrebno da Vaš dom ili poslovni prostor bude besprekorno čist.
               </p>
 
               <div className="mt-8 space-y-4">

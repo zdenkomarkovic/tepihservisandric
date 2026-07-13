@@ -85,6 +85,7 @@ const localBusinessSchema = {
     { "@type": "AdministrativeArea", "name": "Rakovica" },
     { "@type": "AdministrativeArea", "name": "Vračar" },
     { "@type": "AdministrativeArea", "name": "Zemun" },
+    { "@type": "AdministrativeArea", "name": "Grocka" },
   ],
   image: `${SITE_URL}/tepih-servis-andric-10.jpg`,
   sameAs: [

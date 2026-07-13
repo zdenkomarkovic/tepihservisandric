@@ -4,6 +4,7 @@ import { SITE_URL, OG_IMAGE_DEFAULT } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { VideoFacade } from "./VideoFacade";
 
 const meta = INFO_META["video"]!;
@@ -33,6 +34,15 @@ const LOCAL_VIDEOS = [
   { src: "/video-tepih-servis-3.mp4", title: "Automatizovano pranje tepiha rotacionim sistemom" },
   { src: "/video-tepih-servis-6.mp4", title: "Mašina za pranje tepiha sa rotacionim četkama u akciji" },
 ];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: "Video", item: `${SITE_URL}/video/` },
+  ],
+};
 
 export default function VideoPage() {
   return (
@@ -94,6 +104,7 @@ export default function VideoPage() {
         </div>
       </main>
       <Footer />
+      <JsonLd data={breadcrumbSchema} />
     </>
   );
 }
