@@ -66,15 +66,6 @@ export default async function LokacijaPage({ params }: Props) {
     },
   };
 
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: breadcrumbLabel, item: `${SITE_URL}/lokacija/${slug}/` },
-    ],
-  };
-
   return (
     <>
       <Header />
@@ -159,7 +150,6 @@ export default async function LokacijaPage({ params }: Props) {
       </main>
       <Footer />
       <JsonLd data={serviceSchema} />
-      <JsonLd data={breadcrumbSchema} />
     </>
   );
 }

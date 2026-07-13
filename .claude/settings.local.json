@@ -22,7 +22,13 @@
       "Bash(git ls-tree *)",
       "Bash(node -e ' *)",
       "Read(//tmp/**)",
-      "Bash(rm -f scripts/convert-jpg-to-webp.js scripts/reconcile-image-refs.js scripts/revert-list.json)"
+      "Bash(rm -f scripts/convert-jpg-to-webp.js scripts/reconcile-image-refs.js scripts/revert-list.json)",
+      "WebSearch",
+      "Bash(awk '/^export const LOCATION_META/,/^};/' lib/siteData.ts)",
+      "WebFetch(domain:www.tepihservisandric.rs)",
+      "Bash(curl -s -A \"Mozilla/5.0\" https://www.tepihservisandric.rs/lokacija/vozdovac/)",
+      "mcp__claude_ai_Google_Drive__search_files",
+      "Bash(awk -F'\"' '{print length\\($2\\), $2}')"
     ]
   }
 }
